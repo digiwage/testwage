@@ -53,20 +53,18 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0x00000062981c43bf45a700fcbe76d0900623f9ac55042ad70e4fd8580a602d23"))
-    (5, uint256("0x00000767069bbee56e3e985c7341b6ea62e82961166a4b4e97a7b7ace5ab29fc"))
-    (100, uint256("0x0000002a92b7309cc6239cef5fc388137069eda6492e9e088bee2c4bb843bea4"));
+    (0, uint256("0x"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1521483173, // * UNIX timestamp of last checkpoint block
-    101,          // * total number of transactions between genesis and last checkpoint
+    0, // * UNIX timestamp of last checkpoint block
+    0,          // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
-    1000        // * estimated number of transactions per day after checkpoint
+    0        // * estimated number of transactions per day after checkpoint
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
-    boost::assign::map_list_of(0, uint256("0x0000083243f4eecae631ed4c827a30e94982f25e23c293d379cd1cb6fd828f59"));
+    boost::assign::map_list_of(0, uint256("0x"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
     0,
@@ -74,7 +72,7 @@ static const Checkpoints::CCheckpointData dataTestnet = {
     0};
 
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
-    boost::assign::map_list_of(0, uint256("0x73fa4c13e8e1831fd75fc2caaf14e5ff631a9b4c0a1e06480d3d40cfd40a45de"));
+    boost::assign::map_list_of(0, uint256("0x"));
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
     0,
@@ -108,13 +106,13 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // Testwage: 1 minute
         nTargetSpacing = 1 * 60;  // Testwage: 1 minute
-        nLastPOWBlock = 5000;
-        nMaturity = 100;
+        nLastPOWBlock = 300;
+        nMaturity = 50;
         nMasternodeCountDrift = 20;
         nModifierUpdateBlock = 999999999;
         nMaxMoneyOut = 120000000 * COIN;
 
-        const char* pszTimestamp = "Blockchain can change humanity for good";
+        const char* pszTimestamp = "Testchain for Digiwage";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -132,10 +130,9 @@ public:
         assert(hashGenesisBlock == uint256("0x00000062981c43bf45a700fcbe76d0900623f9ac55042ad70e4fd8580a602d23"));
         assert(genesis.hashMerkleRoot == uint256("0x92aeaef6c82884d7afebeccd7151630e2e1cd659393b280f082c999dddc001a9"));
 
-        vSeeds.push_back(CDNSSeedData("207.246.103.145", "207.246.103.145"));
-        vSeeds.push_back(CDNSSeedData("45.32.80.64", "45.32.80.64"));
-        vSeeds.push_back(CDNSSeedData("45.32.65.59", "45.32.65.59"));
-        vSeeds.push_back(CDNSSeedData("104.238.140.145", "104.238.140.145"));
+        vSeeds.push_back(CDNSSeedData("45.32.230.44", "45.32.230.44"));
+        vSeeds.push_back(CDNSSeedData("45.76.244.42", "45.76.244.42"));
+
         
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 90);
