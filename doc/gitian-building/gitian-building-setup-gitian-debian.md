@@ -66,13 +66,13 @@ cd ..
 
 **Note**: When sudo asks for a password, enter the password for the user `gitianuser` not for `root`.
 
-Clone the git repositories for digiwage and Gitian.
+Clone the git repositories for testwage and Gitian.
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/digiwage/digiwage
-git clone https://github.com/digiwage/gitian.sigs.git
-git clone https://github.com/digiwage/digiwage-detached-sigs.git
+git clone https://github.com/testwage/testwage
+git clone https://github.com/testwage/gitian.sigs.git
+git clone https://github.com/testwage/testwage-detached-sigs.git
 ```
 
 Setting up the Gitian image

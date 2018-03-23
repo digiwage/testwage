@@ -81,13 +81,13 @@ Value getnewaddress(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "getnewaddress ( \"account\" )\n"
-            "\nReturns a new Digiwage address for receiving payments.\n"
+            "\nReturns a new Testwage address for receiving payments.\n"
             "If 'account' is specified (recommended), it is added to the address book \n"
             "so payments received with the address will be credited to 'account'.\n"
             "\nArguments:\n"
             "1. \"account\"        (string, optional) The account name for the address to be linked to. if not provided, the default account \"\" is used. It can also be set to the empty string \"\" to represent the default account. The account does not need to exist, it will be created if there is no account by the given name.\n"
             "\nResult:\n"
-            "\"digiwageaddress\"    (string) The new digiwage address\n"
+            "\"testwageaddress\"    (string) The new testwage address\n"
             "\nExamples:\n" +
             HelpExampleCli("getnewaddress", "") + HelpExampleCli("getnewaddress", "\"\"") + HelpExampleCli("getnewaddress", "\"myaccount\"") + HelpExampleRpc("getnewaddress", "\"myaccount\""));
 
@@ -150,11 +150,11 @@ Value getaccountaddress(const Array& params, bool fHelp)
     if (fHelp || params.size() != 1)
         throw runtime_error(
             "getaccountaddress \"account\"\n"
-            "\nReturns the current Digiwage address for receiving payments to this account.\n"
+            "\nReturns the current Testwage address for receiving payments to this account.\n"
             "\nArguments:\n"
             "1. \"account\"       (string, required) The account name for the address. It can also be set to the empty string \"\" to represent the default account. The account does not need to exist, it will be created and a new address created  if there is no account by the given name.\n"
             "\nResult:\n"
-            "\"digiwageaddress\"   (string) The account digiwage address\n"
+            "\"testwageaddress\"   (string) The account testwage address\n"
             "\nExamples:\n" +
             HelpExampleCli("getaccountaddress", "") + HelpExampleCli("getaccountaddress", "\"\"") + HelpExampleCli("getaccountaddress", "\"myaccount\"") + HelpExampleRpc("getaccountaddress", "\"myaccount\""));
 
@@ -174,7 +174,7 @@ Value getrawchangeaddress(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "getrawchangeaddress\n"
-            "\nReturns a new Digiwage address, for receiving change.\n"
+            "\nReturns a new Testwage address, for receiving change.\n"
             "This is for use with raw transactions, NOT normal use.\n"
             "\nResult:\n"
             "\"address\"    (string) The address\n"
@@ -201,17 +201,17 @@ Value setaccount(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 1 || params.size() > 2)
         throw runtime_error(
-            "setaccount \"digiwageaddress\" \"account\"\n"
+            "setaccount \"testwageaddress\" \"account\"\n"
             "\nSets the account associated with the given address.\n"
             "\nArguments:\n"
-            "1. \"digiwageaddress\"  (string, required) The digiwage address to be associated with an account.\n"
+            "1. \"testwageaddress\"  (string, required) The testwage address to be associated with an account.\n"
             "2. \"account\"         (string, required) The account to assign the address to.\n"
             "\nExamples:\n" +
             HelpExampleCli("setaccount", "\"XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg\" \"tabby\"") + HelpExampleRpc("setaccount", "\"XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg\", \"tabby\""));
 
     CBitcoinAddress address(params[0].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Digiwage address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Testwage address");
 
 
     string strAccount;
@@ -238,10 +238,10 @@ Value getaccount(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 1)
         throw runtime_error(
-            "getaccount \"digiwageaddress\"\n"
+            "getaccount \"testwageaddress\"\n"
             "\nReturns the account associated with the given address.\n"
             "\nArguments:\n"
-            "1. \"digiwageaddress\"  (string, required) The digiwage address for account lookup.\n"
+            "1. \"testwageaddress\"  (string, required) The testwage address for account lookup.\n"
             "\nResult:\n"
             "\"accountname\"        (string) the account address\n"
             "\nExamples:\n" +
@@ -249,7 +249,7 @@ Value getaccount(const Array& params, bool fHelp)
 
     CBitcoinAddress address(params[0].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Digiwage address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Testwage address");
 
     string strAccount;
     map<CTxDestination, CAddressBookData>::iterator mi = pwalletMain->mapAddressBook.find(address.Get());
@@ -269,7 +269,7 @@ Value getaddressesbyaccount(const Array& params, bool fHelp)
             "1. \"account\"  (string, required) The account name.\n"
             "\nResult:\n"
             "[                     (json array of string)\n"
-            "  \"digiwageaddress\"  (string) a digiwage address associated with the given account\n"
+            "  \"testwageaddress\"  (string) a testwage address associated with the given account\n"
             "  ,...\n"
             "]\n"
             "\nExamples:\n" +
@@ -304,7 +304,7 @@ void SendMoney(const CTxDestination& address, CAmount nValue, CWalletTx& wtxNew,
         throw JSONRPCError(RPC_WALLET_ERROR, strError);
     }
 
-    // Parse Digiwage address
+    // Parse Testwage address
     CScript scriptPubKey = GetScriptForDestination(address);
 
     // Create and send the transaction
@@ -324,12 +324,12 @@ Value sendtoaddress(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 2 || params.size() > 4)
         throw runtime_error(
-            "sendtoaddress \"digiwageaddress\" amount ( \"comment\" \"comment-to\" )\n"
+            "sendtoaddress \"testwageaddress\" amount ( \"comment\" \"comment-to\" )\n"
             "\nSend an amount to a given address. The amount is a real and is rounded to the nearest 0.00000001\n" +
             HelpRequiringPassphrase() +
             "\nArguments:\n"
-            "1. \"digiwageaddress\"  (string, required) The digiwage address to send to.\n"
-            "2. \"amount\"      (numeric, required) The amount in digiwage to send. e.g. 0.1\n"
+            "1. \"testwageaddress\"  (string, required) The testwage address to send to.\n"
+            "2. \"amount\"      (numeric, required) The amount in testwage to send. e.g. 0.1\n"
             "3. \"comment\"     (string, optional) A comment used to store what the transaction is for. \n"
             "                             This is not part of the transaction, just kept in your wallet.\n"
             "4. \"comment-to\"  (string, optional) A comment to store the name of the person or organization \n"
@@ -342,7 +342,7 @@ Value sendtoaddress(const Array& params, bool fHelp)
 
     CBitcoinAddress address(params[0].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Digiwage address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Testwage address");
 
     // Amount
     CAmount nAmount = AmountFromValue(params[1]);
@@ -365,11 +365,11 @@ Value sendtoaddressix(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 2 || params.size() > 4)
         throw runtime_error(
-            "sendtoaddressix \"digiwageaddress\" amount ( \"comment\" \"comment-to\" )\n"
+            "sendtoaddressix \"testwageaddress\" amount ( \"comment\" \"comment-to\" )\n"
             "\nSend an amount to a given address. The amount is a real and is rounded to the nearest 0.00000001\n" +
             HelpRequiringPassphrase() +
             "\nArguments:\n"
-            "1. \"digiwageaddress\"  (string, required) The digiwage address to send to.\n"
+            "1. \"testwageaddress\"  (string, required) The testwage address to send to.\n"
             "2. \"amount\"      (numeric, required) The  to send. e.g. 0.1\n"
             "3. \"comment\"     (string, optional) A comment used to store what the transaction is for. \n"
             "                             This is not part of the transaction, just kept in your wallet.\n"
@@ -383,7 +383,7 @@ Value sendtoaddressix(const Array& params, bool fHelp)
 
     CBitcoinAddress address(params[0].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Digiwage address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Testwage address");
 
     // Amount
     CAmount nAmount = AmountFromValue(params[1]);
@@ -413,8 +413,8 @@ Value listaddressgroupings(const Array& params, bool fHelp)
             "[\n"
             "  [\n"
             "    [\n"
-            "      \"digiwageaddress\",     (string) The digiwage address\n"
-            "      amount,                 (numeric) The amount in digiwage\n"
+            "      \"testwageaddress\",     (string) The testwage address\n"
+            "      amount,                 (numeric) The amount in testwage\n"
             "      \"account\"             (string, optional) The account\n"
             "    ]\n"
             "    ,...\n"
@@ -448,11 +448,11 @@ Value signmessage(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 2)
         throw runtime_error(
-            "signmessage \"digiwageaddress\" \"message\"\n"
+            "signmessage \"testwageaddress\" \"message\"\n"
             "\nSign a message with the private key of an address" +
             HelpRequiringPassphrase() + "\n"
                                         "\nArguments:\n"
-                                        "1. \"digiwageaddress\"  (string, required) The digiwage address to use for the private key.\n"
+                                        "1. \"testwageaddress\"  (string, required) The testwage address to use for the private key.\n"
                                         "2. \"message\"         (string, required) The message to create a signature of.\n"
                                         "\nResult:\n"
                                         "\"signature\"          (string) The signature of the message encoded in base 64\n"
@@ -495,13 +495,13 @@ Value getreceivedbyaddress(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 1 || params.size() > 2)
         throw runtime_error(
-            "getreceivedbyaddress \"digiwageaddress\" ( minconf )\n"
-            "\nReturns the total amount received by the given digiwageaddress in transactions with at least minconf confirmations.\n"
+            "getreceivedbyaddress \"testwageaddress\" ( minconf )\n"
+            "\nReturns the total amount received by the given testwageaddress in transactions with at least minconf confirmations.\n"
             "\nArguments:\n"
-            "1. \"digiwageaddress\"  (string, required) The digiwage address for transactions.\n"
+            "1. \"testwageaddress\"  (string, required) The testwage address for transactions.\n"
             "2. minconf             (numeric, optional, default=1) Only include transactions confirmed at least this many times.\n"
             "\nResult:\n"
-            "amount   (numeric) The total amount in digiwage received at this address.\n"
+            "amount   (numeric) The total amount in testwage received at this address.\n"
             "\nExamples:\n"
             "\nThe amount from transactions with at least 1 confirmation\n" +
             HelpExampleCli("getreceivedbyaddress", "\"XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg\"") +
@@ -509,10 +509,10 @@ Value getreceivedbyaddress(const Array& params, bool fHelp)
             "\nThe amount with at least 6 confirmation, very safe\n" + HelpExampleCli("getreceivedbyaddress", "\"XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg\" 6") +
             "\nAs a json rpc call\n" + HelpExampleRpc("getreceivedbyaddress", "\"XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg\", 6"));
 
-    // digiwage address
+    // testwage address
     CBitcoinAddress address = CBitcoinAddress(params[0].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Digiwage address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Testwage address");
     CScript scriptPubKey = GetScriptForDestination(address.Get());
     if (!IsMine(*pwalletMain, scriptPubKey))
         return (double)0.0;
@@ -549,7 +549,7 @@ Value getreceivedbyaccount(const Array& params, bool fHelp)
             "1. \"account\"      (string, required) The selected account, may be the default account using \"\".\n"
             "2. minconf          (numeric, optional, default=1) Only include transactions confirmed at least this many times.\n"
             "\nResult:\n"
-            "amount              (numeric) The total amount in digiwage received for this account.\n"
+            "amount              (numeric) The total amount in testwage received for this account.\n"
             "\nExamples:\n"
             "\nAmount received by the default account with at least 1 confirmation\n" +
             HelpExampleCli("getreceivedbyaccount", "\"\"") +
@@ -630,7 +630,7 @@ Value getbalance(const Array& params, bool fHelp)
             "2. minconf          (numeric, optional, default=1) Only include transactions confirmed at least this many times.\n"
             "3. includeWatchonly (bool, optional, default=false) Also include balance in watchonly addresses (see 'importaddress')\n"
             "\nResult:\n"
-            "amount              (numeric) The total amount in digiwage received for this account.\n"
+            "amount              (numeric) The total amount in testwage received for this account.\n"
             "\nExamples:\n"
             "\nThe total amount in the server across all accounts\n" +
             HelpExampleCli("getbalance", "") +
@@ -707,9 +707,9 @@ Value movecmd(const Array& params, bool fHelp)
             "\nResult:\n"
             "true|false           (boolean) true if successfull.\n"
             "\nExamples:\n"
-            "\nMove 0.01 digiwage from the default account to the account named tabby\n" +
+            "\nMove 0.01 testwage from the default account to the account named tabby\n" +
             HelpExampleCli("move", "\"\" \"tabby\" 0.01") +
-            "\nMove 0.01 digiwage timotei to akiko with a comment and funds have 6 confirmations\n" + HelpExampleCli("move", "\"timotei\" \"akiko\" 0.01 6 \"happy birthday!\"") +
+            "\nMove 0.01 testwage timotei to akiko with a comment and funds have 6 confirmations\n" + HelpExampleCli("move", "\"timotei\" \"akiko\" 0.01 6 \"happy birthday!\"") +
             "\nAs a json rpc call\n" + HelpExampleRpc("move", "\"timotei\", \"akiko\", 0.01, 6, \"happy birthday!\""));
 
     string strFrom = AccountFromValue(params[0]);
@@ -759,14 +759,14 @@ Value sendfrom(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 3 || params.size() > 6)
         throw runtime_error(
-            "sendfrom \"fromaccount\" \"todigiwageaddress\" amount ( minconf \"comment\" \"comment-to\" )\n"
-            "\nSent an amount from an account to a digiwage address.\n"
+            "sendfrom \"fromaccount\" \"totestwageaddress\" amount ( minconf \"comment\" \"comment-to\" )\n"
+            "\nSent an amount from an account to a testwage address.\n"
             "The amount is a real and is rounded to the nearest 0.00000001." +
             HelpRequiringPassphrase() + "\n"
                                         "\nArguments:\n"
                                         "1. \"fromaccount\"       (string, required) The name of the account to send funds from. May be the default account using \"\".\n"
-                                        "2. \"todigiwageaddress\"  (string, required) The digiwage address to send funds to.\n"
-                                        "3. amount                (numeric, required) The amount in digiwage. (transaction fee is added on top).\n"
+                                        "2. \"totestwageaddress\"  (string, required) The testwage address to send funds to.\n"
+                                        "3. amount                (numeric, required) The amount in testwage. (transaction fee is added on top).\n"
                                         "4. minconf               (numeric, optional, default=1) Only use funds with at least this many confirmations.\n"
                                         "5. \"comment\"           (string, optional) A comment used to store what the transaction is for. \n"
                                         "                                     This is not part of the transaction, just kept in your wallet.\n"
@@ -776,7 +776,7 @@ Value sendfrom(const Array& params, bool fHelp)
                                         "\nResult:\n"
                                         "\"transactionid\"        (string) The transaction id.\n"
                                         "\nExamples:\n"
-                                        "\nSend 0.01 digiwage from the default account to the address, must have at least 1 confirmation\n" +
+                                        "\nSend 0.01 testwage from the default account to the address, must have at least 1 confirmation\n" +
             HelpExampleCli("sendfrom", "\"\" \"XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg\" 0.01") +
             "\nSend 0.01 from the tabby account to the given address, funds must have at least 6 confirmations\n" + HelpExampleCli("sendfrom", "\"tabby\" \"XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg\" 0.01 6 \"donation\" \"seans outpost\"") +
             "\nAs a json rpc call\n" + HelpExampleRpc("sendfrom", "\"tabby\", \"XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg\", 0.01, 6, \"donation\", \"seans outpost\""));
@@ -784,7 +784,7 @@ Value sendfrom(const Array& params, bool fHelp)
     string strAccount = AccountFromValue(params[0]);
     CBitcoinAddress address(params[1].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Digiwage address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Testwage address");
     CAmount nAmount = AmountFromValue(params[2]);
     int nMinDepth = 1;
     if (params.size() > 3)
@@ -821,7 +821,7 @@ Value sendmany(const Array& params, bool fHelp)
                                         "1. \"fromaccount\"         (string, required) The account to send the funds from, can be \"\" for the default account\n"
                                         "2. \"amounts\"             (string, required) A json object with addresses and amounts\n"
                                         "    {\n"
-                                        "      \"address\":amount   (numeric) The digiwage address is the key, the numeric amount in digiwage is the value\n"
+                                        "      \"address\":amount   (numeric) The testwage address is the key, the numeric amount in testwage is the value\n"
                                         "      ,...\n"
                                         "    }\n"
                                         "3. minconf                 (numeric, optional, default=1) Only use the balance confirmed at least this many times.\n"
@@ -853,7 +853,7 @@ Value sendmany(const Array& params, bool fHelp)
     BOOST_FOREACH (const Pair& s, sendTo) {
         CBitcoinAddress address(s.name_);
         if (!address.IsValid())
-            throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, string("Invalid Digiwage address: ") + s.name_);
+            throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, string("Invalid Testwage address: ") + s.name_);
 
         if (setAddress.count(address))
             throw JSONRPCError(RPC_INVALID_PARAMETER, string("Invalid parameter, duplicated address: ") + s.name_);
@@ -894,20 +894,20 @@ Value addmultisigaddress(const Array& params, bool fHelp)
     if (fHelp || params.size() < 2 || params.size() > 3) {
         string msg = "addmultisigaddress nrequired [\"key\",...] ( \"account\" )\n"
                      "\nAdd a nrequired-to-sign multisignature address to the wallet.\n"
-                     "Each key is a Digiwage address or hex-encoded public key.\n"
+                     "Each key is a Testwage address or hex-encoded public key.\n"
                      "If 'account' is specified, assign address to that account.\n"
 
                      "\nArguments:\n"
                      "1. nrequired        (numeric, required) The number of required signatures out of the n keys or addresses.\n"
-                     "2. \"keysobject\"   (string, required) A json array of digiwage addresses or hex-encoded public keys\n"
+                     "2. \"keysobject\"   (string, required) A json array of testwage addresses or hex-encoded public keys\n"
                      "     [\n"
-                     "       \"address\"  (string) digiwage address or hex-encoded public key\n"
+                     "       \"address\"  (string) testwage address or hex-encoded public key\n"
                      "       ...,\n"
                      "     ]\n"
                      "3. \"account\"      (string, optional) An account to assign the addresses to.\n"
 
                      "\nResult:\n"
-                     "\"digiwageaddress\"  (string) A digiwage address associated with the keys.\n"
+                     "\"testwageaddress\"  (string) A testwage address associated with the keys.\n"
 
                      "\nExamples:\n"
                      "\nAdd a multisig address from 2 addresses\n" +
@@ -1077,7 +1077,7 @@ Value listreceivedbyaddress(const Array& params, bool fHelp)
             "    \"involvesWatchonly\" : \"true\",    (bool) Only returned if imported addresses were involved in transaction\n"
             "    \"address\" : \"receivingaddress\",  (string) The receiving address\n"
             "    \"account\" : \"accountname\",       (string) The account of the receiving address. The default account is \"\".\n"
-            "    \"amount\" : x.xxx,                  (numeric) The total amount in digiwage received by the address\n"
+            "    \"amount\" : x.xxx,                  (numeric) The total amount in testwage received by the address\n"
             "    \"confirmations\" : n                (numeric) The number of confirmations of the most recent transaction included\n"
             "    \"bcconfirmations\" : n              (numeric) The number of blockchain confirmations of the most recent transaction included\n"
             "  }\n"
@@ -1222,17 +1222,17 @@ Value listtransactions(const Array& params, bool fHelp)
             "  {\n"
             "    \"account\":\"accountname\",       (string) The account name associated with the transaction. \n"
             "                                                It will be \"\" for the default account.\n"
-            "    \"address\":\"digiwageaddress\",    (string) The digiwage address of the transaction. Not present for \n"
+            "    \"address\":\"testwageaddress\",    (string) The testwage address of the transaction. Not present for \n"
             "                                                move transactions (category = move).\n"
             "    \"category\":\"send|receive|move\", (string) The transaction category. 'move' is a local (off blockchain)\n"
             "                                                transaction between accounts, and not associated with an address,\n"
             "                                                transaction id or block. 'send' and 'receive' transactions are \n"
             "                                                associated with an address, transaction id and block details\n"
-            "    \"amount\": x.xxx,          (numeric) The amount in digiwage. This is negative for the 'send' category, and for the\n"
+            "    \"amount\": x.xxx,          (numeric) The amount in testwage. This is negative for the 'send' category, and for the\n"
             "                                         'move' category for moves outbound. It is positive for the 'receive' category,\n"
             "                                         and for the 'move' category for inbound funds.\n"
             "    \"vout\" : n,               (numeric) the vout value\n"
-            "    \"fee\": x.xxx,             (numeric) The amount of the fee in digiwage. This is negative and only available for the \n"
+            "    \"fee\": x.xxx,             (numeric) The amount of the fee in testwage. This is negative and only available for the \n"
             "                                         'send' category of transactions.\n"
             "    \"confirmations\": n,       (numeric) The number of confirmations for the transaction. Available for 'send' and \n"
             "                                         'receive' category of transactions.\n"
@@ -1397,12 +1397,12 @@ Value listsinceblock(const Array& params, bool fHelp)
             "{\n"
             "  \"transactions\": [\n"
             "    \"account\":\"accountname\",       (string) The account name associated with the transaction. Will be \"\" for the default account.\n"
-            "    \"address\":\"digiwageaddress\",    (string) The digiwage address of the transaction. Not present for move transactions (category = move).\n"
+            "    \"address\":\"testwageaddress\",    (string) The testwage address of the transaction. Not present for move transactions (category = move).\n"
             "    \"category\":\"send|receive\",     (string) The transaction category. 'send' has negative amounts, 'receive' has positive amounts.\n"
-            "    \"amount\": x.xxx,          (numeric) The amount in digiwage. This is negative for the 'send' category, and for the 'move' category for moves \n"
+            "    \"amount\": x.xxx,          (numeric) The amount in testwage. This is negative for the 'send' category, and for the 'move' category for moves \n"
             "                                          outbound. It is positive for the 'receive' category, and for the 'move' category for inbound funds.\n"
             "    \"vout\" : n,               (numeric) the vout value\n"
-            "    \"fee\": x.xxx,             (numeric) The amount of the fee in digiwage. This is negative and only available for the 'send' category of transactions.\n"
+            "    \"fee\": x.xxx,             (numeric) The amount of the fee in testwage. This is negative and only available for the 'send' category of transactions.\n"
             "    \"confirmations\": n,       (numeric) The number of confirmations for the transaction. Available for 'send' and 'receive' category of transactions.\n"
             "    \"bcconfirmations\" : n,    (numeric) The number of blockchain confirmations for the transaction. Available for 'send' and 'receive' category of transactions.\n"
             "    \"blockhash\": \"hashvalue\",     (string) The block hash containing the transaction. Available for 'send' and 'receive' category of transactions.\n"
@@ -1475,7 +1475,7 @@ Value gettransaction(const Array& params, bool fHelp)
             "2. \"includeWatchonly\"    (bool, optional, default=false) Whether to include watchonly addresses in balance calculation and details[]\n"
             "\nResult:\n"
             "{\n"
-            "  \"amount\" : x.xxx,        (numeric) The transaction amount in digiwage\n"
+            "  \"amount\" : x.xxx,        (numeric) The transaction amount in testwage\n"
             "  \"confirmations\" : n,     (numeric) The number of confirmations\n"
             "  \"bcconfirmations\" : n,   (numeric) The number of blockchain confirmations\n"
             "  \"blockhash\" : \"hash\",  (string) The block hash\n"
@@ -1487,9 +1487,9 @@ Value gettransaction(const Array& params, bool fHelp)
             "  \"details\" : [\n"
             "    {\n"
             "      \"account\" : \"accountname\",  (string) The account name involved in the transaction, can be \"\" for the default account.\n"
-            "      \"address\" : \"digiwageaddress\",   (string) The digiwage address involved in the transaction\n"
+            "      \"address\" : \"testwageaddress\",   (string) The testwage address involved in the transaction\n"
             "      \"category\" : \"send|receive\",    (string) The category, either 'send' or 'receive'\n"
-            "      \"amount\" : x.xxx                  (numeric) The amount in digiwage\n"
+            "      \"amount\" : x.xxx                  (numeric) The amount in testwage\n"
             "      \"vout\" : n,                       (numeric) the vout value\n"
             "    }\n"
             "    ,...\n"
@@ -1736,7 +1736,7 @@ Value encryptwallet(const Array& params, bool fHelp)
             "\nEncrypt you wallet\n" +
             HelpExampleCli("encryptwallet", "\"my pass phrase\"") +
             "\nNow set the passphrase to use the wallet, such as for signing or sending WAGEs\n" + HelpExampleCli("walletpassphrase", "\"my pass phrase\"") +
-            "\nNow we can so something like sign\n" + HelpExampleCli("signmessage", "\"digiwageaddress\" \"test message\"") +
+            "\nNow we can so something like sign\n" + HelpExampleCli("signmessage", "\"testwageaddress\" \"test message\"") +
             "\nNow lock the wallet again by removing the passphrase\n" + HelpExampleCli("walletlock", "") +
             "\nAs a json rpc call\n" + HelpExampleRpc("encryptwallet", "\"my pass phrase\""));
 
@@ -1763,7 +1763,7 @@ Value encryptwallet(const Array& params, bool fHelp)
     // slack space in .dat files; that is bad if the old data is
     // unencrypted private keys. So:
     StartShutdown();
-    return "wallet encrypted; digiwage server stopping, restart to run with encrypted wallet. The keypool has been flushed, you need to make a new backup.";
+    return "wallet encrypted; testwage server stopping, restart to run with encrypted wallet. The keypool has been flushed, you need to make a new backup.";
 }
 
 Value lockunspent(const Array& params, bool fHelp)
@@ -2038,7 +2038,7 @@ Value autocombinerewards(const Array& params, bool fHelp)
     if (fHelp || params.size() < 1 || (fEnable && params.size() != 2) || params.size() > 2)
         throw runtime_error(
             "autocombinerewards true|false ( threshold )\n"
-            "\nWallet will automatically monitor for any coins with value below the threshold amount, and combine them if they reside with the same Digiwage address\n"
+            "\nWallet will automatically monitor for any coins with value below the threshold amount, and combine them if they reside with the same Testwage address\n"
             "When autocombinerewards runs it will create a transaction, and therefore will be subject to transaction fees.\n"
 
             "\nArguments:\n"
@@ -2246,7 +2246,7 @@ Value multisend(const Array& params, bool fHelp)
             "The MultiSend transaction is sent when the staked coins mature (100 confirmations)\n"
             "****************************************************************\n"
             "TO CREATE OR ADD TO THE MULTISEND VECTOR:\n"
-            "multisend <Digiwage Address> <percent>\n"
+            "multisend <Testwage Address> <percent>\n"
             "This will add a new address to the MultiSend vector\n"
             "Percent is a whole number 1 to 100.\n"
             "****************************************************************\n"

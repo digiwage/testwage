@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 Digiwage developers
+// Copyright (c) 2018 Testwage developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -220,10 +220,10 @@ Value stop(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop Digiwage server.");
+            "\nStop Testwage server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "Digiwage server stopping";
+    return "Testwage server stopping";
 }
 
 
@@ -300,36 +300,36 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* Digiwage features */
-        {"digiwage", "masternode", &masternode, true, true, false},
-        {"digiwage", "listmasternodes", &listmasternodes, true, true, false},
-        {"digiwage", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"digiwage", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"digiwage", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"digiwage", "masternodedebug", &masternodedebug, true, true, false},
-        {"digiwage", "startmasternode", &startmasternode, true, true, false},
-        {"digiwage", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"digiwage", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"digiwage", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"digiwage", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"digiwage", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"digiwage", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"digiwage", "mnbudget", &mnbudget, true, true, false},
-        {"digiwage", "preparebudget", &preparebudget, true, true, false},
-        {"digiwage", "submitbudget", &submitbudget, true, true, false},
-        {"digiwage", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"digiwage", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"digiwage", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"digiwage", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"digiwage", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"digiwage", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"digiwage", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"digiwage", "checkbudgets", &checkbudgets, true, true, false},
-        {"digiwage", "mnsync", &mnsync, true, true, false},
-        {"digiwage", "spork", &spork, true, true, false},
-        {"digiwage", "getpoolinfo", &getpoolinfo, true, true, false},
+        /* Testwage features */
+        {"testwage", "masternode", &masternode, true, true, false},
+        {"testwage", "listmasternodes", &listmasternodes, true, true, false},
+        {"testwage", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"testwage", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"testwage", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"testwage", "masternodedebug", &masternodedebug, true, true, false},
+        {"testwage", "startmasternode", &startmasternode, true, true, false},
+        {"testwage", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"testwage", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"testwage", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"testwage", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"testwage", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"testwage", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"testwage", "mnbudget", &mnbudget, true, true, false},
+        {"testwage", "preparebudget", &preparebudget, true, true, false},
+        {"testwage", "submitbudget", &submitbudget, true, true, false},
+        {"testwage", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"testwage", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"testwage", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"testwage", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"testwage", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"testwage", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"testwage", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"testwage", "checkbudgets", &checkbudgets, true, true, false},
+        {"testwage", "mnsync", &mnsync, true, true, false},
+        {"testwage", "spork", &spork, true, true, false},
+        {"testwage", "getpoolinfo", &getpoolinfo, true, true, false},
 #ifdef ENABLE_WALLET
-        {"digiwage", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
+        {"testwage", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
 
         /* Wallet */
         {"wallet", "addmultisigaddress", &addmultisigaddress, true, false, true},
@@ -594,16 +594,16 @@ void StartRPCThreads()
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
         uiInterface.ThreadSafeMessageBox(strprintf(
-                                             _("To use digiwaged, or the -server option to digiwage-qt, you must set an rpcpassword in the configuration file:\n"
+                                             _("To use testwaged, or the -server option to testwage-qt, you must set an rpcpassword in the configuration file:\n"
                                                "%s\n"
                                                "It is recommended you use the following random password:\n"
-                                               "rpcuser=digiwagerpc\n"
+                                               "rpcuser=testwagerpc\n"
                                                "rpcpassword=%s\n"
                                                "(you do not need to remember this password)\n"
                                                "The username and password MUST NOT be the same.\n"
                                                "If the file does not exist, create it with owner-readable-only file permissions.\n"
                                                "It is also recommended to set alertnotify so you are notified of problems;\n"
-                                               "for example: alertnotify=echo %%s | mail -s \"Digiwage Alert\" admin@foo.com\n"),
+                                               "for example: alertnotify=echo %%s | mail -s \"Testwage Alert\" admin@foo.com\n"),
                                              GetConfigFile().string(),
                                              EncodeBase58(&rand_pwd[0], &rand_pwd[0] + 32)),
             "", CClientUIInterface::MSG_ERROR | CClientUIInterface::SECURE);
@@ -1054,14 +1054,14 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> digiwage-cli " + methodname + " " + args + "\n";
+    return "> testwage-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)
 {
     return "> curl --user myusername --data-binary '{\"jsonrpc\": \"1.0\", \"id\":\"curltest\", "
            "\"method\": \"" +
-           methodname + "\", \"params\": [" + args + "] }' -H 'content-type: text/plain;' http://127.0.0.1:46002/\n";
+           methodname + "\", \"params\": [" + args + "] }' -H 'content-type: text/plain;' http://127.0.0.1:46102/\n";
 }
 
 const CRPCTable tableRPC;

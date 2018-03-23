@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between digiwage-cli and digiwaged)
- * of a given instance of the Digiwage system.
+ * CBaseChainParams defines the base parameters (shared between testwage-cli and testwaged)
+ * of a given instance of the Testwage system.
  */
 class CBaseChainParams
 {

@@ -96,7 +96,7 @@ public:
 };
 
 /**
- * Digiwage RPC command dispatcher.
+ * Testwage RPC command dispatcher.
  */
 class CRPCTable
 {

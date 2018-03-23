@@ -17,7 +17,7 @@ osx=true
 SIGNER=
 VERSION=
 commit=false
-url=https://github.com/digiwage/digiwage
+url=https://github.com/testwage/testwage
 proc=2
 mem=2000
 lxc=true
@@ -31,7 +31,7 @@ commitFiles=true
 read -d '' usage <<- EOF
 Usage: $scriptName [-c|u|v|b|s|B|o|h|j|m|] signer version
 
-Run this script from the directory containing the digiwage, gitian-builder, gitian.sigs, and digiwage-detached-sigs.
+Run this script from the directory containing the testwage, gitian-builder, gitian.sigs, and testwage-detached-sigs.
 
 Arguments:
 signer          GPG signer to sign each build assert file
@@ -39,7 +39,7 @@ version		Version number, commit, or branch to build. If building a commit or bra
 
 Options:
 -c|--commit	Indicate that the version argument is for a commit or branch
--u|--url	Specify the URL of the repository. Default is https://github.com/digiwage/digiwage
+-u|--url	Specify the URL of the repository. Default is https://github.com/testwage/testwage
 -v|--verify 	Verify the gitian build
 -b|--build	Do a gitian build
 -s|--sign	Make signed binaries for Windows and Mac OSX
@@ -237,8 +237,8 @@ echo ${COMMIT}
 if [[ $setup = true ]]
 then
     sudo apt-get install ruby apache2 git apt-cacher-ng python-vm-builder qemu-kvm qemu-utils
-    git clone https://github.com/digiwage/gitian.sigs.git
-    git clone https://github.com/digiwage/digiwage-detached-sigs.git
+    git clone https://github.com/testwage/gitian.sigs.git
+    git clone https://github.com/testwage/testwage-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
     pushd ./gitian-builder
     if [[ -n "$USE_LXC" ]]
@@ -252,7 +252,7 @@ then
 fi
 
 # Set up build
-pushd ./digiwage
+pushd ./testwage
 git fetch
 git checkout ${COMMIT}
 popd
@@ -261,7 +261,7 @@ popd
 if [[ $build = true ]]
 then
 	# Make output folder
-	mkdir -p ./digiwage-binaries/${VERSION}
+	mkdir -p ./testwage-binaries/${VERSION}
 
 	# Build Dependencies
 	echo ""
@@ -271,7 +271,7 @@ then
 	mkdir -p inputs
 	wget -N -P inputs $osslPatchUrl
 	wget -N -P inputs $osslTarUrl
-	make -C ../digiwage/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C ../testwage/depends download SOURCES_PATH=`pwd`/cache/common
 
 	# Linux
 	if [[ $linux = true ]]
@@ -279,9 +279,9 @@ then
             echo ""
 	    echo "Compiling ${VERSION} Linux"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit digiwage=${COMMIT} --url digiwage=${url} ../digiwage/contrib/gitian-descriptors/gitian-linux.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../digiwage/contrib/gitian-descriptors/gitian-linux.yml
-	    mv build/out/digiwage-*.tar.gz build/out/src/digiwage-*.tar.gz ../digiwage-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit testwage=${COMMIT} --url testwage=${url} ../testwage/contrib/gitian-descriptors/gitian-linux.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../testwage/contrib/gitian-descriptors/gitian-linux.yml
+	    mv build/out/testwage-*.tar.gz build/out/src/testwage-*.tar.gz ../testwage-binaries/${VERSION}
 	fi
 	# Windows
 	if [[ $windows = true ]]
@@ -289,10 +289,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit digiwage=${COMMIT} --url digiwage=${url} ../digiwage/contrib/gitian-descriptors/gitian-win.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../digiwage/contrib/gitian-descriptors/gitian-win.yml
-	    mv build/out/digiwage-*-win-unsigned.tar.gz inputs/digiwage-win-unsigned.tar.gz
-	    mv build/out/digiwage-*.zip build/out/digiwage-*.exe ../digiwage-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit testwage=${COMMIT} --url testwage=${url} ../testwage/contrib/gitian-descriptors/gitian-win.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../testwage/contrib/gitian-descriptors/gitian-win.yml
+	    mv build/out/testwage-*-win-unsigned.tar.gz inputs/testwage-win-unsigned.tar.gz
+	    mv build/out/testwage-*.zip build/out/testwage-*.exe ../testwage-binaries/${VERSION}
 	fi
 	# Mac OSX
 	if [[ $osx = true ]]
@@ -300,10 +300,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit digiwage=${COMMIT} --url digiwage=${url} ../digiwage/contrib/gitian-descriptors/gitian-osx.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../digiwage/contrib/gitian-descriptors/gitian-osx.yml
-	    mv build/out/digiwage-*-osx-unsigned.tar.gz inputs/digiwage-osx-unsigned.tar.gz
-	    mv build/out/digiwage-*.tar.gz build/out/digiwage-*.dmg ../digiwage-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit testwage=${COMMIT} --url testwage=${url} ../testwage/contrib/gitian-descriptors/gitian-osx.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../testwage/contrib/gitian-descriptors/gitian-osx.yml
+	    mv build/out/testwage-*-osx-unsigned.tar.gz inputs/testwage-osx-unsigned.tar.gz
+	    mv build/out/testwage-*.tar.gz build/out/testwage-*.dmg ../testwage-binaries/${VERSION}
 	fi
 	# AArch64
 	if [[ $aarch64 = true ]]
@@ -311,9 +311,9 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} AArch64"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit digiwage=${COMMIT} --url digiwage=${url} ../digiwage/contrib/gitian-descriptors/gitian-aarch64.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-aarch64 --destination ../gitian.sigs/ ../digiwage/contrib/gitian-descriptors/gitian-aarch64.yml
-	    mv build/out/digiwage-*.tar.gz build/out/src/digiwage-*.tar.gz ../digiwage-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit testwage=${COMMIT} --url testwage=${url} ../testwage/contrib/gitian-descriptors/gitian-aarch64.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-aarch64 --destination ../gitian.sigs/ ../testwage/contrib/gitian-descriptors/gitian-aarch64.yml
+	    mv build/out/testwage-*.tar.gz build/out/src/testwage-*.tar.gz ../testwage-binaries/${VERSION}
 	popd
 
         if [[ $commitFiles = true ]]
@@ -340,32 +340,32 @@ then
 	echo ""
 	echo "Verifying v${VERSION} Linux"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../digiwage/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../testwage/contrib/gitian-descriptors/gitian-linux.yml
 	# Windows
 	echo ""
 	echo "Verifying v${VERSION} Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../digiwage/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../testwage/contrib/gitian-descriptors/gitian-win.yml
 	# Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../digiwage/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../testwage/contrib/gitian-descriptors/gitian-osx.yml
 	# AArch64
 	echo ""
 	echo "Verifying v${VERSION} AArch64"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../digiwage/contrib/gitian-descriptors/gitian-aarch64.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../testwage/contrib/gitian-descriptors/gitian-aarch64.yml
 	# Signed Windows
 	echo ""
 	echo "Verifying v${VERSION} Signed Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../digiwage/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../testwage/contrib/gitian-descriptors/gitian-osx-signer.yml
 	# Signed Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Signed Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../digiwage/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../testwage/contrib/gitian-descriptors/gitian-osx-signer.yml
 	popd
 fi
 
@@ -380,10 +380,10 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../digiwage/contrib/gitian-descriptors/gitian-win-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../digiwage/contrib/gitian-descriptors/gitian-win-signer.yml
-	    mv build/out/digiwage-*win64-setup.exe ../digiwage-binaries/${VERSION}
-	    mv build/out/digiwage-*win32-setup.exe ../digiwage-binaries/${VERSION}
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../testwage/contrib/gitian-descriptors/gitian-win-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../testwage/contrib/gitian-descriptors/gitian-win-signer.yml
+	    mv build/out/testwage-*win64-setup.exe ../testwage-binaries/${VERSION}
+	    mv build/out/testwage-*win32-setup.exe ../testwage-binaries/${VERSION}
 	fi
 	# Sign Mac OSX
 	if [[ $osx = true ]]
@@ -391,9 +391,9 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../digiwage/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../digiwage/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    mv build/out/digiwage-osx-signed.dmg ../digiwage-binaries/${VERSION}/digiwage-${VERSION}-osx.dmg
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../testwage/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../testwage/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    mv build/out/testwage-osx-signed.dmg ../testwage-binaries/${VERSION}/testwage-${VERSION}-osx.dmg
 	fi
 	popd
 

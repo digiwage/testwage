@@ -83,10 +83,10 @@ Value importprivkey(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 1 || params.size() > 3)
         throw runtime_error(
-            "importprivkey \"digiwageprivkey\" ( \"label\" rescan )\n"
+            "importprivkey \"testwageprivkey\" ( \"label\" rescan )\n"
             "\nAdds a private key (as returned by dumpprivkey) to your wallet.\n"
             "\nArguments:\n"
-            "1. \"digiwageprivkey\"   (string, required) The private key (see dumpprivkey)\n"
+            "1. \"testwageprivkey\"   (string, required) The private key (see dumpprivkey)\n"
             "2. \"label\"            (string, optional, default=\"\") An optional label\n"
             "3. rescan               (boolean, optional, default=true) Rescan the wallet for transactions\n"
             "\nNote: This call can take minutes to complete if rescan is true.\n"
@@ -170,7 +170,7 @@ Value importaddress(const Array& params, bool fHelp)
         std::vector<unsigned char> data(ParseHex(params[0].get_str()));
         script = CScript(data.begin(), data.end());
     } else {
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Digiwage address or script");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Testwage address or script");
     }
 
     string strLabel = "";
@@ -308,11 +308,11 @@ Value dumpprivkey(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 1)
         throw runtime_error(
-            "dumpprivkey \"digiwageaddress\"\n"
-            "\nReveals the private key corresponding to 'digiwageaddress'.\n"
+            "dumpprivkey \"testwageaddress\"\n"
+            "\nReveals the private key corresponding to 'testwageaddress'.\n"
             "Then the importprivkey can be used with this output\n"
             "\nArguments:\n"
-            "1. \"digiwageaddress\"   (string, required) The digiwage address for the private key\n"
+            "1. \"testwageaddress\"   (string, required) The testwage address for the private key\n"
             "\nResult:\n"
             "\"key\"                (string) The private key\n"
             "\nExamples:\n" +
@@ -323,7 +323,7 @@ Value dumpprivkey(const Array& params, bool fHelp)
     string strAddress = params[0].get_str();
     CBitcoinAddress address;
     if (!address.SetString(strAddress))
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Digiwage address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Testwage address");
     CKeyID keyID;
     if (!address.GetKeyID(keyID))
         throw JSONRPCError(RPC_TYPE_ERROR, "Address does not refer to a key");
@@ -366,7 +366,7 @@ Value dumpwallet(const Array& params, bool fHelp)
     std::sort(vKeyBirth.begin(), vKeyBirth.end());
 
     // produce output
-    file << strprintf("# Wallet dump created by Digiwage %s (%s)\n", CLIENT_BUILD, CLIENT_DATE);
+    file << strprintf("# Wallet dump created by Testwage %s (%s)\n", CLIENT_BUILD, CLIENT_DATE);
     file << strprintf("# * Created on %s\n", EncodeDumpTime(GetTime()));
     file << strprintf("# * Best block at time of backup was %i (%s),\n", chainActive.Height(), chainActive.Tip()->GetBlockHash().ToString());
     file << strprintf("#   mined on %s\n", EncodeDumpTime(chainActive.Tip()->GetBlockTime()));
@@ -396,10 +396,10 @@ Value bip38encrypt(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 2)
         throw runtime_error(
-            "bip38encrypt \"digiwageaddress\"\n"
-            "\nEncrypts a private key corresponding to 'digiwageaddress'.\n"
+            "bip38encrypt \"testwageaddress\"\n"
+            "\nEncrypts a private key corresponding to 'testwageaddress'.\n"
             "\nArguments:\n"
-            "1. \"digiwageaddress\"   (string, required) The digiwage address for the private key (you must hold the key already)\n"
+            "1. \"testwageaddress\"   (string, required) The testwage address for the private key (you must hold the key already)\n"
             "2. \"passphrase\"   (string, required) The passphrase you want the private key to be encrypted with - Valid special chars: !#$%&'()*+,-./:;<=>?`{|}~ \n"
             "\nResult:\n"
             "\"key\"                (string) The encrypted private key\n"
@@ -412,7 +412,7 @@ Value bip38encrypt(const Array& params, bool fHelp)
 
     CBitcoinAddress address;
     if (!address.SetString(strAddress))
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Digiwage address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Testwage address");
     CKeyID keyID;
     if (!address.GetKeyID(keyID))
         throw JSONRPCError(RPC_TYPE_ERROR, "Address does not refer to a key");
@@ -434,7 +434,7 @@ Value bip38decrypt(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 2)
         throw runtime_error(
-            "bip38decrypt \"digiwageaddress\"\n"
+            "bip38decrypt \"testwageaddress\"\n"
             "\nDecrypts and then imports password protected private key.\n"
             "\nArguments:\n"
             "1. \"encryptedkey\"   (string, required) The encrypted private key\n"

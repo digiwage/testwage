@@ -1,0 +1,26 @@
+[Unit]
+Description=Testwage's distributed currency daemon
+After=network.target
+
+[Service]
+User=testwage
+Group=testwage
+
+Type=forking
+PIDFile=/var/lib/testwaged/testwaged.pid
+
+ExecStart=/usr/bin/testwaged -daemon -pid=/var/lib/testwaged/testwaged.pid \
+          -conf=/etc/testwage/testwage.conf -datadir=/var/lib/testwaged
+
+ExecStop=-/usr/bin/testwage-cli -conf=/etc/testwage/testwage.conf \
+         -datadir=/var/lib/testwaged stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

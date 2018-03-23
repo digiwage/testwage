@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: digiwaged.service
-Upstart: digiwaged.conf
-OpenRC:  digiwaged.openrc
-         digiwaged.openrcconf
-CentOS:  digiwaged.init
+SystemD: testwaged.service
+Upstart: testwaged.conf
+OpenRC:  testwaged.openrc
+         testwaged.openrcconf
+CentOS:  testwaged.init
 
 have been made available to assist packagers in creating node packages here.
 

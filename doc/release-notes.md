@@ -1,19 +1,19 @@
-Digiwage Core version 3.0.4 is now available from:
+Testwage Core version 3.0.4 is now available from:
 
-  <https://github.com/digiwage/digiwage/releases>
+  <https://github.com/testwage/testwage/releases>
 
 This is a new minor-revision version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/digiwage/digiwage/issues>
+  <https://github.com/testwage/testwage/issues>
 
 
 Mandatory Update
 ==============
 
-Digiwage Core v3.0.4 is a mandatory update for all users. This release contains various updates/fixes pertaining to the zWAGE protocol, supply tracking, block transmission and relaying, as well as usability and quality-of-life updates to the GUI.
+Testwage Core v3.0.4 is a mandatory update for all users. This release contains various updates/fixes pertaining to the zWAGE protocol, supply tracking, block transmission and relaying, as well as usability and quality-of-life updates to the GUI.
 
 Users will have a grace period to update their clients before versions prior to this release are no longer allowed to connect to this (and future) version(s).
 
@@ -21,13 +21,13 @@ Users will have a grace period to update their clients before versions prior to 
 How to Upgrade
 ==============
 
-If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/Digiwage-Qt (on Mac) or digiwaged/digiwage-qt (on Linux).
+If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/Testwage-Qt (on Mac) or testwaged/testwage-qt (on Linux).
 
 
 Compatibility
 ==============
 
-Digiwage Core is extensively tested on multiple operating systems using
+Testwage Core is extensively tested on multiple operating systems using
 the Linux kernel, macOS 10.8+, and Windows Vista and later.
 
 Microsoft ended support for Windows XP on [April 8th, 2014](https://www.microsoft.com/en-us/WindowsForBusiness/end-of-xp-support),
@@ -35,7 +35,7 @@ No attempt is made to prevent installing or running the software on Windows XP, 
 can still do so at your own risk but be aware that there are known instabilities and issues.
 Please do not report issues about Windows XP to the issue tracker.
 
-Digiwage Core should also work on most other Unix-like systems but is not
+Testwage Core should also work on most other Unix-like systems but is not
 frequently tested on them.
 
 ### :exclamation::exclamation::exclamation: MacOS 10.13 High Sierra :exclamation::exclamation::exclamation:
@@ -100,9 +100,9 @@ git merge commit are mentioned.
 - #298 `3580394` Reorg help to stop travis errors (Jon Spock)
 - #302 `efb648b` [Cleanup] Remove unused variables (rejectedpromise)
 - #307 `dbd801d` Remove hard-coded GIT_ARCHIVE define (Jon Spock)
-- #314 `f1c830a` Fix issue causing crash when digiwaged --help was invoked (Jon Spock)
+- #314 `f1c830a` Fix issue causing crash when testwaged --help was invoked (Jon Spock)
 - #326 `8b6a13e` Combine 2 LogPrintf statement to reduce debug.log clutter (Jon Spock)
-- #328 `a6c18c8` [Main] Digiwage not responding on user quitting app (Aaron Langford)
+- #328 `a6c18c8` [Main] Testwage not responding on user quitting app (Aaron Langford)
 
 
 Credits
@@ -117,4 +117,4 @@ Thanks to everyone who directly contributed to this release:
 - rejectedpromise
 - aaronlangford31
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/digiwage-translations/).
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/testwage-translations/).

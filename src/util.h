@@ -13,7 +13,7 @@
 #define BITCOIN_UTIL_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/digiwage-config.h"
+#include "config/testwage-config.h"
 #endif
 
 #include "compat.h"
@@ -29,14 +29,14 @@
 #include <boost/filesystem/path.hpp>
 #include <boost/thread/exceptions.hpp>
 
-//Digiwage only features
+//Testwage only features
 
 extern bool fMasterNode;
 extern bool fLiteMode;
 extern bool fEnableSwiftTX;
 extern int nSwiftTXDepth;
 extern int nObfuscationRounds;
-extern int nAnonymizeDigiwageAmount;
+extern int nAnonymizeTestwageAmount;
 extern int nLiquidityProvider;
 extern bool fEnableObfuscation;
 extern int64_t enforceMasternodePaymentsTime;
@@ -213,7 +213,7 @@ void RenameThread(const char* name);
 template <typename Callable>
 void LoopForever(const char* name, Callable func, int64_t msecs)
 {
-    std::string s = strprintf("digiwage-%s", name);
+    std::string s = strprintf("testwage-%s", name);
     RenameThread(s.c_str());
     LogPrintf("%s thread start\n", name);
     try {
@@ -239,7 +239,7 @@ void LoopForever(const char* name, Callable func, int64_t msecs)
 template <typename Callable>
 void TraceThread(const char* name, Callable func)
 {
-    std::string s = strprintf("digiwage-%s", name);
+    std::string s = strprintf("testwage-%s", name);
     RenameThread(s.c_str());
     try {
         LogPrintf("%s thread start\n", name);

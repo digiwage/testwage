@@ -60,7 +60,7 @@ void ProcessSpork(CNode* pfrom, std::string& strCommand, CDataStream& vRecv)
         mapSporksActive[spork.nSporkID] = spork;
         sporkManager.Relay(spork);
 
-        // Digiwage: add to spork database.
+        // Testwage: add to spork database.
         ExecuteSpork(spork.nSporkID, spork.nValue);
     }
     if (strCommand == "getsporks") {

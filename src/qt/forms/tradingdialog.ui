@@ -445,7 +445,7 @@
       <string>Buy WAGE</string>
      </property>
      <property name="icon">
-      <iconset resource="../digiwage.qrc">
+      <iconset resource="../testwage.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -1754,7 +1754,7 @@
       <string>Sell WAGE</string>
      </property>
      <property name="icon">
-      <iconset resource="../digiwage">
+      <iconset resource="../testwage">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -2941,10 +2941,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Generate Digiwage Deposit Address</string>
+      <string>Generate Testwage Deposit Address</string>
      </property>
      <property name="icon">
-      <iconset resource="../digiwage.qrc">
+      <iconset resource="../testwage.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -3155,7 +3155,7 @@
        <string notr="true">border: 1px solid #61696c;margin-left:4px;</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="btnConvertDigiwage">
+     <widget class="QPushButton" name="btnConvertTestwage">
       <property name="geometry">
        <rect>
         <x>260</x>
@@ -3206,7 +3206,7 @@
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap resource="../digiwage.qrc">:/icons/transaction_1</pixmap>
+       <pixmap resource="../testwage.qrc">:/icons/transaction_1</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -3253,7 +3253,7 @@
       <string>Update API Keys</string>
      </property>
      <property name="icon">
-      <iconset resource="../digiwage.qrc">
+      <iconset resource="../testwage.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -3408,7 +3408,7 @@
   </widget>
  </widget>
  <resources>
-  <include location="../digiwage.qrc"/>
+  <include location="../testwage.qrc"/>
  </resources>
  <connections/>
 </ui>

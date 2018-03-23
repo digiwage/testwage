@@ -6,13 +6,13 @@ and tests weren't explicitly disabled.
 
 After configuring, they can be run with 'make check'.
 
-To run the digiwaged tests manually, launch src/test/test_digiwage .
+To run the testwaged tests manually, launch src/test/test_testwage .
 
-To add more digiwaged tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
+To add more testwaged tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
 .cpp files in the test/ directory or add new .cpp files that
 implement new BOOST_AUTO_TEST_SUITE sections.
 
-To run the digiwage-qt tests manually, launch src/qt/test/digiwage-qt_test
+To run the testwage-qt tests manually, launch src/qt/test/testwage-qt_test
 
-To add more digiwage-qt tests, add them to the `src/qt/test/` directory and
+To add more testwage-qt tests, add them to the `src/qt/test/` directory and
 the `src/qt/test/test_main.cpp` file.

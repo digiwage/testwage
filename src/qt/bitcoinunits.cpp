@@ -41,11 +41,11 @@ QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
     case WAGE:
-        return QString("digiwage");
+        return QString("testwage");
     case mWAGE:
-        return QString("mdigiwage");
+        return QString("mtestwage");
     case uWAGE:
-        return QString::fromUtf8("udigiwage");
+        return QString::fromUtf8("utestwage");
     default:
         return QString("???");
     }

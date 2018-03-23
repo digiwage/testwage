@@ -64,15 +64,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += digiwaged
+  bin_PROGRAMS += testwaged
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += digiwage-cli digiwage-tx
+  bin_PROGRAMS += testwage-cli testwage-tx
 endif
 
 .PHONY: FORCE
-# digiwage core #
+# testwage core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addrman.h \
@@ -180,7 +180,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between digiwaged and digiwage-qt
+# server: shared between testwaged and testwage-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -224,7 +224,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between digiwaged and digiwage-qt, but only linked
+# wallet: shared between testwaged and testwage-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -295,7 +295,7 @@ univalue_libbitcoin_univalue_a_SOURCES = \
   univalue/univalue_escapes.h \
   univalue/univalue.h
 
-# common: shared between digiwaged, and digiwage-qt and non-server tools
+# common: shared between testwaged, and testwage-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   allocators.cpp \
@@ -351,7 +351,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between digiwage-cli and digiwage-qt
+# cli: shared between testwage-cli and testwage-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -361,7 +361,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-digiwaged_LDADD = \
+testwaged_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -372,40 +372,40 @@ digiwaged_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-digiwaged_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+testwaged_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-digiwaged_LDADD += libbitcoin_wallet.a
+testwaged_LDADD += libbitcoin_wallet.a
 endif
-digiwaged_SOURCES = digiwaged.cpp
+testwaged_SOURCES = testwaged.cpp
 #
 
 if TARGET_WINDOWS
-digiwaged_SOURCES += digiwaged-res.rc
+testwaged_SOURCES += testwaged-res.rc
 endif
 
-digiwaged_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
-digiwaged_CPPFLAGS = $(BITCOIN_INCLUDES)
-digiwaged_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+testwaged_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+testwaged_CPPFLAGS = $(BITCOIN_INCLUDES)
+testwaged_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# digiwage-cli binary #
-digiwage_cli_LDADD = \
+# testwage-cli binary #
+testwage_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
   $(SSL_LIBS) \
   $(CRYPTO_LIBS)
 
-digiwage_cli_SOURCES = \
-  digiwage-cli.cpp
+testwage_cli_SOURCES = \
+  testwage-cli.cpp
 
-digiwage_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
+testwage_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
 
-# digiwage-tx binary #
-digiwage_tx_LDADD = \
+# testwage-tx binary #
+testwage_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -414,15 +414,15 @@ digiwage_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-digiwage_tx_SOURCES = digiwage-tx.cpp
-digiwage_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+testwage_tx_SOURCES = testwage-tx.cpp
+testwage_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-digiwage_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+testwage_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-digiwage_cli_SOURCES += digiwage-cli-res.rc
+testwage_cli_SOURCES += testwage-cli-res.rc
 endif
-digiwage_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+testwage_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

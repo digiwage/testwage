@@ -1,21 +1,21 @@
 
 Debian
 ====================
-This directory contains files used to package digiwaged/digiwage-qt
-for Debian-based Linux systems. If you compile digiwaged/digiwage-qt yourself, there are some useful files here.
+This directory contains files used to package testwaged/testwage-qt
+for Debian-based Linux systems. If you compile testwaged/testwage-qt yourself, there are some useful files here.
 
-## digiwage: URI support ##
+## testwage: URI support ##
 
 
-digiwage-qt.desktop  (Gnome / Open Desktop)
+testwage-qt.desktop  (Gnome / Open Desktop)
 To install:
 
-	sudo desktop-file-install digiwage-qt.desktop
+	sudo desktop-file-install testwage-qt.desktop
 	sudo update-desktop-database
 
 If you build yourself, you will either need to modify the paths in
-the .desktop file or copy or symlink your digiwageqt binary to `/usr/bin`
-and the `../../share/pixmaps/digiwage128.png` to `/usr/share/pixmaps`
+the .desktop file or copy or symlink your testwageqt binary to `/usr/bin`
+and the `../../share/pixmaps/testwage128.png` to `/usr/share/pixmaps`
 
-digiwage-qt.protocol (KDE)
+testwage-qt.protocol (KDE)
 

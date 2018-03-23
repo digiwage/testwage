@@ -7,7 +7,7 @@
 #define BITCOIN_COMPAT_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/digiwage-config.h"
+#include "config/testwage-config.h"
 #endif
 
 #ifdef WIN32

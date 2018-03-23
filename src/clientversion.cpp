@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both digiwaged and digiwage-qt, to make it harder for attackers to
+ * for both testwaged and testwage-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Digiwage");
+const std::string CLIENT_NAME("Testwage");
 
 /**
  * Client version number

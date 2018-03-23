@@ -168,7 +168,7 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="../digiwage.qrc"/>
+  <include location="../testwage.qrc"/>
  </resources>
  <connections/>
 </ui>

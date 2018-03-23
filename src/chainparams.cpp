@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 Digiwage developers
+// Copyright (c) 2018 Testwage developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -98,7 +98,7 @@ public:
         pchMessageStart[2] = 0xa7;
         pchMessageStart[3] = 0xd6;
         vAlertPubKey = ParseHex("044a298ea107486f12d1dfa66ec6bf82b1341f4818e7298b2352a7aa5a21545a2f33472dd1e749f24f92e6d846880bc5d362cf040dcb5d7025d00034c71e74988f");
-        nDefaultPort = 46003;
+        nDefaultPort = 46103;
         bnProofOfWorkLimit = ~uint256(0) >> 20;
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
@@ -106,8 +106,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // Digiwage: 1 minute
-        nTargetSpacing = 1 * 60;  // Digiwage: 1 minute
+        nTargetTimespan = 1 * 60; // Testwage: 1 minute
+        nTargetSpacing = 1 * 60;  // Testwage: 1 minute
         nLastPOWBlock = 5000;
         nMaturity = 100;
         nMasternodeCountDrift = 20;
@@ -191,8 +191,8 @@ public:
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // Digiwage: 1 minute
-        nTargetSpacing = 1 * 10;  // Digiwage: 1 minute
+        nTargetTimespan = 1 * 60; // Testwage: 1 minute
+        nTargetSpacing = 1 * 10;  // Testwage: 1 minute
         nLastPOWBlock = 200;
         nMaturity = 10;
         nMasternodeCountDrift = 4;
@@ -209,14 +209,14 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet digiwage addresses start with 'x' or 'y'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet digiwage script addresses start with '8' or '9'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet testwage addresses start with 'x' or 'y'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet testwage script addresses start with '8' or '9'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
-        // Testnet digiwage BIP32 pubkeys start with 'DRKV'
+        // Testnet testwage BIP32 pubkeys start with 'DRKV'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char> >();
-        // Testnet digiwage BIP32 prvkeys start with 'DRKP'
+        // Testnet testwage BIP32 prvkeys start with 'DRKP'
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x3a)(0x80)(0x58)(0x37).convert_to_container<std::vector<unsigned char> >();
-        // Testnet digiwage BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet testwage BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x01)(0x00)(0x00)(0x80).convert_to_container<std::vector<unsigned char> >();
 
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
@@ -261,8 +261,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // Digiwage: 1 day
-        nTargetSpacing = 1 * 60;        // Digiwage: 1 minutes
+        nTargetTimespan = 24 * 60 * 60; // Testwage: 1 day
+        nTargetSpacing = 1 * 60;        // Testwage: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1521416579;
         genesis.nBits = 0x207fffff;

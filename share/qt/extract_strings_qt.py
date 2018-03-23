@@ -10,7 +10,7 @@ import operator
 import os
 import sys
 
-OUT_CPP="qt/digiwagestrings.cpp"
+OUT_CPP="qt/testwagestrings.cpp"
 EMPTY=['""']
 
 def parse_po(text):
@@ -74,10 +74,10 @@ f.write("""
 #define UNUSED
 #endif
 """)
-f.write('static const char UNUSED *digiwage_strings[] = {\n')
+f.write('static const char UNUSED *testwage_strings[] = {\n')
 messages.sort(key=operator.itemgetter(0))
 for (msgid, msgstr) in messages:
     if msgid != EMPTY:
-        f.write('QT_TRANSLATE_NOOP("digiwage-core", %s),\n' % ('\n'.join(msgid)))
+        f.write('QT_TRANSLATE_NOOP("testwage-core", %s),\n' % ('\n'.join(msgid)))
 f.write('};\n')
 f.close()

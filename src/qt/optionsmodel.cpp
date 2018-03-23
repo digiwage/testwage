@@ -5,7 +5,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/digiwage-config.h"
+#include "config/testwage-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -75,11 +75,11 @@ void OptionsModel::Init()
     if (!settings.contains("nObfuscationRounds"))
         settings.setValue("nObfuscationRounds", 2);
 
-    if (!settings.contains("nAnonymizeDigiwageAmount"))
-        settings.setValue("nAnonymizeDigiwageAmount", 1000);
+    if (!settings.contains("nAnonymizeTestwageAmount"))
+        settings.setValue("nAnonymizeTestwageAmount", 1000);
 
     nObfuscationRounds = settings.value("nObfuscationRounds").toLongLong();
-    nAnonymizeDigiwageAmount = settings.value("nAnonymizeDigiwageAmount").toLongLong();
+    nAnonymizeTestwageAmount = settings.value("nAnonymizeTestwageAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
         settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
@@ -146,8 +146,8 @@ void OptionsModel::Init()
 
     if (settings.contains("nObfuscationRounds"))
         SoftSetArg("-obfuscationrounds", settings.value("nObfuscationRounds").toString().toStdString());
-    if (settings.contains("nAnonymizeDigiwageAmount"))
-        SoftSetArg("-anonymizedigiwageamount", settings.value("nAnonymizeDigiwageAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeTestwageAmount"))
+        SoftSetArg("-anonymizetestwageamount", settings.value("nAnonymizeTestwageAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -158,7 +158,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in digiwage.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in testwage.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())
@@ -227,8 +227,8 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return settings.value("nThreadsScriptVerif");
         case ObfuscationRounds:
             return QVariant(nObfuscationRounds);
-        case AnonymizeDigiwageAmount:
-            return QVariant(nAnonymizeDigiwageAmount);
+        case AnonymizeTestwageAmount:
+            return QVariant(nAnonymizeTestwageAmount);
         case Listen:
             return settings.value("fListen");
         default:
@@ -339,10 +339,10 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             break;
 
 
-        case AnonymizeDigiwageAmount:
-            nAnonymizeDigiwageAmount = value.toInt();
-            settings.setValue("nAnonymizeDigiwageAmount", nAnonymizeDigiwageAmount);
-            emit anonymizeDigiwageAmountChanged(nAnonymizeDigiwageAmount);
+        case AnonymizeTestwageAmount:
+            nAnonymizeTestwageAmount = value.toInt();
+            settings.setValue("nAnonymizeTestwageAmount", nAnonymizeTestwageAmount);
+            emit anonymizeTestwageAmountChanged(nAnonymizeTestwageAmount);
             break;
         case CoinControlFeatures:
             fCoinControlFeatures = value.toBool();

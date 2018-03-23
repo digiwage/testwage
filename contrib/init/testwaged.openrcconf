@@ -1,0 +1,26 @@
+# /etc/conf.d/testwaged: config file for /etc/init.d/testwaged
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/testwage/testwage.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/testwaged"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/testwaged.pid"
+
+# Where to write testwaged data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/testwaged"
+
+# User and group to own testwaged process
+#BITCOIND_USER="testwage"
+#BITCOIND_GROUP="testwage"
+
+# Path to testwaged executable
+#BITCOIND_BIN="/usr/bin/testwaged"
+
+# Nice value to run testwaged under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

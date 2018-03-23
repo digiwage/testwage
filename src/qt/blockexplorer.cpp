@@ -473,8 +473,8 @@ void BlockExplorer::showEvent(QShowEvent*)
         updateNavButtons();
 
         if (!GetBoolArg("-txindex", false)) {
-            QString Warning = tr("Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (digiwage.conf).");
-            QMessageBox::warning(this, "Digiwage Core Blockchain Explorer", Warning, QMessageBox::Ok);
+            QString Warning = tr("Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (testwage.conf).");
+            QMessageBox::warning(this, "Testwage Core Blockchain Explorer", Warning, QMessageBox::Ok);
         }
     }
 }
