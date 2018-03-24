@@ -107,7 +107,7 @@ public:
         nTargetTimespan = 1 * 60; // Testwage: 1 minute
         nTargetSpacing = 1 * 60;  // Testwage: 1 minute
         nLastPOWBlock = 300;
-        nMaturity = 50;
+        nMaturity = 30;
         nMasternodeCountDrift = 20;
         nModifierUpdateBlock = 999999999;
         nMaxMoneyOut = 120000000 * COIN;
