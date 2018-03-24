@@ -107,7 +107,7 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // TESTWAGE: 1 day
         nTargetSpacing = 1 * 60;  // TESTWAGE: 1 minute
-        nLastPOWBlock = 300;
+        nLastPOWBlock = 350;
         nMaturity = 30;
         nMasternodeCountDrift = 20;
         nModifierUpdateBlock = 999999999;
