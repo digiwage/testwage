@@ -13,7 +13,6 @@ QT_TS = \
   qt/locale/testwage_es.ts \
   qt/locale/testwage_fi.ts \
   qt/locale/testwage_fr_FR.ts \
-  qt/locale/testwage_hr.ts \
   qt/locale/testwage_it.ts \
   qt/locale/testwage_ja.ts \
   qt/locale/testwage_ko_KR.ts \
@@ -25,7 +24,6 @@ QT_TS = \
   qt/locale/testwage_ru.ts \
   qt/locale/testwage_sk.ts \
   qt/locale/testwage_sv.ts \
-  qt/locale/testwage_tr.ts \
   qt/locale/testwage_uk.ts \
   qt/locale/testwage_zh_CN.ts \
   qt/locale/testwage_zh_TW.ts

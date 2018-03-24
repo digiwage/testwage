@@ -62,12 +62,12 @@
         <translation>Адреса получения</translation>
     </message>
     <message>
-        <source>These are your Testwage addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши Testwage-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
+        <source>These are your TESTWAGE addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши TESTWAGE-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
     </message>
     <message>
-        <source>These are your Testwage addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши Testwage-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
+        <source>These are your TESTWAGE addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши TESTWAGE-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>Testwage will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your WAGEs from being stolen by malware infecting your computer.</source>
-        <translation>Testwage сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши Testwage от кражи с использованием вредоносного ПО.</translation>
+        <source>TESTWAGE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your WAGEs from being stolen by malware infecting your computer.</source>
+        <translation>TESTWAGE сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши TESTWAGE от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -236,15 +236,15 @@
     </message>
     <message>
         <source>Enter a Testwage Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Введите Testwage адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
+        <translation>Введите TESTWAGE адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>The Testwage address to sign the message with</source>
-        <translation>Адрес Testwage для подписи сообщения с помощью</translation>
+        <source>The TESTWAGE address to sign the message with</source>
+        <translation>Адрес TESTWAGE для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Testwage address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес Testwage</translation>
+        <source>Sign the message to prove you own this TESTWAGE address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес TESTWAGE</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,12 +299,12 @@
         <translation>Введите зашифрованный с помощью BIP 38 секретный ключ. Введите секретную фразу в среднем окне. Нажмите Дешифровать Ключ чтобы создать секретный ключ. Нажав на Импортировать Адрес после дешифровки, вы добавите секретный ключ к кошельку.</translation>
     </message>
     <message>
-        <source>The Testwage address the message was signed with</source>
-        <translation>Адрес Testwage, которым подписано сообщение</translation>
+        <source>The TESTWAGE address the message was signed with</source>
+        <translation>Адрес TESTWAGE, которым подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Testwage address</source>
-        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным Testwage адресом </translation>
+        <source>Verify the message to ensure it was signed with the specified TESTWAGE address</source>
+        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным TESTWAGE адресом </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -594,24 +594,16 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Core</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Core</translation>
     </message>
     <message>
-        <source>Send coins to a Testwage address</source>
-        <translation>Отправить монеты на Testwage адрес</translation>
+        <source>Send coins to a TESTWAGE address</source>
+        <translation>Отправить монеты на TESTWAGE адрес</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and testwage: URIs)</source>
-        <translation>Запросить платежи (генерирует QR-код и Testwage: URI)</translation>
-    </message>
-    <message>
-        <source>&amp;Privacy</source>
-        <translation>&amp;Конфиденциальность</translation>
-    </message>
-    <message>
-        <source>Privacy Action for zWAGE and Obfuscation</source>
-        <translation>Конфиденциальное действие и обфускация</translation>
+        <translation>Запросить платежи (генерирует QR-код и TESTWAGE: URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -622,24 +614,24 @@
         <translation>Обзор мастернод</translation>
     </message>
     <message>
-        <source>&amp;About Testwage Core</source>
-        <translation>&amp;О Testwage Core</translation>
+        <source>&amp;About TESTWAGE Core</source>
+        <translation>&amp;О TESTWAGE Core</translation>
     </message>
     <message>
-        <source>Show information about Testwage Core</source>
-        <translation>Показать информацию о Testwage Core</translation>
+        <source>Show information about TESTWAGE Core</source>
+        <translation>Показать информацию о TESTWAGE Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Testwage</source>
-        <translation>Изменение параметров конфигурации Testwage</translation>
+        <source>Modify configuration options for TESTWAGE</source>
+        <translation>Изменение параметров конфигурации TESTWAGE</translation>
     </message>
     <message>
-        <source>Sign messages with your Testwage addresses to prove you own them</source>
-        <translation>Подписывайте сообщения вашими Testwage адресами, чтобы доказать, что вы их владелец</translation>
+        <source>Sign messages with your TESTWAGE addresses to prove you own them</source>
+        <translation>Подписывайте сообщения вашими TESTWAGE адресами, чтобы доказать, что вы их владелец</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Testwage addresses</source>
-        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным Testwage адресом </translation>
+        <source>Verify messages to ensure they were signed with specified TESTWAGE addresses</source>
+        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным TESTWAGE адресом </translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -670,8 +662,8 @@
         <translation>Открыть файл настроек мастернод</translation>
     </message>
     <message>
-        <source>Open a Testwage: URI or payment request</source>
-        <translation>Открыть Testwage: URI или запрос платежа</translation>
+        <source>Open a TESTWAGE: URI or payment request</source>
+        <translation>Открыть TESTWAGE: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -682,12 +674,16 @@
         <translation>Окно обзора блока</translation>
     </message>
     <message>
-        <source>Show the Testwage Core help message to get a list with possible Testwage command-line options</source>
-        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды Testwage</translation>
+        <source>Show the TESTWAGE Core help message to get a list with possible TESTWAGE command-line options</source>
+        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды TESTWAGE</translation>
     </message>
     <message>
-        <source>Testwage Core client</source>
-        <translation>Клиент Testwage Core</translation>
+        <source>TESTWAGE Core client</source>
+        <translation>Клиент TESTWAGE Core</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to TESTWAGE network</source>
+        <translation><numerusform>%n активное подключение к сети TESTWAGE</numerusform><numerusform>%n активных подключений к сети TESTWAGE</numerusform><numerusform>%n активных подключений к сети TESTWAGE</numerusform><numerusform>%n активных подключений к сети TESTWAGE</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -709,9 +705,25 @@
         <source>Up to date</source>
         <translation>Обновление не требуется</translation>
     </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n час</numerusform><numerusform>%n часов</numerusform><numerusform>%n часов</numerusform><numerusform>%n часов</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n день</numerusform><numerusform>%n дней</numerusform><numerusform>%n дней</numerusform><numerusform>%n дней</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n неделя</numerusform><numerusform>%n недель</numerusform><numerusform>%n недель</numerusform><numerusform>%n недель</numerusform></translation>
+    </message>
     <message>
         <source>%1 and %2</source>
         <translation>%1 и %2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n год</numerusform><numerusform>%n лет</numerusform><numerusform>%n лет</numerusform><numerusform>%n лет</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -805,14 +817,6 @@ MultiSend: %1</translation>
         <translation>Обзор блокчейна</translation>
     </message>
     <message>
-        <source>Back</source>
-        <translation>Назад</translation>
-    </message>
-    <message>
-        <source>Forward</source>
-        <translation>вперед</translation>
-    </message>
-    <message>
         <source>Address / Block / Transaction</source>
         <translation>Адрес / Блок / Транзакция</translation>
     </message>
@@ -831,6 +835,10 @@ MultiSend: %1</translation>
 </context>
 <context>
     <name>ClientModel</name>
+    <message>
+        <source>Total: %1 (OBF compatible: %2 / Enabled: %3)</source>
+        <translation>Всего: %1 (OBF совместимые: %2 / Включеные: %3)</translation>
+    </message>
     <message>
         <source>Network Alert</source>
         <translation>Сетевое предупреждение</translation>
@@ -907,6 +915,10 @@ MultiSend: %1</translation>
         <translation>Полученно на адрес</translation>
     </message>
     <message>
+        <source>DS Rounds</source>
+        <translation>DS циклов</translation>
+    </message>
+    <message>
         <source>Date</source>
         <translation>Дата</translation>
     </message>
@@ -979,6 +991,10 @@ MultiSend: %1</translation>
         <translation>Для использования этой функции перейдите в "Режим списка"</translation>
     </message>
     <message>
+        <source>Non-anonymized input selected. &lt;b&gt;Obfuscation will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Obfuscation, please deselect all non-nonymized inputs first and then check Obfuscation checkbox again.</source>
+        <translation>Выбран неанонимизированный ввод. &lt;b&gt;Запутывание будет отключено. &lt;/b&gt; &lt;br&gt;&lt;br&gt;. Если вы всё же хотите использовать запутывание, пожалуйста отмените сначала выбор всех неанонимизированных вводов, затем снова поставте флажок "Запутывание".</translation>
+    </message>
+    <message>
         <source>highest</source>
         <translation>самый высокий</translation>
     </message>
@@ -997,6 +1013,10 @@ MultiSend: %1</translation>
     <message>
         <source>Can vary +/- %1 duff(s) per input.</source>
         <translation>Может вариировать +/- %1 duff(s) к вводу</translation>
+    </message>
+    <message>
+        <source>n/a</source>
+        <translation>недоступен</translation>
     </message>
     <message>
         <source>medium</source>
@@ -1110,8 +1130,8 @@ MultiSend: %1</translation>
         <translation>Изменить адрес отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Testwage address.</source>
-        <translation>Введенный адрес "%1" не является Testwage адресом.</translation>
+        <source>The entered address "%1" is not a valid TESTWAGE address.</source>
+        <translation>Введенный адрес "%1" не является TESTWAGE адресом.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1156,16 +1176,16 @@ MultiSend: %1</translation>
         <translation>версия</translation>
     </message>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Core</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About Testwage Core</source>
-        <translation>О Testwage Core</translation>
+        <source>About TESTWAGE Core</source>
+        <translation>О TESTWAGE Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1211,16 +1231,16 @@ MultiSend: %1</translation>
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to Testwage Core.</source>
-        <translation>Добро пожаловать в Testwage Core.</translation>
+        <source>Welcome to TESTWAGE Core.</source>
+        <translation>Добро пожаловать в TESTWAGE Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Testwage Core will store its data.</source>
-        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные Testwage Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where TESTWAGE Core will store its data.</source>
+        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные TESTWAGE Core.</translation>
     </message>
     <message>
-        <source>Testwage Core will download and store a copy of the Testwage block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Testwage Core загрузит и сохранит копию цепочки блоков Testwage. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
+        <source>TESTWAGE Core will download and store a copy of the TESTWAGE block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>TESTWAGE Core загрузит и сохранит копию цепочки блоков TESTWAGE. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1231,8 +1251,8 @@ MultiSend: %1</translation>
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Core</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1373,12 +1393,12 @@ MultiSend: %1</translation>
         <translation>Введите адрес для отправки</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Testwage addresses after it matures.
-To Add: enter percentage to give and Testwage address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other TESTWAGE addresses after it matures.
+To Add: enter percentage to give and TESTWAGE address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие Testwage адреса.
-Для добавления: введите передаваемый процент и Testwage адрес для добавления к вектору MultiSend.
+        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие TESTWAGE адреса.
+Для добавления: введите передаваемый процент и TESTWAGE адрес для добавления к вектору MultiSend.
 Для удаления: введите удаляемый адрес и нажмите удалить.
 MultiSend будет неактивен до тех пор, пока вы не нажмете Включить</translation>
     </message>
@@ -1548,16 +1568,16 @@ Please check the address and try again.</source>
         <translation>Настройка Перемешивания</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Testwage's configuration screen.</source>
-        <translation>Перемешивание было успешно выставлено на стандартные значения (%1 и 2 цикла). Вы в любой момент можете это изменить, открыв окно настройки Testwage.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening TESTWAGE's configuration screen.</source>
+        <translation>Перемешивание было успешно выставлено на стандартные значения (%1 и 2 цикла). Вы в любой момент можете это изменить, открыв окно настройки TESTWAGE.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Testwage's configuration screen.</source>
-        <translation>Перемешивание было успешно выбрано как высокое (%1 и 8 циклов). Вы в любой момент можете это изменить, открыв окно настройки Testwage.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening TESTWAGE's configuration screen.</source>
+        <translation>Перемешивание было успешно выбрано как высокое (%1 и 8 циклов). Вы в любой момент можете это изменить, открыв окно настройки TESTWAGE.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Testwage's configuration screen.</source>
-        <translation>Перемешивание было успешно выставлено на максимальное (%1 и 16 циклов). Вы в любой момент можете это изменить, открыв окно настройки Testwage.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening TESTWAGE's configuration screen.</source>
+        <translation>Перемешивание было успешно выставлено на максимальное (%1 и 16 циклов). Вы в любой момент можете это изменить, открыв окно настройки TESTWAGE.</translation>
     </message>
 </context>
 <context>
@@ -1618,8 +1638,8 @@ Please check the address and try again.</source>
         <translation>Отключив проведение неподтвержденных изменений все изменения о транзакции &lt;br/&gt;не будут использованы пока транзакция не получит хотя бы одно подтверждение.&lt;br/&gt;Также это влияет на расчет вашего баланса.</translation>
     </message>
     <message>
-        <source>Automatically open the Testwage client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть клиентский порт Testwage через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
+        <source>Automatically open the TESTWAGE client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть клиентский порт TESTWAGE через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1638,12 +1658,28 @@ Please check the address and try again.</source>
         <translation>Эксперт</translation>
     </message>
     <message>
-        <source>Automatically start Testwage after logging in to the system.</source>
-        <translation>Автоматически запускать Testwage после входа в систему.</translation>
+        <source>Automatically start TESTWAGE after logging in to the system.</source>
+        <translation>Автоматически запускать TESTWAGE после входа в систему.</translation>
     </message>
     <message>
-        <source>&amp;Start Testwage on system login</source>
-        <translation>&amp;Запускать Testwage при входе в систему</translation>
+        <source>&amp;Start TESTWAGE on system login</source>
+        <translation>&amp;Запускать TESTWAGE при входе в систему</translation>
+    </message>
+    <message>
+        <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
+        <translation>Эта настройка определяет количество мастернод, используемых для анонимизации. Чем больше циклов, тем выше уровень конфиденциальности, но не стоит забывать также об увеличивающейся комиссии.</translation>
+    </message>
+    <message>
+        <source>Obfuscation rounds to use</source>
+        <translation>Количество циклов Перемешивания</translation>
+    </message>
+    <message>
+        <source>This amount acts as a threshold to turn off Obfuscation once it's reached.</source>
+        <translation>При достижении этого значения Перемешивание будет отключено.</translation>
+    </message>
+    <message>
+        <source>Amount of TESTWAGE to keep anonymized</source>
+        <translation>Количество TESTWAGE, держащихся анонимизированными</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1670,34 +1706,22 @@ Please check the address and try again.</source>
         <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Testwage.</source>
-        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска Testwage.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting TESTWAGE.</source>
+        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска TESTWAGE.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/testwage-project/testwage-project-translations</source>
+https://www.transifex.com/testwage/testwage-project-translations</source>
         <translation>Отсутствует ваш язык или заметили незавершенный перевод? Вы можете помочь нам стать лучше:
-https://www.transifex.com/testwage-project/testwage-project-translations</translation>
+https://www.transifex.com/testwage/testwage-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Percentage of incoming WAGE which get automatically converted to zWAGE via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент приходящих WAGE, которые автоматически конвертируются в zWAGE благодаря Zerocoin протоколу (min: 10%)</translation>
-    </message>
-    <message>
-        <source>Percentage of autominted zWAGE</source>
-        <translation>Процент  авточеканненых zWAGE</translation>
-    </message>
-    <message>
-        <source>Preferred Automint zWAGE Denomination</source>
-        <translation>Предпочитаемый номинал авточеканной  монеты  zWAGE</translation>
-    </message>
-    <message>
-        <source>Connect to the Testwage network through a SOCKS5 proxy.</source>
-        <translation>Подключиться к сети Testwage через SOCKS5 прокси.</translation>
+        <source>Connect to the TESTWAGE network through a SOCKS5 proxy.</source>
+        <translation>Подключиться к сети TESTWAGE через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1788,10 +1812,6 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>&amp;Отмена</translation>
     </message>
     <message>
-        <source>I don't care</source>
-        <translation>Мне не важно</translation>
-    </message>
-    <message>
         <source>default</source>
         <translation>по-умолчанию</translation>
     </message>
@@ -1827,10 +1847,6 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Вид</translation>
     </message>
     <message>
-        <source>WAGE Balances</source>
-        <translation>Баланс WAGE</translation>
-    </message>
-    <message>
         <source>Available:</source>
         <translation>Доступно:</translation>
     </message>
@@ -1855,8 +1871,12 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Награды за хранение и мастерноды, которые еще не *созрели*</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Testwage network after a connection is established, but this process has not completed yet.</source>
-        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью Testwage после установки соединения, но этот процесс еще не завершен. </translation>
+        <source>Balances</source>
+        <translation>Балансы</translation>
+    </message>
+    <message>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TESTWAGE network after a connection is established, but this process has not completed yet.</source>
+        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью TESTWAGE после установки соединения, но этот процесс еще не завершен. </translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1891,28 +1911,146 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Расходуемый:</translation>
     </message>
     <message>
-        <source>WAGE:</source>
-        <translation>WAGE:</translation>
+        <source>Status:</source>
+        <translation>Статус:</translation>
     </message>
     <message>
-        <source>zWAGE:</source>
-        <translation>zWAGE:</translation>
+        <source>Obfuscation Balance:</source>
+        <translation>Баланс Обфускации</translation>
     </message>
     <message>
-        <source>0 %</source>
-        <translation>0 %</translation>
+        <source>0 WAGE / 0 Rounds</source>
+        <translation>0 WAGE / 0 Циклов</translation>
     </message>
     <message>
-        <source>Zerocoin Balance</source>
-        <translation>Баланс Zerocoin </translation>
+        <source>Enabled/Disabled</source>
+        <translation>Включено/Выключено</translation>
+    </message>
+    <message>
+        <source>Try to manually submit a Obfuscation request.</source>
+        <translation>Попробуюте вручную создать запрос на Обфускацию.</translation>
+    </message>
+    <message>
+        <source>Reset the current status of Obfuscation (can interrupt Obfuscation if it's in the process of Mixing, which can cost you money!)</source>
+        <translation>Сбросить текущий статус Обфускации (может прервать обфускацию, если она уже началась, что может стоить ваших денег!)</translation>
+    </message>
+    <message>
+        <source>Obfuscation</source>
+        <translation>Обфускация</translation>
+    </message>
+    <message>
+        <source>Completion:</source>
+        <translation>Завершение:</translation>
+    </message>
+    <message>
+        <source>Amount and Rounds:</source>
+        <translation>Количесво повторений:</translation>
+    </message>
+    <message>
+        <source>Submitted Denom:</source>
+        <translation>Выбранная единица:</translation>
+    </message>
+    <message>
+        <source>n/a</source>
+        <translation>недоступен</translation>
     </message>
     <message>
         <source>Recent transactions</source>
         <translation>Последние транзакции</translation>
     </message>
     <message>
+        <source>Start/Stop Mixing</source>
+        <translation>Запустить/Остановить смешивание </translation>
+    </message>
+    <message>
+        <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
+        <translation>Деноминации, которые вы отправили на мастерноду. &lt;br&gt;Для смешиваыния, другие пользователи должны отправить точно такие же деноминации.</translation>
+    </message>
+    <message>
+        <source>(Last Message)</source>
+        <translation>(Последнее сообщение)</translation>
+    </message>
+    <message>
+        <source>Try Mix</source>
+        <translation>Попытка смешать</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Сброс</translation>
+    </message>
+    <message>
         <source>out of sync</source>
         <translation>несинронизировано</translation>
+    </message>
+    <message>
+        <source>Disabled</source>
+        <translation>Выключено</translation>
+    </message>
+    <message>
+        <source>No inputs detected</source>
+        <translation>Нет ввода</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n Rounds</source>
+        <translation><numerusform>%n Цикл</numerusform><numerusform>%n Циклов</numerusform><numerusform>%n Циклов</numerusform><numerusform>%n Циклов</numerusform></translation>
+    </message>
+    <message>
+        <source>Not enough compatible inputs to anonymize &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style='color:red;'&gt;%2&lt;/span&gt; instead</source>
+        <translation>Недостаточно совместимых вводов для анонимизации &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt; вместо этого будет анонимизировано &lt;span style='color:red;'&gt;%2&lt;/span&gt;</translation>
+    </message>
+    <message>
+        <source>Overall progress</source>
+        <translation>Общий ход выполнения</translation>
+    </message>
+    <message>
+        <source>Anonymized</source>
+        <translation>Анонимизировано</translation>
+    </message>
+    <message>
+        <source>Last Obfuscation message:
+</source>
+        <translation>Последнее сообщение Обфускации:
+</translation>
+    </message>
+    <message>
+        <source>Obfuscation was successfully reset.</source>
+        <translation>Обфускация была успешно сброшена.</translation>
+    </message>
+    <message>
+        <source>If you don't want to see internal Obfuscation fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
+        <translation>Если вы не хотите видеть внутреннию плату / трансакции Обфускацци выберите "Наиболее распространненные" как Тип в закладке "Транзакции".</translation>
+    </message>
+    <message>
+        <source>Obfuscation requires at least %1 to use.</source>
+        <translation>Для использования обфускации необходимо как минимум %1</translation>
+    </message>
+    <message>
+        <source>Wallet is locked and user declined to unlock. Disabling Obfuscation.</source>
+        <translation>Кошелёк заблокирован и пользователь отклонен для разблокировки. Отключение Обфускации.</translation>
+    </message>
+    <message>
+        <source>Found enough compatible inputs to anonymize %1</source>
+        <translation>Найдено достаточно совместимых вводов для анонимизации %1</translation>
+    </message>
+    <message>
+        <source>Start Obfuscation</source>
+        <translation>Начать Обфускацию</translation>
+    </message>
+    <message>
+        <source>Stop Obfuscation</source>
+        <translation>Остановить Обфускацию</translation>
+    </message>
+    <message>
+        <source>Mixed</source>
+        <translation>Смешано</translation>
+    </message>
+    <message>
+        <source>Enabled</source>
+        <translation>Включено</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>Недоступно</translation>
     </message>
 </context>
 <context>
@@ -1938,8 +2076,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Не удалось запустить testwage: обработчик click-to-pay </translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Testwage address or malformed URI parameters.</source>
-        <translation>URI не интерпретируется! Причиной этому может быть неверный Testwage адрес или неверные параметеры URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid TESTWAGE address or malformed URI parameters.</source>
+        <translation>URI не интерпретируется! Причиной этому может быть неверный TESTWAGE адрес или неверные параметеры URI.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2018,181 +2156,14 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
     </message>
 </context>
 <context>
-    <name>PrivacyDialog</name>
-    <message>
-        <source>WAGE which were anonymized via Zerocin Protocol</source>
-        <translation>WAGE, который был анонимно использован через Zerocoin протокол</translation>
-    </message>
-    <message>
-        <source>Zerocoin Actions:</source>
-        <translation>Действия Zerocoin </translation>
-    </message>
-    <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Testwage network after a connection is established, but this process has not completed yet.</source>
-        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью Testwage после установки соединения, но этот процесс еще не завершен. </translation>
-    </message>
-    <message>
-        <source>Enter an amount of Wage to convert to zWage</source>
-        <translation>Введите сумму в Wage для  конвертации в zWage</translation>
-    </message>
-    <message>
-        <source>Mint Zerocoin</source>
-        <translation>Создать Zerocoin</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Available for Minting:</source>
-        <translation>Доступный для чеканки</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>Сброс</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Количество:</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Сумма:</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Выбрать ранее использованный адрес</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>Вставить адрес из буфера обмена</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>Available Zerocoin  Balance:</source>
-        <translation>Доступный Баланс в Zerocoin </translation>
-    </message>
-    <message>
-        <source>Denominations with value 1:</source>
-        <translation>Номинал со значением 1:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 1:</source>
-        <translation>Номинал со значением 1:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 5:</source>
-        <translation>Номинал со значением 5:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 5:</source>
-        <translation>Номинал со значением 5:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 10:</source>
-        <translation>Номинал со значением 10:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 10:</source>
-        <translation>Номинал со значением 10:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 50:</source>
-        <translation>Номинал со значением 50:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 50:</source>
-        <translation>Номинал со значением 50:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 100:</source>
-        <translation>Номинал со значением 100:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 100:</source>
-        <translation>Номинал со значением 100:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 500:</source>
-        <translation>Номинал со значением 500:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 500:</source>
-        <translation>Номинал со значением 500:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 1000:</source>
-        <translation>Номинал со значением 1000:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 1000:</source>
-        <translation>Номинал со значением 1000:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 5000:</source>
-        <translation>Номинал со значением 5000:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 5000:</source>
-        <translation>Номинал со значением 5000:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Приоритет:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Комиссия:</translation>
-    </message>
-    <message>
-        <source>Dust:</source>
-        <translation>Пыль:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>нет</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Байты:</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation>промежуточный</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Изменить:</translation>
-    </message>
-    <message>
-        <source>out of sync</source>
-        <translation>несинронизировано</translation>
-    </message>
-    <message>
-        <source>Copy quantity</source>
-        <translation>Копировать количество</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Копировать сумму</translation>
-    </message>
-    </context>
-<context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>Enter a Testwage address (e.g. %1)</source>
-        <translation>Введите адрес Testwage (например %1)</translation>
+        <source>Enter a TESTWAGE address (e.g. %1)</source>
+        <translation>Введите адрес TESTWAGE (например %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2325,8 +2296,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the Testwage debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть протокол отладки Testwage. Это может занять некоторе время, если файл протокола очень большой.</translation>
+        <source>Open the TESTWAGE debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть протокол отладки TESTWAGE. Это может занять некоторе время, если файл протокола очень большой.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2486,8 +2457,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Вывод:</translation>
     </message>
     <message>
-        <source>Welcome to the Testwage RPC console.</source>
-        <translation>Добро пожаловать в окружение Testwage RPC.</translation>
+        <source>Welcome to the TESTWAGE RPC console.</source>
+        <translation>Добро пожаловать в окружение TESTWAGE RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2722,6 +2693,10 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Свернуть</translation>
     </message>
     <message>
+        <source>Obfuscation</source>
+        <translation>Обфускация</translation>
+    </message>
+    <message>
         <source>per kilobyte</source>
         <translation>за килобайт</translation>
     </message>
@@ -2786,8 +2761,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Копировать изменение</translation>
     </message>
     <message>
-        <source>Warning: Invalid Testwage address</source>
-        <translation>Предупреждение: неправильный Testwage адрес</translation>
+        <source>Warning: Invalid TESTWAGE address</source>
+        <translation>Предупреждение: неправильный TESTWAGE адрес</translation>
     </message>
     <message>
         <source>and SwiftTX</source>
@@ -2840,8 +2815,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Testwage Core is shutting down...</source>
-        <translation>Testwage Core выключается...</translation>
+        <source>TESTWAGE Core is shutting down...</source>
+        <translation>TESTWAGE Core выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2851,8 +2826,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Testwage address to sign the message with</source>
-        <translation>Адрес Testwage для подписи сообщения с помощью</translation>
+        <source>The TESTWAGE address to sign the message with</source>
+        <translation>Адрес TESTWAGE для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2875,16 +2850,16 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Testwage address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес Testwage</translation>
+        <source>Sign the message to prove you own this TESTWAGE address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес TESTWAGE</translation>
     </message>
     <message>
-        <source>The Testwage address the message was signed with</source>
-        <translation>Адрес Testwage, которым подписано сообщение</translation>
+        <source>The TESTWAGE address the message was signed with</source>
+        <translation>Адрес TESTWAGE, которым подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Testwage address</source>
-        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным Testwage адресом </translation>
+        <source>Verify the message to ensure it was signed with the specified TESTWAGE address</source>
+        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным TESTWAGE адресом </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2930,8 +2905,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Core</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2946,8 +2921,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Разработчики Dash Core</translation>
     </message>
     <message>
-        <source>The Testwage Core developers</source>
-        <translation>Разработчики Testwage Core</translation>
+        <source>The TESTWAGE Core developers</source>
+        <translation>Разработчики TESTWAGE Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3198,13 +3173,6 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
     </message>
     </context>
 <context>
-    <name>ZWageControlDialog</name>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    </context>
-<context>
     <name>testwage-core</name>
     <message>
         <source>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
@@ -3239,8 +3207,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Copyright (C) 2014-%i Разработчики Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Testwage Core Developers</source>
-        <translation>Copyright (C) 2015-%i Разработчики Testwage Core</translation>
+        <source>Copyright (C) 2015-%i The TESTWAGE Core Developers</source>
+        <translation>Copyright (C) 2015-%i Разработчики TESTWAGE Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3421,6 +3389,10 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
     <message>
         <source>Not enough file descriptors available.</source>
         <translation>Недостаточно доступных дескрипторов файлов.</translation>
+    </message>
+    <message>
+        <source>Obfuscation options:</source>
+        <translation>Варианты обфускации:</translation>
     </message>
     <message>
         <source>Obfuscation request complete:</source>

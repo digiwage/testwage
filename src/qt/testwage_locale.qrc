@@ -10,7 +10,6 @@
         <file alias="es">locale/testwage_es.qm</file>
         <file alias="fi">locale/testwage_fi.qm</file>
         <file alias="fr_FR">locale/testwage_fr_FR.qm</file>
-        <file alias="hr">locale/testwage_hr.qm</file>
         <file alias="it">locale/testwage_it.qm</file>
         <file alias="ja">locale/testwage_ja.qm</file>
         <file alias="ko_KR">locale/testwage_ko_KR.qm</file>
@@ -22,7 +21,6 @@
         <file alias="ru">locale/testwage_ru.qm</file>
         <file alias="sk">locale/testwage_sk.qm</file>
         <file alias="sv">locale/testwage_sv.qm</file>
-        <file alias="tr">locale/testwage_tr.qm</file>
         <file alias="uk">locale/testwage_uk.qm</file>
         <file alias="zh_CN">locale/testwage_zh_CN.qm</file>
         <file alias="zh_TW">locale/testwage_zh_TW.qm</file>

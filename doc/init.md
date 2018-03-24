@@ -89,7 +89,7 @@ use old versions of Upstart and do not supply the start-stop-daemon uitility.
 Copy testwaged.init to /etc/init.d/testwaged. Test by running "service testwaged start".
 
 Using this script, you can adjust the path and flags to the testwaged program by
-setting the testwaged and FLAGS environment variables in the file
+setting the TESTWAGED and FLAGS environment variables in the file
 /etc/sysconfig/testwaged. You can also use the DAEMONOPTS environment variable here.
 
 5. Auto-respawn

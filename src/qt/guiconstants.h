@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2018 Testwage developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -48,9 +48,9 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 35
 
-#define QAPP_ORG_NAME "Testwage"
+#define QAPP_ORG_NAME "TESTWAGE"
 #define QAPP_ORG_DOMAIN "testwage.org"
-#define QAPP_APP_NAME_DEFAULT "Testwage-Qt"
-#define QAPP_APP_NAME_TESTNET "Testwage-Qt-testnet"
+#define QAPP_APP_NAME_DEFAULT "TESTWAGE-Qt"
+#define QAPP_APP_NAME_TESTNET "TESTWAGE-Qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

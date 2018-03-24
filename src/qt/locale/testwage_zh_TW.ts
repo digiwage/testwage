@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>選擇要匯出Testwage幣的位址</translation>
+        <translation>選擇要匯出TESTWAGE幣的位址</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>選擇要接收Testwage幣的位址</translation>
+        <translation>選擇要接收TESTWAGE幣的位址</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>接收的位址</translation>
     </message>
     <message>
-        <source>These are your Testwage addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>這是你用來付款的 Testwage 位址, 送出前, 請務必確認金額及接收位址是否正確.</translation>
+        <source>These are your TESTWAGE addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>這是你用來付款的 TESTWAGE 位址, 送出前, 請務必確認金額及接收位址是否正確.</translation>
     </message>
     <message>
-        <source>These are your Testwage addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>這是你用來接收款項的 Testwage 位址, 建議你每次付款都使用新的位址.</translation>
+        <source>These are your TESTWAGE addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>這是你用來接收款項的 TESTWAGE 位址, 建議你每次付款都使用新的位址.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -164,8 +164,8 @@
         <translation>錢包確認加密</translation>
     </message>
     <message>
-        <source>Testwage will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your WAGEs from being stolen by malware infecting your computer.</source>
-        <translation>Testwage 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 WAGE 幣被可疑軟體或病毒偷走的風險.</translation>
+        <source>TESTWAGE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your WAGEs from being stolen by malware infecting your computer.</source>
+        <translation>TESTWAGE 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 WAGE 幣被可疑軟體或病毒偷走的風險.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -235,8 +235,8 @@
         <translation>位址:</translation>
     </message>
     <message>
-        <source>The Testwage address to sign the message with</source>
-        <translation>對訊息簽名的 Testwage 位址</translation>
+        <source>The TESTWAGE address to sign the message with</source>
+        <translation>對訊息簽名的 TESTWAGE 位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -267,8 +267,8 @@
         <translation>拷貝目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Testwage address</source>
-        <translation>使用簽章來證明你是該  Testwage 位址的擁有者,</translation>
+        <source>Sign the message to prove you own this TESTWAGE address</source>
+        <translation>使用簽章來證明你是該  TESTWAGE 位址的擁有者,</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -287,12 +287,12 @@
         <translation>&amp;BIP 38 解密</translation>
     </message>
     <message>
-        <source>The Testwage address the message was signed with</source>
-        <translation>此訊息之 Testwage 位址已簽章於</translation>
+        <source>The TESTWAGE address the message was signed with</source>
+        <translation>此訊息之 TESTWAGE 位址已簽章於</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Testwage address</source>
-        <translation>驗證訊息以確保該  Testwage 位址已被簽章</translation>
+        <source>Verify the message to ensure it was signed with the specified TESTWAGE address</source>
+        <translation>驗證訊息以確保該  TESTWAGE 位址已被簽章</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -582,12 +582,12 @@
         <translation>Tabs 工具列</translation>
     </message>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Core</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Core</translation>
     </message>
     <message>
-        <source>Send coins to a Testwage address</source>
-        <translation>送出錢幣到 Testwage 地址</translation>
+        <source>Send coins to a TESTWAGE address</source>
+        <translation>送出錢幣到 TESTWAGE 地址</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and testwage: URIs)</source>
@@ -602,24 +602,24 @@
         <translation>瀏覽 Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Testwage Core</source>
-        <translation>&amp;關於 Testwage Core</translation>
+        <source>&amp;About TESTWAGE Core</source>
+        <translation>&amp;關於 TESTWAGE Core</translation>
     </message>
     <message>
-        <source>Show information about Testwage Core</source>
-        <translation>顯示 Testwage Core 相關資訊</translation>
+        <source>Show information about TESTWAGE Core</source>
+        <translation>顯示 TESTWAGE Core 相關資訊</translation>
     </message>
     <message>
-        <source>Modify configuration options for Testwage</source>
-        <translation>修改 Testwage 設定</translation>
+        <source>Modify configuration options for TESTWAGE</source>
+        <translation>修改 TESTWAGE 設定</translation>
     </message>
     <message>
-        <source>Sign messages with your Testwage addresses to prove you own them</source>
-        <translation>使用你的 Testwage 位址對訊息簽章, 來證明你是擁有者</translation>
+        <source>Sign messages with your TESTWAGE addresses to prove you own them</source>
+        <translation>使用你的 TESTWAGE 位址對訊息簽章, 來證明你是擁有者</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Testwage addresses</source>
-        <translation>驗證訊息簽章與 Testwage 位址吻合</translation>
+        <source>Verify messages to ensure they were signed with specified TESTWAGE addresses</source>
+        <translation>驗證訊息簽章與 TESTWAGE 位址吻合</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -650,8 +650,8 @@
         <translation>打開Masternode設定檔</translation>
     </message>
     <message>
-        <source>Open a Testwage: URI or payment request</source>
-        <translation>打開Testwage: 位址或付款請求 </translation>
+        <source>Open a TESTWAGE: URI or payment request</source>
+        <translation>打開TESTWAGE: 位址或付款請求 </translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -662,12 +662,12 @@
         <translation>區塊鏈瀏覽視窗</translation>
     </message>
     <message>
-        <source>Show the Testwage Core help message to get a list with possible Testwage command-line options</source>
-        <translation>顯示 Testwage Core 幫助訊息以取得 Testwage 命令列表選項</translation>
+        <source>Show the TESTWAGE Core help message to get a list with possible TESTWAGE command-line options</source>
+        <translation>顯示 TESTWAGE Core 幫助訊息以取得 TESTWAGE 命令列表選項</translation>
     </message>
     <message>
-        <source>Testwage Core client</source>
-        <translation>Testwage Core 客戶端</translation>
+        <source>TESTWAGE Core client</source>
+        <translation>TESTWAGE Core 客戶端</translation>
     </message>
     </context>
 <context>
@@ -696,15 +696,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Core</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Core</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Core</translation>
     </message>
     </context>
 <context>
@@ -742,25 +742,6 @@
     </context>
 <context>
     <name>PeerTableModel</name>
-    </context>
-<context>
-    <name>PrivacyDialog</name>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>選擇之前用過的位址</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>從剪貼簿貼上</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
     </context>
 <context>
     <name>QObject</name>
@@ -836,8 +817,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Testwage address to sign the message with</source>
-        <translation>對訊息簽名的 Testwage 位址</translation>
+        <source>The TESTWAGE address to sign the message with</source>
+        <translation>對訊息簽名的 TESTWAGE 位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -860,16 +841,16 @@
         <translation>拷貝目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Testwage address</source>
-        <translation>使用簽章來證明你是該  Testwage 位址的擁有者,</translation>
+        <source>Sign the message to prove you own this TESTWAGE address</source>
+        <translation>使用簽章來證明你是該  TESTWAGE 位址的擁有者,</translation>
     </message>
     <message>
-        <source>The Testwage address the message was signed with</source>
-        <translation>此訊息之 Testwage 位址已簽章於</translation>
+        <source>The TESTWAGE address the message was signed with</source>
+        <translation>此訊息之 TESTWAGE 位址已簽章於</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Testwage address</source>
-        <translation>驗證訊息以確保該  Testwage 位址已被簽章</translation>
+        <source>Verify the message to ensure it was signed with the specified TESTWAGE address</source>
+        <translation>驗證訊息以確保該  TESTWAGE 位址已被簽章</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -907,8 +888,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Core</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Core</translation>
     </message>
     </context>
 <context>
@@ -969,9 +950,6 @@
         <source>Export the data in the current tab to a file</source>
         <translation>匯出目前面板中的資料</translation>
     </message>
-    </context>
-<context>
-    <name>ZWageControlDialog</name>
     </context>
 <context>
     <name>testwage-core</name>

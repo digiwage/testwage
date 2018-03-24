@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your Testwage addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços Testwage para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
+        <source>These are your TESTWAGE addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços TESTWAGE para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your Testwage addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços Testwage para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your TESTWAGE addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços TESTWAGE para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Confirmar criptografia de carteira</translation>
     </message>
     <message>
-        <source>Testwage will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your WAGEs from being stolen by malware infecting your computer.</source>
-        <translation>Testwage vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas WAGEs de serem roubadas por malwares infectando seu computador.</translation>
+        <source>TESTWAGE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your WAGEs from being stolen by malware infecting your computer.</source>
+        <translation>TESTWAGE vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas WAGEs de serem roubadas por malwares infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -243,8 +243,8 @@
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>The Testwage address to sign the message with</source>
-        <translation>O endereço Testwage para assinar a mensagem</translation>
+        <source>The TESTWAGE address to sign the message with</source>
+        <translation>O endereço TESTWAGE para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Testwage address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço Testwage</translation>
+        <source>Sign the message to prove you own this TESTWAGE address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço TESTWAGE</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -291,12 +291,12 @@
         <translation>Limpar &amp;Tudo</translation>
     </message>
     <message>
-        <source>The Testwage address the message was signed with</source>
-        <translation>O endereço Testwage que assinou a mensagem</translation>
+        <source>The TESTWAGE address the message was signed with</source>
+        <translation>O endereço TESTWAGE que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Testwage address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço Testwage especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified TESTWAGE address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço TESTWAGE especificado.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -586,12 +586,12 @@
         <translation>Ferramentas de abas</translation>
     </message>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Core</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Core</translation>
     </message>
     <message>
-        <source>Send coins to a Testwage address</source>
-        <translation>Enviar moedas para um endereço Testwage</translation>
+        <source>Send coins to a TESTWAGE address</source>
+        <translation>Enviar moedas para um endereço TESTWAGE</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and testwage: URIs)</source>
@@ -606,24 +606,24 @@
         <translation>Procurar masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Testwage Core</source>
-        <translation>&amp;Sobre o Testwage Core</translation>
+        <source>&amp;About TESTWAGE Core</source>
+        <translation>&amp;Sobre o TESTWAGE Core</translation>
     </message>
     <message>
-        <source>Show information about Testwage Core</source>
-        <translation>Mostra informação sobre o Testwage Core</translation>
+        <source>Show information about TESTWAGE Core</source>
+        <translation>Mostra informação sobre o TESTWAGE Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Testwage</source>
-        <translation>Modificar opções de configuração para Testwage</translation>
+        <source>Modify configuration options for TESTWAGE</source>
+        <translation>Modificar opções de configuração para TESTWAGE</translation>
     </message>
     <message>
-        <source>Sign messages with your Testwage addresses to prove you own them</source>
-        <translation>Assine mensagens com seus endereços Testwage para provar que você os detém</translation>
+        <source>Sign messages with your TESTWAGE addresses to prove you own them</source>
+        <translation>Assine mensagens com seus endereços TESTWAGE para provar que você os detém</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Testwage addresses</source>
-        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços Testwage especificados</translation>
+        <source>Verify messages to ensure they were signed with specified TESTWAGE addresses</source>
+        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços TESTWAGE especificados</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -654,8 +654,8 @@
         <translation>Abrir arquivo de configuração de Masternode</translation>
     </message>
     <message>
-        <source>Open a Testwage: URI or payment request</source>
-        <translation>Abrir um Testwage: URI ou requisição de pagamento</translation>
+        <source>Open a TESTWAGE: URI or payment request</source>
+        <translation>Abrir um TESTWAGE: URI ou requisição de pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -666,12 +666,12 @@
         <translation>Janela de exploração de blocos</translation>
     </message>
     <message>
-        <source>Show the Testwage Core help message to get a list with possible Testwage command-line options</source>
-        <translation>Mostra a ajuda da Testwage Core para receber uma lista com possíveis opções de linha de comando Testwage</translation>
+        <source>Show the TESTWAGE Core help message to get a list with possible TESTWAGE command-line options</source>
+        <translation>Mostra a ajuda da TESTWAGE Core para receber uma lista com possíveis opções de linha de comando TESTWAGE</translation>
     </message>
     <message>
-        <source>Testwage Core client</source>
-        <translation>Cliente Core Testwage</translation>
+        <source>TESTWAGE Core client</source>
+        <translation>Cliente Core TESTWAGE</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -813,6 +813,10 @@ MultiSend: %1</translation>
 <context>
     <name>ClientModel</name>
     <message>
+        <source>Total: %1 (OBF compatible: %2 / Enabled: %3)</source>
+        <translation>Total: %1 (OBF compatível: %2 / Ativado: %3)</translation>
+    </message>
+    <message>
         <source>Network Alert</source>
         <translation>Alerta de rede</translation>
     </message>
@@ -952,6 +956,10 @@ MultiSend: %1</translation>
         <translation>Favor alterar para o "Modo de lista" para usar esta função.</translation>
     </message>
     <message>
+        <source>Non-anonymized input selected. &lt;b&gt;Obfuscation will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Obfuscation, please deselect all non-nonymized inputs first and then check Obfuscation checkbox again.</source>
+        <translation>Input não-anonimizado selecionado. &lt;b&gt;Ofuscação será desabilitada.&lt;/b&gt;&lt;br&gt;&lt;br&gt; Se você ainda quiser usar a Ofuscação, favor desmarcar todos os inputs não anônimos primeiro e então marque a opção de Ofuscação novamente.</translation>
+    </message>
+    <message>
         <source>highest</source>
         <translation>mais alto</translation>
     </message>
@@ -970,6 +978,10 @@ MultiSend: %1</translation>
     <message>
         <source>Can vary +/- %1 duff(s) per input.</source>
         <translation>pode variar entre +/-%1 duff(s) por input</translation>
+    </message>
+    <message>
+        <source>n/a</source>
+        <translation>n/a</translation>
     </message>
     <message>
         <source>medium</source>
@@ -1083,8 +1095,8 @@ MultiSend: %1</translation>
         <translation>Editar endereço remetente</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Testwage address.</source>
-        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de Testwage</translation>
+        <source>The entered address "%1" is not a valid TESTWAGE address.</source>
+        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de TESTWAGE</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1129,16 +1141,16 @@ MultiSend: %1</translation>
         <translation>versão</translation>
     </message>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Core</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Testwage Core</source>
-        <translation>Sobre o Testwage Core</translation>
+        <source>About TESTWAGE Core</source>
+        <translation>Sobre o TESTWAGE Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1172,16 +1184,16 @@ MultiSend: %1</translation>
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to Testwage Core.</source>
-        <translation>Bem-vindo ao Testwage Core.</translation>
+        <source>Welcome to TESTWAGE Core.</source>
+        <translation>Bem-vindo ao TESTWAGE Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Testwage Core will store its data.</source>
-        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde Testwage Core vai armazenar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where TESTWAGE Core will store its data.</source>
+        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde TESTWAGE Core vai armazenar os seus dados.</translation>
     </message>
     <message>
-        <source>Testwage Core will download and store a copy of the Testwage block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Testwage Core vai baixar e armazenar uma cópia da blockchain Testwage. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
+        <source>TESTWAGE Core will download and store a copy of the TESTWAGE block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>TESTWAGE Core vai baixar e armazenar uma cópia da blockchain TESTWAGE. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1192,8 +1204,8 @@ MultiSend: %1</translation>
         <translation>Usar um diretório personalizado de dados:</translation>
     </message>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Core</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1480,16 +1492,16 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Configuração de ofuscação</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Testwage's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela Testwage's.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening TESTWAGE's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela TESTWAGE's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Testwage's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela Testwage's.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening TESTWAGE's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela TESTWAGE's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Testwage's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela Testwage's.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening TESTWAGE's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela TESTWAGE's.</translation>
     </message>
 </context>
 <context>
@@ -1542,8 +1554,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>C&amp;arteira</translation>
     </message>
     <message>
-        <source>Automatically open the Testwage client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automaticamente a porta do cliente Testwage no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
+        <source>Automatically open the TESTWAGE client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automaticamente a porta do cliente TESTWAGE no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1562,12 +1574,24 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Testwage after logging in to the system.</source>
-        <translation>Iniciar automaticamente Testwage depois de logar no sistema.</translation>
+        <source>Automatically start TESTWAGE after logging in to the system.</source>
+        <translation>Iniciar automaticamente TESTWAGE depois de logar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start Testwage on system login</source>
-        <translation>&amp;Iniciar Testwage ao logar no sistema</translation>
+        <source>&amp;Start TESTWAGE on system login</source>
+        <translation>&amp;Iniciar TESTWAGE ao logar no sistema</translation>
+    </message>
+    <message>
+        <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
+        <translation>Esta configuração determina a quantidade de masternodes individuais em que um input será feito anônimo. &lt;br/&gt;Mais rodadas de anonimidade darão um grau maior de privacidade, mas também custarão mais em taxas. </translation>
+    </message>
+    <message>
+        <source>Obfuscation rounds to use</source>
+        <translation>Rodadas de ofuscação para usar</translation>
+    </message>
+    <message>
+        <source>Amount of TESTWAGE to keep anonymized</source>
+        <translation>Quantidade de TESTWAGE a manter anônima</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1582,18 +1606,18 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Testwage.</source>
-        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do Testwage.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting TESTWAGE.</source>
+        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do TESTWAGE.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/testwage-project/testwage-project-translations</source>
+https://www.transifex.com/testwage/testwage-project-translations</source>
         <translation>Linguagem não encontrada ou tradução incompleta? Ajude contribuido com traduções aqui:
-https://www.transifex.com/testwage-project/testwage-project-translations</translation>
+https://www.transifex.com/testwage/testwage-project-translations</translation>
     </message>
     <message>
-        <source>Connect to the Testwage network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede Testwage através de um proxy SOCKS5</translation>
+        <source>Connect to the TESTWAGE network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede TESTWAGE através de um proxy SOCKS5</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1727,8 +1751,12 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Imaturo:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Testwage network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede Testwage após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>Balances</source>
+        <translation>Fundos</translation>
+    </message>
+    <message>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TESTWAGE network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede TESTWAGE após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1755,12 +1783,130 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Disponível:</translation>
     </message>
     <message>
+        <source>Status:</source>
+        <translation>Situação:</translation>
+    </message>
+    <message>
+        <source>Obfuscation Balance:</source>
+        <translation>Saldo ofuscado:</translation>
+    </message>
+    <message>
+        <source>0 WAGE / 0 Rounds</source>
+        <translation>0 WAGE / 0 Rodadas</translation>
+    </message>
+    <message>
+        <source>Enabled/Disabled</source>
+        <translation>Ativado/Desativado</translation>
+    </message>
+    <message>
+        <source>Try to manually submit a Obfuscation request.</source>
+        <translation>Tente encaminhar uma requisição manualmente de Ofuscação.</translation>
+    </message>
+    <message>
+        <source>Reset the current status of Obfuscation (can interrupt Obfuscation if it's in the process of Mixing, which can cost you money!)</source>
+        <translation>Reinicia o presente estado de ofuscação (pode interromper a Ofuscação se estiver em processo de Embaralhamento, o que pode lhe custar dinheiro!)</translation>
+    </message>
+    <message>
+        <source>Obfuscation</source>
+        <translation>Ofuscação</translation>
+    </message>
+    <message>
+        <source>Completion:</source>
+        <translation>Conclusão:</translation>
+    </message>
+    <message>
+        <source>Amount and Rounds:</source>
+        <translation>Quantia e Rodadas:</translation>
+    </message>
+    <message>
+        <source>n/a</source>
+        <translation>n/a</translation>
+    </message>
+    <message>
         <source>Recent transactions</source>
         <translation>Transações recentes</translation>
     </message>
     <message>
+        <source>Start/Stop Mixing</source>
+        <translation>Iniciar/Parar embaralhamento</translation>
+    </message>
+    <message>
+        <source>(Last Message)</source>
+        <translation>(Última mensagem)</translation>
+    </message>
+    <message>
+        <source>Try Mix</source>
+        <translation>Tente embaralhar</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Reinicia</translation>
+    </message>
+    <message>
         <source>out of sync</source>
         <translation>fora de sincronia</translation>
+    </message>
+    <message>
+        <source>Disabled</source>
+        <translation>Desativado</translation>
+    </message>
+    <message>
+        <source>No inputs detected</source>
+        <translation>Nenhum input detectado</translation>
+    </message>
+    <message>
+        <source>Overall progress</source>
+        <translation>Progresso geral</translation>
+    </message>
+    <message>
+        <source>Denominated</source>
+        <translation>Denominado</translation>
+    </message>
+    <message>
+        <source>Anonymized</source>
+        <translation>Anonimizado</translation>
+    </message>
+    <message>
+        <source>Last Obfuscation message:
+</source>
+        <translation>Última mensagem de ofuscação:
+</translation>
+    </message>
+    <message>
+        <source>Obfuscation was successfully reset.</source>
+        <translation>Ofuscação foi reiniciada com sucesso.</translation>
+    </message>
+    <message>
+        <source>Obfuscation requires at least %1 to use.</source>
+        <translation>Ofuscação requer pelo menos %1 para usar.</translation>
+    </message>
+    <message>
+        <source>Wallet is locked and user declined to unlock. Disabling Obfuscation.</source>
+        <translation>A carteira está travada e o usuário recusou o destravamento. Desabilitando a Ofuscação.</translation>
+    </message>
+    <message>
+        <source>Found enough compatible inputs to anonymize %1</source>
+        <translation>Foram encontrados inputos suficientes para anonimizar %1</translation>
+    </message>
+    <message>
+        <source>Start Obfuscation</source>
+        <translation>Iniciar ofuscação</translation>
+    </message>
+    <message>
+        <source>Stop Obfuscation</source>
+        <translation>Parar ofuscação</translation>
+    </message>
+    <message>
+        <source>Mixed</source>
+        <translation>Embaralhado</translation>
+    </message>
+    <message>
+        <source>Enabled</source>
+        <translation>Ativado</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>N/A</translation>
     </message>
 </context>
 <context>
@@ -1814,117 +1960,14 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
     </message>
 </context>
 <context>
-    <name>PrivacyDialog</name>
-    <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Testwage network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede Testwage após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>Reinicia</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Quantidade:</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Quantia:</translation>
-    </message>
-    <message>
-        <source>Pay &amp;To:</source>
-        <translation>Pagar &amp;Para:</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Escolha o endereço previamente utilizado</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>Cole o endereço da área de transferência</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>&amp;Label:</source>
-        <translation>&amp;Rótulo:</translation>
-    </message>
-    <message>
-        <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Coloque uma etiqueta neste endereço para adicioná-lo à lista de endereços utilizados</translation>
-    </message>
-    <message>
-        <source>A&amp;mount:</source>
-        <translation>Quantia:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Prioridade:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Taxa:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>não</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Bytes:</translation>
-    </message>
-    <message>
-        <source>Insufficient funds!</source>
-        <translation>Fundos insuficientes!</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation>médio</translation>
-    </message>
-    <message>
-        <source>Coin Control Features</source>
-        <translation>Funções do Controle de Moedas</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Troco:</translation>
-    </message>
-    <message>
-        <source>out of sync</source>
-        <translation>fora de sincronia</translation>
-    </message>
-    <message>
-        <source>Copy quantity</source>
-        <translation>Copiar quantidade</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Copiar quantia</translation>
-    </message>
-    <message>
-        <source>Confirm send coins</source>
-        <translation>Confirmar envio de moedas</translation>
-    </message>
-    </context>
-<context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
         <translation>Quantidade</translation>
     </message>
     <message>
-        <source>Enter a Testwage address (e.g. %1)</source>
-        <translation>Insira um endereço Testwage (e.g. %1)</translation>
+        <source>Enter a TESTWAGE address (e.g. %1)</source>
+        <translation>Insira um endereço TESTWAGE (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2173,8 +2216,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>saída:</translation>
     </message>
     <message>
-        <source>Welcome to the Testwage RPC console.</source>
-        <translation>Bem-vindo ao console da Testwage RPC</translation>
+        <source>Welcome to the TESTWAGE RPC console.</source>
+        <translation>Bem-vindo ao console da TESTWAGE RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2229,7 +2272,7 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Rótulo:</translation>
+        <translation>Rótu&amp;lo:</translation>
     </message>
     <message>
         <source>&amp;Amount:</source>
@@ -2373,6 +2416,10 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Funções do Controle de Moedas</translation>
     </message>
     <message>
+        <source>automatically selected</source>
+        <translation>selecionado automaticamente</translation>
+    </message>
+    <message>
         <source>Insufficient funds!</source>
         <translation>Fundos insuficientes!</translation>
     </message>
@@ -2445,6 +2492,10 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Minimizar</translation>
     </message>
     <message>
+        <source>Obfuscation</source>
+        <translation>Ofuscação</translation>
+    </message>
+    <message>
         <source>per kilobyte</source>
         <translation>por kilobyte</translation>
     </message>
@@ -2469,8 +2520,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Se a taxa padrão estiver definida para 1000 uWAGEs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uWAGEs em taxa,&lt;br /&gt; pagará pelo menos 1000 uWAGEs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Testwage transactions than the network can process.</source>
-        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de Testwage do que a rede pode processar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for TESTWAGE transactions than the network can process.</source>
+        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de TESTWAGE do que a rede pode processar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2557,8 +2608,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>fundos anônimos</translation>
     </message>
     <message>
-        <source>Warning: Invalid Testwage address</source>
-        <translation>Aviso: endereço Testwage inválido</translation>
+        <source>Warning: Invalid TESTWAGE address</source>
+        <translation>Aviso: endereço TESTWAGE inválido</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2652,8 +2703,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The Testwage address to send the payment to</source>
-        <translation>O endereço Testwage para enviar o pagamento</translation>
+        <source>The TESTWAGE address to send the payment to</source>
+        <translation>O endereço TESTWAGE para enviar o pagamento</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2715,8 +2766,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Testwage Core is shutting down...</source>
-        <translation>Testwage Core está desligando...</translation>
+        <source>TESTWAGE Core is shutting down...</source>
+        <translation>TESTWAGE Core está desligando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2734,8 +2785,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>&amp;Assinar mensagem</translation>
     </message>
     <message>
-        <source>The Testwage address to sign the message with</source>
-        <translation>O endereço Testwage para assinar a mensagem</translation>
+        <source>The TESTWAGE address to sign the message with</source>
+        <translation>O endereço TESTWAGE para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2766,16 +2817,16 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Testwage address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço Testwage</translation>
+        <source>Sign the message to prove you own this TESTWAGE address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço TESTWAGE</translation>
     </message>
     <message>
-        <source>The Testwage address the message was signed with</source>
-        <translation>O endereço Testwage que assinou a mensagem</translation>
+        <source>The TESTWAGE address the message was signed with</source>
+        <translation>O endereço TESTWAGE que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Testwage address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço Testwage especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified TESTWAGE address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço TESTWAGE especificado.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2857,8 +2908,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Core</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2873,8 +2924,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Os desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>The Testwage Core developers</source>
-        <translation>Os desenvolvedores do Testwage Core</translation>
+        <source>The TESTWAGE Core developers</source>
+        <translation>Os desenvolvedores do TESTWAGE Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3401,21 +3452,18 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
     </message>
 </context>
 <context>
-    <name>ZWageControlDialog</name>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    </context>
-<context>
     <name>testwage-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes da blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
-        <source>Disable all Testwage specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar todas as funcionalidades específicas Testwage (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
+        <source>Disable all TESTWAGE specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionalidades específicas TESTWAGE (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
+    </message>
+    <message>
+        <source>Enable use of automated obfuscation for funds stored in this wallet (0-1, default: %u)</source>
+        <translation>Permitir o uso de ofuscação automática para fundos armazenados nesta carteira (0-1, padrão: %u)</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
@@ -3474,8 +3522,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Aviso: -paytxfee está definido como muito alto! Está e a taxa de transação que você irá pagar se enviar uma transação.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Testwage Core will not work properly.</source>
-        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core Testwage não vai funcionar corretamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong TESTWAGE Core will not work properly.</source>
+        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core TESTWAGE não vai funcionar corretamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3554,8 +3602,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Todos os direitos reservados (C) 2014-%i aos Desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Testwage Core Developers</source>
-        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do Testwage Core</translation>
+        <source>Copyright (C) 2015-%i The TESTWAGE Core Developers</source>
+        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do TESTWAGE Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3606,8 +3654,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Erro no carregamento da wallet.dat: Carteira corrompida</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Testwage Core</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da Testwage Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of TESTWAGE Core</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da TESTWAGE Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -3702,6 +3750,14 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Fundos insuficientes.</translation>
     </message>
     <message>
+        <source>Invalid -onion address: '%s'</source>
+        <translation>Inválido -onion endereço: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Inválido -proxy endereço: '%s'</translation>
+    </message>
+    <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
         <translation>Quantia inválida para -maxtxfee=&lt;amount&gt;: '%s'</translation>
     </message>
@@ -3744,6 +3800,10 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
     <message>
         <source>Invalid script detected.</source>
         <translation>Script inválido detectado.</translation>
+    </message>
+    <message>
+        <source>Keep N WAGE anonymized (default: %u)</source>
+        <translation>Manter N WAGE anônimo (padrão: %u)</translation>
     </message>
     <message>
         <source>Last Obfuscation was too recent.</source>
@@ -3844,6 +3904,10 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
     <message>
         <source>Obfuscation is idle.</source>
         <translation>Ofuscação está ociosa.</translation>
+    </message>
+    <message>
+        <source>Obfuscation options:</source>
+        <translation>Opções de ofuscação:</translation>
     </message>
     <message>
         <source>Obfuscation request complete:</source>
@@ -4078,8 +4142,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Carteira está travada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Testwage Core to complete</source>
-        <translation>A carteira precisa ser reescrita: reinicia o Testwage Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart TESTWAGE Core to complete</source>
+        <translation>A carteira precisa ser reescrita: reinicia o TESTWAGE Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>

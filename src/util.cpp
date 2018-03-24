@@ -1,7 +1,8 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2014-2015 The Dash developers
+// Copyright (c) 2018 Testwage developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -105,13 +106,11 @@ std::string to_internal(const std::string&);
 
 using namespace std;
 
-// Testwage only features
-// Masternode
+//TESTWAGE only features
 bool fMasterNode = false;
 string strMasterNodePrivKey = "";
 string strMasterNodeAddr = "";
 bool fLiteMode = false;
-// SwiftX
 bool fEnableSwiftTX = true;
 int nSwiftTXDepth = 5;
 int nObfuscationRounds = 2;
@@ -233,10 +232,10 @@ bool LogAcceptCategory(const char* category)
             const vector<string>& categories = mapMultiArgs["-debug"];
             ptrCategory.reset(new set<string>(categories.begin(), categories.end()));
             // thread_specific_ptr automatically deletes the set when the thread ends.
-            // "testwage" is a composite category enabling all Testwage-related debug output
+            // "testwage" is a composite category enabling all TESTWAGE-related debug output
             if (ptrCategory->count(string("testwage"))) {
                 ptrCategory->insert(string("obfuscation"));
-                ptrCategory->insert(string("swiftx"));
+                ptrCategory->insert(string("swifttx"));
                 ptrCategory->insert(string("masternode"));
                 ptrCategory->insert(string("mnpayments"));
                 ptrCategory->insert(string("mnbudget"));
@@ -419,13 +418,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-// Windows < Vista: C:\Documents and Settings\Username\Application Data\Testwage
-// Windows >= Vista: C:\Users\Username\AppData\Roaming\Testwage
-// Mac: ~/Library/Application Support/Testwage
+// Windows < Vista: C:\Documents and Settings\Username\Application Data\TESTWAGE
+// Windows >= Vista: C:\Users\Username\AppData\Roaming\TESTWAGE
+// Mac: ~/Library/Application Support/TESTWAGE
 // Unix: ~/.testwage
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Testwage";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "TESTWAGE";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -437,7 +436,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "Testwage";
+    return pathRet / "TESTWAGE";
 #else
     // Unix
     return pathRet / ".testwage";

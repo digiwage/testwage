@@ -62,12 +62,12 @@
         <translation>Adresy pro přijetí peněz</translation>
     </message>
     <message>
-        <source>These are your Testwage addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto jsou Vaše Testwage adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
+        <source>These are your TESTWAGE addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto jsou Vaše TESTWAGE adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
     </message>
     <message>
-        <source>These are your Testwage addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto jsou Vaše Testwage adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
+        <source>These are your TESTWAGE addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto jsou Vaše TESTWAGE adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>Testwage will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your WAGEs from being stolen by malware infecting your computer.</source>
-        <translation>Testwage se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše WAGEy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>TESTWAGE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your WAGEs from being stolen by malware infecting your computer.</source>
+        <translation>TESTWAGE se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše WAGEy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -240,15 +240,15 @@
     </message>
     <message>
         <source>Enter a Testwage Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadejte Testwage adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
+        <translation>Zadejte TESTWAGE adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The Testwage address to sign the message with</source>
-        <translation>Testwage adresa pro podepsání zprávy</translation>
+        <source>The TESTWAGE address to sign the message with</source>
+        <translation>TESTWAGE adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Testwage address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto Testwage adresu</translation>
+        <source>Sign the message to prove you own this TESTWAGE address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto TESTWAGE adresu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Vložte BIP 38 šifrovaný privítní klíc. Frázové heslo vložte do prostředního boxu. Kliknětě na Dešifrovat Klíč pro výpočet privátního klíče. Poté co bude klíč dešifrován, kliknutím na 'Importovat Adresu' přidáte privátní klíč do Vaší peněženky.</translation>
     </message>
     <message>
-        <source>The Testwage address the message was signed with</source>
-        <translation>Testwage adresa zprávy byla podpsána</translation>
+        <source>The TESTWAGE address the message was signed with</source>
+        <translation>TESTWAGE adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Testwage address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou Testwage adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified TESTWAGE address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou TESTWAGE adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,12 +598,12 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Core</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Core</translation>
     </message>
     <message>
-        <source>Send coins to a Testwage address</source>
-        <translation>Odeslat platbuna Testwage adresu</translation>
+        <source>Send coins to a TESTWAGE address</source>
+        <translation>Odeslat platbuna TESTWAGE adresu</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and testwage: URIs)</source>
@@ -618,24 +618,24 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About Testwage Core</source>
-        <translation>&amp;O Testwage Core</translation>
+        <source>&amp;About TESTWAGE Core</source>
+        <translation>&amp;O TESTWAGE Core</translation>
     </message>
     <message>
-        <source>Show information about Testwage Core</source>
-        <translation>Zobraz informace o Testwage Core</translation>
+        <source>Show information about TESTWAGE Core</source>
+        <translation>Zobraz informace o TESTWAGE Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Testwage</source>
-        <translation>Upravit možnosti konfigurace pro Testwage</translation>
+        <source>Modify configuration options for TESTWAGE</source>
+        <translation>Upravit možnosti konfigurace pro TESTWAGE</translation>
     </message>
     <message>
-        <source>Sign messages with your Testwage addresses to prove you own them</source>
-        <translation>Podepsat zprávy Vaší Testwage adresou pro prokázaní, že jste jejich vlastníkem</translation>
+        <source>Sign messages with your TESTWAGE addresses to prove you own them</source>
+        <translation>Podepsat zprávy Vaší TESTWAGE adresou pro prokázaní, že jste jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Testwage addresses</source>
-        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými Testwage adresami</translation>
+        <source>Verify messages to ensure they were signed with specified TESTWAGE addresses</source>
+        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými TESTWAGE adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a Testwage: URI or payment request</source>
-        <translation>Otevřít Testwage: URI nebo platební žádost</translation>
+        <source>Open a TESTWAGE: URI or payment request</source>
+        <translation>Otevřít TESTWAGE: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the Testwage Core help message to get a list with possible Testwage command-line options</source>
-        <translation>Zobrazit Testwage Core pomocnou zpráv pro získání seznamu možných parametrů Testwage pro příkazy do příkazové řádky</translation>
+        <source>Show the TESTWAGE Core help message to get a list with possible TESTWAGE command-line options</source>
+        <translation>Zobrazit TESTWAGE Core pomocnou zpráv pro získání seznamu možných parametrů TESTWAGE pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>Testwage Core client</source>
-        <translation>Testwage Core klient</translation>
+        <source>TESTWAGE Core client</source>
+        <translation>TESTWAGE Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -963,6 +963,10 @@ MultiSend: %1</translation>
         <translation>středně vysoký</translation>
     </message>
     <message>
+        <source>n/a</source>
+        <translation>n/a</translation>
+    </message>
+    <message>
         <source>medium</source>
         <translation>střední</translation>
     </message>
@@ -1066,8 +1070,8 @@ MultiSend: %1</translation>
         <translation>Upravit adresu k odeslání platby</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Testwage address.</source>
-        <translation>Zadaná adresa "%1" není validní Testwage adresa.</translation>
+        <source>The entered address "%1" is not a valid TESTWAGE address.</source>
+        <translation>Zadaná adresa "%1" není validní TESTWAGE adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1112,12 +1116,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Core</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Core</translation>
     </message>
     <message>
-        <source>About Testwage Core</source>
-        <translation>O Testwage Core</translation>
+        <source>About TESTWAGE Core</source>
+        <translation>O TESTWAGE Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1151,16 +1155,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to Testwage Core.</source>
-        <translation>Vítejte v Testwage Core.</translation>
+        <source>Welcome to TESTWAGE Core.</source>
+        <translation>Vítejte v TESTWAGE Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Testwage Core will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude Testwage Core ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where TESTWAGE Core will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude TESTWAGE Core ukládat svá data.</translation>
     </message>
     <message>
-        <source>Testwage Core will download and store a copy of the Testwage block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Testwage Core stáhne a uloží kopii Testwage blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>TESTWAGE Core will download and store a copy of the TESTWAGE block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>TESTWAGE Core stáhne a uloží kopii TESTWAGE blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1171,8 +1175,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Core</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1520,12 +1524,16 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Testwage after logging in to the system.</source>
-        <translation>Automaticky spustit Testwage po přihlášení do systému</translation>
+        <source>Automatically start TESTWAGE after logging in to the system.</source>
+        <translation>Automaticky spustit TESTWAGE po přihlášení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start Testwage on system login</source>
-        <translation>&amp;Spusti Testwage při přihlášení do systému</translation>
+        <source>&amp;Start TESTWAGE on system login</source>
+        <translation>&amp;Spusti TESTWAGE při přihlášení do systému</translation>
+    </message>
+    <message>
+        <source>Amount of TESTWAGE to keep anonymized</source>
+        <translation>Počet TESTWAGE pro anonymní držení</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
@@ -1607,6 +1615,10 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Zpracovávané:</translation>
     </message>
     <message>
+        <source>Balances</source>
+        <translation>Balance</translation>
+    </message>
+    <message>
         <source>Total:</source>
         <translation>Celkem:</translation>
     </message>
@@ -1618,7 +1630,75 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <source>Spendable:</source>
         <translation>Disponibilní:</translation>
     </message>
-    </context>
+    <message>
+        <source>Status:</source>
+        <translation>Stav:</translation>
+    </message>
+    <message>
+        <source>Obfuscation Balance:</source>
+        <translation>Obfuskační Balance:</translation>
+    </message>
+    <message>
+        <source>0 WAGE / 0 Rounds</source>
+        <translation>0 WAGE / 0 Kol</translation>
+    </message>
+    <message>
+        <source>Enabled/Disabled</source>
+        <translation>Zapnuté/Vypnuté</translation>
+    </message>
+    <message>
+        <source>Obfuscation</source>
+        <translation>Obfuskace</translation>
+    </message>
+    <message>
+        <source>n/a</source>
+        <translation>n/a</translation>
+    </message>
+    <message>
+        <source>Start/Stop Mixing</source>
+        <translation>Spustit/Zastavit Míchání</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Reset</translation>
+    </message>
+    <message>
+        <source>Disabled</source>
+        <translation>Vypnuto</translation>
+    </message>
+    <message>
+        <source>No inputs detected</source>
+        <translation>Nedetekovány žádné vstupy</translation>
+    </message>
+    <message>
+        <source>Overall progress</source>
+        <translation>Celkový postup</translation>
+    </message>
+    <message>
+        <source>Anonymized</source>
+        <translation>Anonymizováno</translation>
+    </message>
+    <message>
+        <source>Obfuscation was successfully reset.</source>
+        <translation>Obfuskace byla úspěšně resetována</translation>
+    </message>
+    <message>
+        <source>Start Obfuscation</source>
+        <translation>Spustit Obfuskaci</translation>
+    </message>
+    <message>
+        <source>Stop Obfuscation</source>
+        <translation>Zastavit Obfuskaci</translation>
+    </message>
+    <message>
+        <source>Enabled</source>
+        <translation>Zapnuto</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>N/A</translation>
+    </message>
+</context>
 <context>
     <name>PaymentServer</name>
     <message>
@@ -1637,85 +1717,6 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Čas pingnutí</translation>
     </message>
 </context>
-<context>
-    <name>PrivacyDialog</name>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>Reset</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Množství:</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Hodnota:</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Vyberte již dříve použitou adresu</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>Vložit adresu z mezipamětí</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>&amp;Label:</source>
-        <translation>&amp;Popis</translation>
-    </message>
-    <message>
-        <source>A&amp;mount:</source>
-        <translation>H&amp;odnota:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Priorita:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Poplatek:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>ne</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Byty:</translation>
-    </message>
-    <message>
-        <source>Insufficient funds!</source>
-        <translation>Nedostatek prostředků!</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation>střední</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Změna:</translation>
-    </message>
-    <message>
-        <source>Copy quantity</source>
-        <translation>Kopíroat množstí</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Kopírovat hodnotu</translation>
-    </message>
-    </context>
 <context>
     <name>QObject</name>
     <message>
@@ -2017,6 +2018,14 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SendCoinsDialog</name>
     <message>
+        <source>Inputs...</source>
+        <translation>Vstupy...</translation>
+    </message>
+    <message>
+        <source>automatically selected</source>
+        <translation>automaticky vybráno</translation>
+    </message>
+    <message>
         <source>Insufficient funds!</source>
         <translation>Nedostatek prostředků!</translation>
     </message>
@@ -2071,6 +2080,10 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     <message>
         <source>Minimize</source>
         <translation>Minimalizovat</translation>
+    </message>
+    <message>
+        <source>Obfuscation</source>
+        <translation>Obfuskace</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2186,8 +2199,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Testwage address to sign the message with</source>
-        <translation>Testwage adresa pro podepsání zprávy</translation>
+        <source>The TESTWAGE address to sign the message with</source>
+        <translation>TESTWAGE adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2214,16 +2227,16 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Testwage address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto Testwage adresu</translation>
+        <source>Sign the message to prove you own this TESTWAGE address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto TESTWAGE adresu</translation>
     </message>
     <message>
-        <source>The Testwage address the message was signed with</source>
-        <translation>Testwage adresa zprávy byla podpsána</translation>
+        <source>The TESTWAGE address the message was signed with</source>
+        <translation>TESTWAGE adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Testwage address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou Testwage adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified TESTWAGE address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou TESTWAGE adresou</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2265,8 +2278,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Core</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Core</translation>
     </message>
     </context>
 <context>
@@ -2366,13 +2379,6 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     <message>
         <source>Export the data in the current tab to a file</source>
         <translation>Exportovat data z aktulní záložky do souboru</translation>
-    </message>
-    </context>
-<context>
-    <name>ZWageControlDialog</name>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
     </message>
     </context>
 <context>

@@ -1,13 +1,13 @@
-Testwage Core
+TESTWAGE Core
 =====================
 
 Setup
 ---------------------
-[Testwage Core](http://testwage.org/wallet) is the original Testwage client and it builds the backbone of the network. However, it downloads and stores the entire history of Testwage transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[TESTWAGE Core](http://testwage.org/wallet) is the original TESTWAGE client and it builds the backbone of the network. However, it downloads and stores the entire history of TESTWAGE transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run Testwage on your native platform.
+The following are some helpful notes on how to run TESTWAGE on your native platform.
 
 ### Unix
 
@@ -22,18 +22,18 @@ Unpack the files into a directory, and then run testwage-qt.exe.
 
 ### OSX
 
-Drag Testwage-Qt to your applications folder, and then run Testwage-Qt.
+Drag TESTWAGE-Qt to your applications folder, and then run TESTWAGE-Qt.
 
 ### Need Help?
 
-* See the documentation at the [Testwage Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
+* See the documentation at the [TESTWAGE Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [Testwage Forum](http://forum.testwage.org/).
-* Join one of our Slack groups [Testwage Slack Groups](https://testwage.org/slack-logins/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [TESTWAGE Forum](http://forum.testwage.org/).
+* Join one of our Slack groups [TESTWAGE Slack Groups](https://testwage.org/slack-logins/).
 
 Building
 ---------------------
-The following are developer notes on how to build Testwage on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build TESTWAGE on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -55,8 +55,8 @@ The Testwage repo's [root README](https://github.com/testwage/testwage/blob/mast
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [Testwage](http://forum.testwage.org/) forum.
-* Join the [Testwage-Dev](https://testwage-dev.slack.com/) Slack group ([Sign-Up](https://testwage-dev.herokuapp.com/)).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [TESTWAGE](http://forum.testwage.org/) forum.
+* Join the [TESTWAGE-Dev](https://testwage-dev.slack.com/) Slack group ([Sign-Up](https://testwage-dev.herokuapp.com/)).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

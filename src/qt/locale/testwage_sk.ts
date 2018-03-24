@@ -62,12 +62,12 @@
         <translation>Prijímacia adresa</translation>
     </message>
     <message>
-        <source>These are your Testwage addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú vaše Testwage adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
+        <source>These are your TESTWAGE addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú vaše TESTWAGE adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
     </message>
     <message>
-        <source>These are your Testwage addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše Testwage adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
+        <source>These are your TESTWAGE addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú vaše TESTWAGE adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>Testwage will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your WAGEs from being stolen by malware infecting your computer.</source>
-        <translation>Testwage sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše WAGE pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
+        <source>TESTWAGE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your WAGEs from being stolen by malware infecting your computer.</source>
+        <translation>TESTWAGE sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše WAGE pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -247,8 +247,8 @@
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The Testwage address to sign the message with</source>
-        <translation>Adresa Testwage, ktorou chcete správu podpísať</translation>
+        <source>The TESTWAGE address to sign the message with</source>
+        <translation>Adresa TESTWAGE, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Testwage address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto Testwage adresy</translation>
+        <source>Sign the message to prove you own this TESTWAGE address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto TESTWAGE adresy</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Zadajte súkromný kľúč zašifrovaný BIP 38. Zadajte prístupovú frázu do stredného poľa. Kliknite na Dešifrovať kľúč, ak chcete vypočítať privátny kľúč. Po dešifrovaní kľúča pridáte do peňaženky tento súkromný kľúč kliknutím na položku 'Importovať adresu'.</translation>
     </message>
     <message>
-        <source>The Testwage address the message was signed with</source>
-        <translation>Testwage adresa, ktorou bola správa podpísaná</translation>
+        <source>The TESTWAGE address the message was signed with</source>
+        <translation>TESTWAGE adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Testwage address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou Testwage adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified TESTWAGE address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou TESTWAGE adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,12 +598,12 @@
         <translation>Panel nástrojov Záložky</translation>
     </message>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Core</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Core</translation>
     </message>
     <message>
-        <source>Send coins to a Testwage address</source>
-        <translation>Odoslať mince na adresu Testwage</translation>
+        <source>Send coins to a TESTWAGE address</source>
+        <translation>Odoslať mince na adresu TESTWAGE</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and testwage: URIs)</source>
@@ -618,24 +618,24 @@
         <translation>Prezrieť masternody</translation>
     </message>
     <message>
-        <source>&amp;About Testwage Core</source>
-        <translation>O Testwage Core</translation>
+        <source>&amp;About TESTWAGE Core</source>
+        <translation>O TESTWAGE Core</translation>
     </message>
     <message>
-        <source>Show information about Testwage Core</source>
-        <translation>Zobraziť informácie o Testwage Core</translation>
+        <source>Show information about TESTWAGE Core</source>
+        <translation>Zobraziť informácie o TESTWAGE Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Testwage</source>
-        <translation>Zmeňte možnosti konfigurácie pre Testwage</translation>
+        <source>Modify configuration options for TESTWAGE</source>
+        <translation>Zmeňte možnosti konfigurácie pre TESTWAGE</translation>
     </message>
     <message>
-        <source>Sign messages with your Testwage addresses to prove you own them</source>
-        <translation>Podpíšte správy pomocou adresy Testwage, aby ste preukázali, že ich vlastníte</translation>
+        <source>Sign messages with your TESTWAGE addresses to prove you own them</source>
+        <translation>Podpíšte správy pomocou adresy TESTWAGE, aby ste preukázali, že ich vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Testwage addresses</source>
-        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými Testwage adresami</translation>
+        <source>Verify messages to ensure they were signed with specified TESTWAGE addresses</source>
+        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými TESTWAGE adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Otvoriť konfiguračný súbor masternodu</translation>
     </message>
     <message>
-        <source>Open a Testwage: URI or payment request</source>
-        <translation>Otvorte Testwage: URI alebo žiadosť o platbu</translation>
+        <source>Open a TESTWAGE: URI or payment request</source>
+        <translation>Otvorte TESTWAGE: URI alebo žiadosť o platbu</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Okno blockchain prehliadača</translation>
     </message>
     <message>
-        <source>Show the Testwage Core help message to get a list with possible Testwage command-line options</source>
-        <translation>Zobraziť pomocnú správu programu Testwage Core a získajte zoznam možností príkazového riadka Testwage</translation>
+        <source>Show the TESTWAGE Core help message to get a list with possible TESTWAGE command-line options</source>
+        <translation>Zobraziť pomocnú správu programu TESTWAGE Core a získajte zoznam možností príkazového riadka TESTWAGE</translation>
     </message>
     <message>
-        <source>Testwage Core client</source>
-        <translation>Testwage Core klient</translation>
+        <source>TESTWAGE Core client</source>
+        <translation>TESTWAGE Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -820,6 +820,10 @@ MultiSend: %1</translation>
 <context>
     <name>ClientModel</name>
     <message>
+        <source>Total: %1 (OBF compatible: %2 / Enabled: %3)</source>
+        <translation>Sumár: %1 (OBF kompatibilné: %2 / Zapnuté: %3)</translation>
+    </message>
+    <message>
         <source>Network Alert</source>
         <translation>Upozornenie siete </translation>
     </message>
@@ -904,15 +908,15 @@ MultiSend: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Core</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Core</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -958,53 +962,6 @@ MultiSend: %1</translation>
     </context>
 <context>
     <name>PeerTableModel</name>
-    </context>
-<context>
-    <name>PrivacyDialog</name>
-    <message>
-        <source>Quantity:</source>
-        <translation>Množstvo:</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Suma:</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Vyberte predtým použitú adresu</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>Vložte adresu zo schránky</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Priorita:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Poplatok:</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Bytov:</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Zmena:</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Skopírovať sumu</translation>
-    </message>
     </context>
 <context>
     <name>QObject</name>
@@ -1136,8 +1093,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Testwage address to sign the message with</source>
-        <translation>Adresa Testwage, ktorou chcete správu podpísať</translation>
+        <source>The TESTWAGE address to sign the message with</source>
+        <translation>Adresa TESTWAGE, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1160,16 +1117,16 @@ MultiSend: %1</translation>
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Testwage address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto Testwage adresy</translation>
+        <source>Sign the message to prove you own this TESTWAGE address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto TESTWAGE adresy</translation>
     </message>
     <message>
-        <source>The Testwage address the message was signed with</source>
-        <translation>Testwage adresa, ktorou bola správa podpísaná</translation>
+        <source>The TESTWAGE address the message was signed with</source>
+        <translation>TESTWAGE adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Testwage address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou Testwage adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified TESTWAGE address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou TESTWAGE adresou</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1207,8 +1164,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Core</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Core</translation>
     </message>
     </context>
 <context>
@@ -1301,9 +1258,6 @@ MultiSend: %1</translation>
         <source>Export the data in the current tab to a file</source>
         <translation>Exportovať údaje na aktuálnej karte do súboru</translation>
     </message>
-    </context>
-<context>
-    <name>ZWageControlDialog</name>
     </context>
 <context>
     <name>testwage-core</name>

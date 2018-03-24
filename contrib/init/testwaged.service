@@ -1,5 +1,5 @@
 [Unit]
-Description=Testwage's distributed currency daemon
+Description=TESTWAGE's distributed currency daemon
 After=network.target
 
 [Service]

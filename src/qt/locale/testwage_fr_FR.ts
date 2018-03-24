@@ -152,8 +152,8 @@
         <translation>Confirmer le cryptage du portefeuille</translation>
     </message>
     <message>
-        <source>Testwage will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your WAGEs from being stolen by malware infecting your computer.</source>
-        <translation>Testwage va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos WAGEs d'un vol par un malware ayant infecté votre ordinateur. </translation>
+        <source>TESTWAGE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your WAGEs from being stolen by malware infecting your computer.</source>
+        <translation>TESTWAGE va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos WAGEs d'un vol par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -219,8 +219,8 @@
         <translation>Adresse :</translation>
     </message>
     <message>
-        <source>The Testwage address to sign the message with</source>
-        <translation>L'adresse Testwage avec laquelle signer le message</translation>
+        <source>The TESTWAGE address to sign the message with</source>
+        <translation>L'adresse TESTWAGE avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -240,7 +240,7 @@
     </message>
     <message>
         <source>Passphrase: </source>
-        <translation>Wagease secrète :</translation>
+        <translation>Phrase secrète :</translation>
     </message>
     <message>
         <source>Encrypted Key:</source>
@@ -251,8 +251,8 @@
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Testwage address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse Testwage</translation>
+        <source>Sign the message to prove you own this TESTWAGE address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse TESTWAGE</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -271,12 +271,12 @@
         <translation>BIP 38 Décrypter</translation>
     </message>
     <message>
-        <source>The Testwage address the message was signed with</source>
-        <translation>L'adresse Testwage avec laquelle le message a été signé</translation>
+        <source>The TESTWAGE address the message was signed with</source>
+        <translation>L'adresse TESTWAGE avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Testwage address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse Testwage renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified TESTWAGE address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse TESTWAGE renseignée</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -534,8 +534,8 @@
         <translation>&amp;Aide</translation>
     </message>
     <message>
-        <source>Send coins to a Testwage address</source>
-        <translation>Envoyer des pièces à une adresse Testwage</translation>
+        <source>Send coins to a TESTWAGE address</source>
+        <translation>Envoyer des pièces à une adresse TESTWAGE</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -546,16 +546,16 @@
         <translation>Afficher les masternodes</translation>
     </message>
     <message>
-        <source>Modify configuration options for Testwage</source>
-        <translation>Modifier les options de configuration pour Testwage</translation>
+        <source>Modify configuration options for TESTWAGE</source>
+        <translation>Modifier les options de configuration pour TESTWAGE</translation>
     </message>
     <message>
-        <source>Sign messages with your Testwage addresses to prove you own them</source>
-        <translation>Signer les messages avec votre adresse Testwage pour prouver qu'elles sont bien à vous.</translation>
+        <source>Sign messages with your TESTWAGE addresses to prove you own them</source>
+        <translation>Signer les messages avec votre adresse TESTWAGE pour prouver qu'elles sont bien à vous.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Testwage addresses</source>
-        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse Testwage spécifié</translation>
+        <source>Verify messages to ensure they were signed with specified TESTWAGE addresses</source>
+        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse TESTWAGE spécifié</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -854,8 +854,8 @@ Adresse : %4
         <translation>Modifier l'adresse d'envoi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Testwage address.</source>
-        <translation>L'adresse entrée "%1" n'est pas une adresse Testwage valide</translation>
+        <source>The entered address "%1" is not a valid TESTWAGE address.</source>
+        <translation>L'adresse entrée "%1" n'est pas une adresse TESTWAGE valide</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1106,73 +1106,6 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     </context>
 <context>
-    <name>PrivacyDialog</name>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Quantité :</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Montant :</translation>
-    </message>
-    <message>
-        <source>Pay &amp;To:</source>
-        <translation>Payer à :</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Choisir l'adresse précédemment utilisée</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>Copier l'adresse depuis le presse-papier</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Priorité :</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Commission :</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>non</translation>
-    </message>
-    <message>
-        <source>Insufficient funds!</source>
-        <translation>Fonds insuffisants!</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation>moyen</translation>
-    </message>
-    <message>
-        <source>Copy quantity</source>
-        <translation>Copier la quantité</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Copier le montant</translation>
-    </message>
-    <message>
-        <source>Confirm send coins</source>
-        <translation>Confirmer l'envoi des pièces</translation>
-    </message>
-    </context>
-<context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
@@ -1401,6 +1334,10 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Envoyer des pièces</translation>
     </message>
     <message>
+        <source>Inputs...</source>
+        <translation>Entrés...</translation>
+    </message>
+    <message>
         <source>Insufficient funds!</source>
         <translation>Fonds insuffisants!</translation>
     </message>
@@ -1524,8 +1461,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Payer à :</translation>
     </message>
     <message>
-        <source>The Testwage address to send the payment to</source>
-        <translation>L'adresse Testwage à laquelle envoyer le paiement</translation>
+        <source>The TESTWAGE address to send the payment to</source>
+        <translation>L'adresse TESTWAGE à laquelle envoyer le paiement</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1570,8 +1507,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Signer le message</translation>
     </message>
     <message>
-        <source>The Testwage address to sign the message with</source>
-        <translation>L'adresse Testwage avec laquelle signer le message</translation>
+        <source>The TESTWAGE address to sign the message with</source>
+        <translation>L'adresse TESTWAGE avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1598,16 +1535,16 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Testwage address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse Testwage</translation>
+        <source>Sign the message to prove you own this TESTWAGE address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse TESTWAGE</translation>
     </message>
     <message>
-        <source>The Testwage address the message was signed with</source>
-        <translation>L'adresse Testwage avec laquelle le message a été signé</translation>
+        <source>The TESTWAGE address the message was signed with</source>
+        <translation>L'adresse TESTWAGE avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Testwage address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse Testwage renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified TESTWAGE address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse TESTWAGE renseignée</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1798,13 +1735,6 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     <message>
         <source>Export the data in the current tab to a file</source>
         <translation>Exporter l</translation>
-    </message>
-    </context>
-<context>
-    <name>ZWageControlDialog</name>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
     </message>
     </context>
 <context>

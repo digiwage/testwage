@@ -7,7 +7,7 @@
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>opret ny adresse</translation>
+        <translation>Ny adresse</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -62,11 +62,11 @@
         <translation>Modtageradresse</translation>
     </message>
     <message>
-        <source>These are your Testwage addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your TESTWAGE addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Dine adresser til at sende betalinger med. Kontroller altid både beløb og modtageradresse før afsendelse.</translation>
     </message>
     <message>
-        <source>These are your Testwage addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your TESTWAGE addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Dette er dine modtager adresser. Det anbefales at anvende en ny adresse til hver transaktion</translation>
     </message>
     <message>
@@ -176,8 +176,8 @@
         <translation>Bekræft, og tegnebogen krypteres.</translation>
     </message>
     <message>
-        <source>Testwage will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your WAGEs from being stolen by malware infecting your computer.</source>
-        <translation>Testwage vil lukke ned for at færdiggøre kryptograferingsprocesserne. Husk at kryptering alene ikke sikrer mod tyveri af mønterne fra malware eller virus på computeren.</translation>
+        <source>TESTWAGE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your WAGEs from being stolen by malware infecting your computer.</source>
+        <translation>TESTWAGE vil lukke ned for at færdiggøre kryptograferingsprocesserne. Husk at kryptering alene ikke sikrer mod tyveri af mønterne fra malware eller virus på computeren.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -240,15 +240,15 @@
     </message>
     <message>
         <source>Enter a Testwage Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Indtast den Testwage adresse De ønsker at kryptografere ved hjælp af BIP 38. Indtast et kodeord i den midterste boks. Klik på krypter for at generere den kryptograferede private nøgle.</translation>
+        <translation>Indtast den TESTWAGE adresse De ønsker at kryptografere ved hjælp af BIP 38. Indtast et kodeord i den midterste boks. Klik på krypter for at generere den kryptograferede private nøgle.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse</translation>
     </message>
     <message>
-        <source>The Testwage address to sign the message with</source>
-        <translation>Den Testwage adresse, der skal bruges til at underskrive beskeden med.</translation>
+        <source>The TESTWAGE address to sign the message with</source>
+        <translation>Den TESTWAGE adresse, der skal bruges til at underskrive beskeden med.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopier den aktuelle underskrift til udklipsholderen.</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Testwage address</source>
-        <translation>Underskriv beskeden for at bevise, at De ejer denne Testwage adresse.</translation>
+        <source>Sign the message to prove you own this TESTWAGE address</source>
+        <translation>Underskriv beskeden for at bevise, at De ejer denne TESTWAGE adresse.</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Indtast den krypterede BIP 38 nøgle. Indtast kodeordet i den midterste boks. Klik på dekryptér for at generere den private nøgle. Når nøglen er dekrypteret vil klip på "importér adresse" overføre den private nøgle til tegnebogen.</translation>
     </message>
     <message>
-        <source>The Testwage address the message was signed with</source>
-        <translation>Beskeden er underskrevet med denne Testwage adresse</translation>
+        <source>The TESTWAGE address the message was signed with</source>
+        <translation>Beskeden er underskrevet med denne TESTWAGE adresse</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Testwage address</source>
-        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige Testwage adresse.</translation>
+        <source>Verify the message to ensure it was signed with the specified TESTWAGE address</source>
+        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige TESTWAGE adresse.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,16 +598,16 @@
         <translation>Værktøjslinier</translation>
     </message>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage kerne</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE kerne</translation>
     </message>
     <message>
-        <source>Send coins to a Testwage address</source>
-        <translation>Send mønter til en Testwage adresse</translation>
+        <source>Send coins to a TESTWAGE address</source>
+        <translation>Send mønter til en TESTWAGE adresse</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and testwage: URIs)</source>
-        <translation>Anmod om betaling (genrerer QR kode og Testwage URL)</translation>
+        <translation>Anmod om betaling (genrerer QR kode og TESTWAGE URL)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,24 +618,24 @@
         <translation>Vis masternoder</translation>
     </message>
     <message>
-        <source>&amp;About Testwage Core</source>
-        <translation>&amp;Om Testwage kerne</translation>
+        <source>&amp;About TESTWAGE Core</source>
+        <translation>&amp;Om TESTWAGE kerne</translation>
     </message>
     <message>
-        <source>Show information about Testwage Core</source>
-        <translation>Vis information om Testwage kerne</translation>
+        <source>Show information about TESTWAGE Core</source>
+        <translation>Vis information om TESTWAGE kerne</translation>
     </message>
     <message>
-        <source>Modify configuration options for Testwage</source>
-        <translation>Ret konfigurationsindstillinger for Testwage</translation>
+        <source>Modify configuration options for TESTWAGE</source>
+        <translation>Ret konfigurationsindstillinger for TESTWAGE</translation>
     </message>
     <message>
-        <source>Sign messages with your Testwage addresses to prove you own them</source>
-        <translation>Underskriv beskeder med Deres Testwage adresser for at bekræfte at De ejer dem.</translation>
+        <source>Sign messages with your TESTWAGE addresses to prove you own them</source>
+        <translation>Underskriv beskeder med Deres TESTWAGE adresser for at bekræfte at De ejer dem.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Testwage addresses</source>
-        <translation>Verificer besked for at sikre, at den er underskrevet med den opgivne Testwage adresse</translation>
+        <source>Verify messages to ensure they were signed with specified TESTWAGE addresses</source>
+        <translation>Verificer besked for at sikre, at den er underskrevet med den opgivne TESTWAGE adresse</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>ÅbnMasternode konfigurationsfil</translation>
     </message>
     <message>
-        <source>Open a Testwage: URI or payment request</source>
-        <translation>Åbn en Testwage URl eller betalingsanmodning</translation>
+        <source>Open a TESTWAGE: URI or payment request</source>
+        <translation>Åbn en TESTWAGE URl eller betalingsanmodning</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Blockexplorer vindue</translation>
     </message>
     <message>
-        <source>Show the Testwage Core help message to get a list with possible Testwage command-line options</source>
-        <translation>Vis hjelpetekster fra Testwage kernen for at få en liste med mulige Testwage kommandolinie-startparametre</translation>
+        <source>Show the TESTWAGE Core help message to get a list with possible TESTWAGE command-line options</source>
+        <translation>Vis hjelpetekster fra TESTWAGE kernen for at få en liste med mulige TESTWAGE kommandolinie-startparametre</translation>
     </message>
     <message>
-        <source>Testwage Core client</source>
-        <translation>Testwage kerneklient</translation>
+        <source>TESTWAGE Core client</source>
+        <translation>TESTWAGE kerneklient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -820,6 +820,10 @@ Adresse: %4
 <context>
     <name>ClientModel</name>
     <message>
+        <source>Total: %1 (OBF compatible: %2 / Enabled: %3)</source>
+        <translation>I alt: %1 (OBF kompatible: %2 / Aktiverede: %3)</translation>
+    </message>
+    <message>
         <source>Network Alert</source>
         <translation>Netværksalarm!</translation>
     </message>
@@ -895,6 +899,10 @@ Adresse: %4
         <translation>Modtaget med adresse</translation>
     </message>
     <message>
+        <source>DS Rounds</source>
+        <translation>DS gennemløb</translation>
+    </message>
+    <message>
         <source>Date</source>
         <translation>Dato</translation>
     </message>
@@ -967,6 +975,10 @@ Adresse: %4
         <translation>Skift til "listeformat" for at benytte denne funktion</translation>
     </message>
     <message>
+        <source>Non-anonymized input selected. &lt;b&gt;Obfuscation will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Obfuscation, please deselect all non-nonymized inputs first and then check Obfuscation checkbox again.</source>
+        <translation>Ikke anonymiseret indhold valgt.&lt;b&gt;tilsløring vil være slået fra.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Hvis De ønsker at anvende tilsløring skal De fravælge alt ikke anonymiseret indhold først, derefter afmærke boksen for tilsløring igen.</translation>
+    </message>
+    <message>
         <source>highest</source>
         <translation>højeste</translation>
     </message>
@@ -985,6 +997,10 @@ Adresse: %4
     <message>
         <source>Can vary +/- %1 duff(s) per input.</source>
         <translation>kan variere +/- %1 duff(s) pr. input</translation>
+    </message>
+    <message>
+        <source>n/a</source>
+        <translation>Ikke tilgængelig</translation>
     </message>
     <message>
         <source>medium</source>
@@ -1098,8 +1114,8 @@ Adresse: %4
         <translation>Ret afsenderadresse</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Testwage address.</source>
-        <translation>Den indtastede adresse %1 er ikke en gyldig Testwage adresse</translation>
+        <source>The entered address "%1" is not a valid TESTWAGE address.</source>
+        <translation>Den indtastede adresse %1 er ikke en gyldig TESTWAGE adresse</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1144,16 +1160,16 @@ Adresse: %4
         <translation>version</translation>
     </message>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage kerne</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE kerne</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Testwage Core</source>
-        <translation>om Testwage kerne</translation>
+        <source>About TESTWAGE Core</source>
+        <translation>om TESTWAGE kerne</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1199,16 +1215,16 @@ Adresse: %4
         <translation>Velkommen</translation>
     </message>
     <message>
-        <source>Welcome to Testwage Core.</source>
-        <translation>Velkommen til Testwage kerne</translation>
+        <source>Welcome to TESTWAGE Core.</source>
+        <translation>Velkommen til TESTWAGE kerne</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Testwage Core will store its data.</source>
-        <translation>Da det er første gang programmet startes, kan De vælge hvor Testwage kernen skal lagre sine data</translation>
+        <source>As this is the first time the program is launched, you can choose where TESTWAGE Core will store its data.</source>
+        <translation>Da det er første gang programmet startes, kan De vælge hvor TESTWAGE kernen skal lagre sine data</translation>
     </message>
     <message>
-        <source>Testwage Core will download and store a copy of the Testwage block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Testwage kernen vil nu hente og gemme en kopi af Testwage blockchain. Der skal være mindst %1GB ledigt på lagermediet, og behovet vil stige efterhånden som tiden går. Selve tegnebogen vil også blive gemt her.</translation>
+        <source>TESTWAGE Core will download and store a copy of the TESTWAGE block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>TESTWAGE kernen vil nu hente og gemme en kopi af TESTWAGE blockchain. Der skal være mindst %1GB ledigt på lagermediet, og behovet vil stige efterhånden som tiden går. Selve tegnebogen vil også blive gemt her.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1219,8 +1235,8 @@ Adresse: %4
         <translation>Anvend en mappe valgt af brugeren</translation>
     </message>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage kerne</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE kerne</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1361,12 +1377,12 @@ Adresse: %4
         <translation>Indtast modtageradresse</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Testwage addresses after it matures.
-To Add: enter percentage to give and Testwage address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other TESTWAGE addresses after it matures.
+To Add: enter percentage to give and TESTWAGE address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>Multisend tillader at De automatisk kan sende op til 100% af Deres belønninger fra såvel indskud som masternodebelønninger til en liste over andre Testwage adressater når den er tilstrækkelig stor. 
-For at tilføje: Indtast procentsatsen De ønsker at overføre samt den Testwage adresse som skal modtage via Multisendsystemet. 
+        <translation>Multisend tillader at De automatisk kan sende op til 100% af Deres belønninger fra såvel indskud som masternodebelønninger til en liste over andre TESTWAGE adressater når den er tilstrækkelig stor. 
+For at tilføje: Indtast procentsatsen De ønsker at overføre samt den TESTWAGE adresse som skal modtage via Multisendsystemet. 
 For at fjerne: Indtast adressen som skal slettes og klik på slet. 
 Multisend vil ikke fungere med mindre systemet er aktiveret.</translation>
     </message>
@@ -1536,16 +1552,16 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Tilsløringskonfiguration</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Testwage's configuration screen.</source>
-        <translation>Tilsløring blev sat til grundlæggende (%1 og 2 gennemløb) De kan ændre dette hvornår De vil ved at åbne Testwage konfigurationsbillede.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening TESTWAGE's configuration screen.</source>
+        <translation>Tilsløring blev sat til grundlæggende (%1 og 2 gennemløb) De kan ændre dette hvornår De vil ved at åbne TESTWAGE konfigurationsbillede.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Testwage's configuration screen.</source>
-        <translation>Tilsløring blev sat til høj (%1 og 8 gennemløb) De kan ændre dette hvornår De vil ved at åbne Testwage konfigurationsbillede.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening TESTWAGE's configuration screen.</source>
+        <translation>Tilsløring blev sat til høj (%1 og 8 gennemløb) De kan ændre dette hvornår De vil ved at åbne TESTWAGE konfigurationsbillede.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Testwage's configuration screen.</source>
-        <translation>Tilsløring blev sat til maksimum (%1 og 16 gennemløb) De kan ændre dette hvornår De vil ved at åbne Testwage konfigurationsbillede.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening TESTWAGE's configuration screen.</source>
+        <translation>Tilsløring blev sat til maksimum (%1 og 16 gennemløb) De kan ændre dette hvornår De vil ved at åbne TESTWAGE konfigurationsbillede.</translation>
     </message>
 </context>
 <context>
@@ -1606,8 +1622,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Hvis De slår "brug af ubekræftede penge tilbage" vil penge tilbage &lt;br/&gt; ikke kunne benyttes før transaktionen er bekræftet mindst en gang. &lt;br/&gt;Dette har også indflydelse på opgørelsen af saldoen.</translation>
     </message>
     <message>
-        <source>Automatically open the Testwage client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åbn Testwage klientporten på ruteren automatisk. Virker kun hvis UPnP er slået til i ruteren. </translation>
+        <source>Automatically open the TESTWAGE client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Åbn TESTWAGE klientporten på ruteren automatisk. Virker kun hvis UPnP er slået til i ruteren. </translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1626,12 +1642,28 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Ekspert</translation>
     </message>
     <message>
-        <source>Automatically start Testwage after logging in to the system.</source>
-        <translation>Start Testwage automatisk, når der logges på systemet</translation>
+        <source>Automatically start TESTWAGE after logging in to the system.</source>
+        <translation>Start TESTWAGE automatisk, når der logges på systemet</translation>
     </message>
     <message>
-        <source>&amp;Start Testwage on system login</source>
-        <translation>&amp;start Testwage når der logges på systemet</translation>
+        <source>&amp;Start TESTWAGE on system login</source>
+        <translation>&amp;start TESTWAGE når der logges på systemet</translation>
+    </message>
+    <message>
+        <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
+        <translation>Denne indstilling bestemmer antallet af individuelle masternoder hvorgennem der tilsløres et input. &lt;br/&gt;Jo flere gennemløb der udføres, jo højere grad af tilsløring, og jo højere gebyrer.</translation>
+    </message>
+    <message>
+        <source>Obfuscation rounds to use</source>
+        <translation>Antal gennemløb der skal benyttes </translation>
+    </message>
+    <message>
+        <source>This amount acts as a threshold to turn off Obfuscation once it's reached.</source>
+        <translation>når dette antal er nået slås tilsløringsfunktonen fra. </translation>
+    </message>
+    <message>
+        <source>Amount of TESTWAGE to keep anonymized</source>
+        <translation>Antallet af TESTWAGE som skal holdes tilslørede</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1658,22 +1690,22 @@ Kontroller adressen og prøv igen.</translation>
         <translation>&amp;netværk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Testwage.</source>
-        <translation>Vælg sprog her. Ændringerne træder i kraft næste gang Testwage klienten startes</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting TESTWAGE.</source>
+        <translation>Vælg sprog her. Ændringerne træder i kraft næste gang TESTWAGE klienten startes</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/testwage-project/testwage-project-translations</source>
+https://www.transifex.com/testwage/testwage-project-translations</source>
         <translation>Det valgte sprog mangler, eller oversættelsen er mangelfuld. Hjælp ved at bidrage med oversættelser her:
-https://www.transifex.com/testwage-project/testwage-project-translations</translation>
+https://www.transifex.com/testwage/testwage-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>MAP port ved hjælp af UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Testwage network through a SOCKS5 proxy.</source>
-        <translation>Tilslut Testwage netværket gennem en SOCKS5 PROXY</translation>
+        <source>Connect to the TESTWAGE network through a SOCKS5 proxy.</source>
+        <translation>Tilslut TESTWAGE netværket gennem en SOCKS5 PROXY</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1823,8 +1855,12 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Indskyder- eller masternodebelønning er stadig under behandling</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Testwage network after a connection is established, but this process has not completed yet.</source>
-        <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med Testwage netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
+        <source>Balances</source>
+        <translation>Saldi</translation>
+    </message>
+    <message>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TESTWAGE network after a connection is established, but this process has not completed yet.</source>
+        <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med TESTWAGE netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1859,12 +1895,145 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Brugbare:</translation>
     </message>
     <message>
+        <source>Status:</source>
+        <translation>Status</translation>
+    </message>
+    <message>
+        <source>Obfuscation Balance:</source>
+        <translation>Sløret beløb</translation>
+    </message>
+    <message>
+        <source>0 WAGE / 0 Rounds</source>
+        <translation>0 WAGE / 0 gennemløb</translation>
+    </message>
+    <message>
+        <source>Enabled/Disabled</source>
+        <translation>Startet/Stoppet</translation>
+    </message>
+    <message>
+        <source>Try to manually submit a Obfuscation request.</source>
+        <translation>Prøv at send en manuel tilsløringsanmodning.</translation>
+    </message>
+    <message>
+        <source>Reset the current status of Obfuscation (can interrupt Obfuscation if it's in the process of Mixing, which can cost you money!)</source>
+        <translation>Nulstil den aktuelle status for tilsløringsfunktionen. (Kan forstyrre processen, hvilket kan koste mønter).</translation>
+    </message>
+    <message>
+        <source>Obfuscation</source>
+        <translation>Tilsløring</translation>
+    </message>
+    <message>
+        <source>Completion:</source>
+        <translation>Færdiggørelse:</translation>
+    </message>
+    <message>
+        <source>Amount and Rounds:</source>
+        <translation>Beløb og gennemløb</translation>
+    </message>
+    <message>
+        <source>Submitted Denom:</source>
+        <translation>Afsendte midler</translation>
+    </message>
+    <message>
+        <source>n/a</source>
+        <translation>Ikke tilgængelig</translation>
+    </message>
+    <message>
         <source>Recent transactions</source>
         <translation>Nylige transaktioner</translation>
     </message>
     <message>
+        <source>Start/Stop Mixing</source>
+        <translation>Start/Stop tilsløring</translation>
+    </message>
+    <message>
+        <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
+        <translation>Designerede midler afsendt til masternoden. &lt;br&gt;For at gennemføre tilsløringen må andre brugere afsende tilsvarende designerede midler.</translation>
+    </message>
+    <message>
+        <source>(Last Message)</source>
+        <translation>(seneste besked)</translation>
+    </message>
+    <message>
+        <source>Try Mix</source>
+        <translation>Prøv at usynliggøre</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Nulstil</translation>
+    </message>
+    <message>
         <source>out of sync</source>
         <translation>Ude af synk</translation>
+    </message>
+    <message>
+        <source>Disabled</source>
+        <translation>slået fra</translation>
+    </message>
+    <message>
+        <source>No inputs detected</source>
+        <translation>Ingen inputs valgt</translation>
+    </message>
+    <message>
+        <source>Not enough compatible inputs to anonymize &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style='color:red;'&gt;%2&lt;/span&gt; instead</source>
+        <translation>Der er ikke tilstrækkelige kompatible inputs tilgængelige for tilsløring &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;vil tilsløre &lt;span style='color:red;'&gt;%2&lt;/span&gt; i stedet</translation>
+    </message>
+    <message>
+        <source>Overall progress</source>
+        <translation>Samlet status</translation>
+    </message>
+    <message>
+        <source>Denominated</source>
+        <translation>Designerede</translation>
+    </message>
+    <message>
+        <source>Anonymized</source>
+        <translation>Tilsløret</translation>
+    </message>
+    <message>
+        <source>Last Obfuscation message:
+</source>
+        <translation>Seneste besked fra tilsløringsprocessen</translation>
+    </message>
+    <message>
+        <source>Obfuscation was successfully reset.</source>
+        <translation>Tilsløringsfunktionen blev nulstillet </translation>
+    </message>
+    <message>
+        <source>If you don't want to see internal Obfuscation fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
+        <translation>Hvis de ikke ønsker at se de interne tilsløringsgebyrer og transaktioner, skal De vælge "Mest fremherskende" som type i transaktionsmenuen.</translation>
+    </message>
+    <message>
+        <source>Obfuscation requires at least %1 to use.</source>
+        <translation>Tilsløring kræver mindst %1 for at kunne anvendes </translation>
+    </message>
+    <message>
+        <source>Wallet is locked and user declined to unlock. Disabling Obfuscation.</source>
+        <translation>Tegnebogen er låst, brugeren har afvist at låse den op. Tilsløring slås fra.</translation>
+    </message>
+    <message>
+        <source>Found enough compatible inputs to anonymize %1</source>
+        <translation>Der er fundet nok kompatible inputs for tilsløring af %1</translation>
+    </message>
+    <message>
+        <source>Start Obfuscation</source>
+        <translation>Start tilsløring</translation>
+    </message>
+    <message>
+        <source>Stop Obfuscation</source>
+        <translation>stop tilsløring</translation>
+    </message>
+    <message>
+        <source>Mixed</source>
+        <translation>Tilsløret</translation>
+    </message>
+    <message>
+        <source>Enabled</source>
+        <translation>Slået til</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>Ikke tilgængelig</translation>
     </message>
 </context>
 <context>
@@ -1891,10 +2060,10 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
     </message>
     <message>
         <source>Cannot start testwage: click-to-pay handler</source>
-        <translation>Kan ikke starte Testwage "klik for at betale" systemet</translation>
+        <translation>Kan ikke starte TESTWAGE "klik for at betale" systemet</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Testwage address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid TESTWAGE address or malformed URI parameters.</source>
         <translation>URl kan ikke fortolkes! Det kan skyldes en ugyldig adresse, eller forkerte URl parametre.</translation>
     </message>
     <message>
@@ -1974,129 +2143,14 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
     </message>
 </context>
 <context>
-    <name>PrivacyDialog</name>
-    <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Testwage network after a connection is established, but this process has not completed yet.</source>
-        <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med Testwage netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>Nulstil</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Antal:</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Beløb</translation>
-    </message>
-    <message>
-        <source>Pay &amp;To:</source>
-        <translation>Betal &amp;Til</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Benyt en tidligere anvendt adresse.</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>Indsæt adresse fra udklipsholderen.</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>&amp;Label:</source>
-        <translation>&amp;Mærkning</translation>
-    </message>
-    <message>
-        <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Indtast et mærke til denne adresse for at tilføje den til listen over brugte adresser</translation>
-    </message>
-    <message>
-        <source>A&amp;mount:</source>
-        <translation>A&amp;mount</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Prioritet:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Gebyr:</translation>
-    </message>
-    <message>
-        <source>Dust:</source>
-        <translation>Affald:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>nej</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Bytes:</translation>
-    </message>
-    <message>
-        <source>Insufficient funds!</source>
-        <translation>Saldo for lille!</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation>Middel</translation>
-    </message>
-    <message>
-        <source>Coin Control Features</source>
-        <translation>Møntkontrol, features</translation>
-    </message>
-    <message>
-        <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Hvis denne er aktiveret, men tilbagebetalingsadressen er tom, eller ugyldig, overskydende beløb vil blive fremsendt til en nyoprettet adresse</translation>
-    </message>
-    <message>
-        <source>Custom change address</source>
-        <translation>Brugerdefineret tilbagebetalingsadresse</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Penge tilbage:</translation>
-    </message>
-    <message>
-        <source>out of sync</source>
-        <translation>Ude af synk</translation>
-    </message>
-    <message>
-        <source>Copy quantity</source>
-        <translation>Kopiér antal</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Kopiér beløb</translation>
-    </message>
-    <message>
-        <source>Confirm send coins</source>
-        <translation>Bekræft at De vil sende mønter</translation>
-    </message>
-    </context>
-<context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
         <translation>Beløb</translation>
     </message>
     <message>
-        <source>Enter a Testwage address (e.g. %1)</source>
-        <translation>Indtast en Testwage adresse (F.eks. %1)</translation>
+        <source>Enter a TESTWAGE address (e.g. %1)</source>
+        <translation>Indtast en TESTWAGE adresse (F.eks. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2229,8 +2283,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the Testwage debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Åbn Testwage debug logfilen fra den aktuelle datamappe. Det kan godt tage lidt tid hvis filen er meget stor.</translation>
+        <source>Open the TESTWAGE debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Åbn TESTWAGE debug logfilen fra den aktuelle datamappe. Det kan godt tage lidt tid hvis filen er meget stor.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2397,8 +2451,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Ud:</translation>
     </message>
     <message>
-        <source>Welcome to the Testwage RPC console.</source>
-        <translation>Velkommen til Testwage RPC konsollet</translation>
+        <source>Welcome to the TESTWAGE RPC console.</source>
+        <translation>Velkommen til TESTWAGE RPC konsollet</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2468,12 +2522,12 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Valgfri opmærkning som tilknyttes den nye modtageradresse.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Testwage network.</source>
-        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på Testwage netværket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the TESTWAGE network.</source>
+        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på TESTWAGE netværket.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Testwage network.</source>
-        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. &lt;br&gt;Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på Testwage netværket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the TESTWAGE network.</source>
+        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. &lt;br&gt;Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på TESTWAGE netværket.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2633,6 +2687,14 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Møntkontrol, features</translation>
     </message>
     <message>
+        <source>Inputs...</source>
+        <translation>Inputs...</translation>
+    </message>
+    <message>
+        <source>automatically selected</source>
+        <translation>Automatisk valgte</translation>
+    </message>
+    <message>
         <source>Insufficient funds!</source>
         <translation>Saldo for lille!</translation>
     </message>
@@ -2717,6 +2779,10 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Minimer</translation>
     </message>
     <message>
+        <source>Obfuscation</source>
+        <translation>Tilsløring</translation>
+    </message>
+    <message>
         <source>per kilobyte</source>
         <translation>pr. kilobyte</translation>
     </message>
@@ -2749,7 +2815,7 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uWAGEs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uWAGE i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uWAGEs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Testwage transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for TESTWAGE transactions than the network can process.</source>
         <translation>Betaling af mindste transaktionsgebyr vil være fint så længe der er færre transaktioner end der er plads til i blokkene. &lt;br /&gt; Men opmærksomheden henledes på, at det kan resultere i en transaktion der aldrig bliver bekræftet i det øjeblik der er større behov for transaktioner end netværket har plads til. </translation>
     </message>
     <message>
@@ -2853,8 +2919,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Anonyme saldi</translation>
     </message>
     <message>
-        <source>Warning: Invalid Testwage address</source>
-        <translation>Advarsel! Ugyldig Testwage adresse</translation>
+        <source>Warning: Invalid TESTWAGE address</source>
+        <translation>Advarsel! Ugyldig TESTWAGE adresse</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2888,9 +2954,17 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <source>A fee %1 times higher than %2 per kB is considered an insanely high fee.</source>
         <translation>Et gebyr %1 gange højere end %2 pr. kilobyte er vanvittigt højt.</translation>
     </message>
+    <message numerus="yes">
+        <source>Estimated to begin confirmation within %n block(s).</source>
+        <translation><numerusform>Forventer bekræftelse indenfor %n blokke</numerusform><numerusform>Forventer bekræftelse indenfor %n blokke</numerusform></translation>
+    </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
         <translation>Modtageradressen er ikke gyldig. Kontroller igen</translation>
+    </message>
+    <message>
+        <source>(obfuscation requires this amount to be rounded up to the nearest %1).</source>
+        <translation>(Tilsløring kræver at dette beløb rundes op til nærmeste %1)</translation>
     </message>
     <message>
         <source> split into %1 outputs using the UTXO splitter.</source>
@@ -2952,8 +3026,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Betal &amp;Til</translation>
     </message>
     <message>
-        <source>The Testwage address to send the payment to</source>
-        <translation>Testwage adressen, som betalingen skal sendes til</translation>
+        <source>The TESTWAGE address to send the payment to</source>
+        <translation>TESTWAGE adressen, som betalingen skal sendes til</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2992,8 +3066,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Besked</translation>
     </message>
     <message>
-        <source>A message that was attached to the Testwage: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Testwage network.</source>
-        <translation>En besked, der var vedhæftet til Testwage: URl wil blive gemt sammen med transaktionen som reference. Note: Beskeden bliver medsendt transaktionen over netværket.</translation>
+        <source>A message that was attached to the TESTWAGE: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the TESTWAGE network.</source>
+        <translation>En besked, der var vedhæftet til TESTWAGE: URl wil blive gemt sammen med transaktionen som reference. Note: Beskeden bliver medsendt transaktionen over netværket.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3019,8 +3093,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Testwage Core is shutting down...</source>
-        <translation>Testwage kernen lukker ned</translation>
+        <source>TESTWAGE Core is shutting down...</source>
+        <translation>TESTWAGE kernen lukker ned</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3042,8 +3116,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>De kan underskrive beskeder med Deres adresser or at bevise ejerskab. Vær forsigtig med at underskrive noget De er usikker på såsom forsøg op at narre Dem til at oplyse Deres identitet. Skriv kun under på noget De kan stå inde for, og som De er enig i. </translation>
     </message>
     <message>
-        <source>The Testwage address to sign the message with</source>
-        <translation>Den Testwage adresse, der skal bruges til at underskrive beskeden med.</translation>
+        <source>The TESTWAGE address to sign the message with</source>
+        <translation>Den TESTWAGE adresse, der skal bruges til at underskrive beskeden med.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3074,16 +3148,16 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Kopier den aktuelle underskrift til udklipsholderen.</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Testwage address</source>
-        <translation>Underskriv beskeden for at bevise, at De ejer denne Testwage adresse.</translation>
+        <source>Sign the message to prove you own this TESTWAGE address</source>
+        <translation>Underskriv beskeden for at bevise, at De ejer denne TESTWAGE adresse.</translation>
     </message>
     <message>
-        <source>The Testwage address the message was signed with</source>
-        <translation>Beskeden er underskrevet med denne Testwage adresse</translation>
+        <source>The TESTWAGE address the message was signed with</source>
+        <translation>Beskeden er underskrevet med denne TESTWAGE adresse</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Testwage address</source>
-        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige Testwage adresse.</translation>
+        <source>Verify the message to ensure it was signed with the specified TESTWAGE address</source>
+        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige TESTWAGE adresse.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3169,8 +3243,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage kerne</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE kerne</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3185,8 +3259,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>DASH "core" udviklerne</translation>
     </message>
     <message>
-        <source>The Testwage Core developers</source>
-        <translation>Testwage "core" udviklerne</translation>
+        <source>The TESTWAGE Core developers</source>
+        <translation>TESTWAGE "core" udviklerne</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3761,13 +3835,6 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
     </message>
 </context>
 <context>
-    <name>ZWageControlDialog</name>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    </context>
-<context>
     <name>testwage-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
@@ -3794,8 +3861,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Forbind til den opgivne adresse og lyt efter JSON-.RPC forbindelser. Brug [host]:port notation for IPv6. Der kan indsættes flere linier (standard: Forbind til alle interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Testwage Core is probably already running.</source>
-        <translation>Kan ikke låse datamappen %s. Testwage core kører sandsynligvis allerede.</translation>
+        <source>Cannot obtain a lock on data directory %s. TESTWAGE Core is probably already running.</source>
+        <translation>Kan ikke låse datamappen %s. TESTWAGE core kører sandsynligvis allerede.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -3814,8 +3881,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Slet alle tegnebogens transaktioner og genskab kun fra blokkæden ved at tilføje -rescan i forbindes med opstart.</translation>
     </message>
     <message>
-        <source>Disable all Testwage specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Slå alle Testwage funktioner fra (Masternoder, Tilsløring, SwiftTX, Budgetting)(0-1,default:%u)</translation>
+        <source>Disable all TESTWAGE specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Slå alle TESTWAGE funktioner fra (Masternoder, Tilsløring, SwiftTX, Budgetting)(0-1,default:%u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3829,6 +3896,10 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
     <message>
         <source>Enable swifttx, show confirmations for locked transactions (bool, default: %s)</source>
         <translation>Aktiver swifttx, vis bekræftelser for låste transaktioner (bool, default: %s)</translation>
+    </message>
+    <message>
+        <source>Enable use of automated obfuscation for funds stored in this wallet (0-1, default: %u)</source>
+        <translation>Slå automatisk tilsløring til for alle midler i denne tegebog (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
@@ -3871,6 +3942,10 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
         <translation>Der er fundet ubekræftede designerede outputs. Vent indtil de bekræftes for at fortsætte.</translation>
     </message>
     <message>
+        <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
+        <translation>Hvor grundig er blokkens verificeringer af -checkblocks er (0-4, default %u)</translation>
+    </message>
+    <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
         <translation>Hvis der ikke fastsættes et betalingsTxgebyr, skal der inkluderes tilstrækkelige midler til gebyret så transaktionens bekræftelsesproces vil begynde indenfor n blokke (default: %u)</translation>
     </message>
@@ -3908,11 +3983,15 @@ https://www.transifex.com/testwage-project/testwage-project-translations</transl
     </message>
     <message>
         <source>Obfuscation uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Tilsløring bruger hele det tilslørede designerede beløb til at sende betalinger. De kan blot tilsløre yderligere Testwage</translation>
+        <translation>Tilsløring bruger hele det tilslørede designerede beløb til at sende betalinger. De kan blot tilsløre yderligere TESTWAGE</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
         <translation>Output debug information (default: %u, supplying &lt;category&gt; er valgfri)</translation>
+    </message>
+    <message>
+        <source>Provide liquidity to Obfuscation by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
+        <translation>Tilfør tilsløring likviditet  ved at tilføje flere TESTWAGE løbende (0-100, default:%u, 1=meget hyppigt, høje gebyrer, 100=sjældent, lave gebyrer)</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
@@ -3964,7 +4043,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Testwage Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "TESTWAGE Alert" admin@foo.com
 </source>
         <translation>For at bruge testwaged eller -server muligheden sammen med testwage-qt skal der angives et rpc kodeord i konfigurationsfilen:
 %s
@@ -3975,12 +4054,12 @@ rpcpasswrd=%s
 Brugernavn og kodeord MÅ IKKE VÆRE ENS!
 Hvis filen ikke eksisterer, opret den med sikkerhedsindstillingen - ejer kun læserettigheder tilladelsen.
 Det anbefales tillige at vælge alertnotify til for at blive orienteret om eventuelle problemer.
-For eksempel: alertnotify=Echo %% | mail - s "Testwage ALARM!" e-mail@administrator.dk
+For eksempel: alertnotify=Echo %% | mail - s "TESTWAGE ALARM!" e-mail@administrator.dk
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Testwage Core is probably already running.</source>
-        <translation>Det var ikke muligt at forbinde %s på denne computer. Testwage kører sandsynligvis allerede.</translation>
+        <source>Unable to bind to %s on this computer. TESTWAGE Core is probably already running.</source>
+        <translation>Det var ikke muligt at forbinde %s på denne computer. TESTWAGE kører sandsynligvis allerede.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
@@ -4007,8 +4086,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Testwage ALARM!" e-mail@administra
         <translation>Advarsel! -paytxfee er sat meget højt. Det er dette gebyr De kommer til at betale for transaktionen, hvis De gennemfører. </translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Testwage Core will not work properly.</source>
-        <translation>Advarsel! Kontroller at computerens dato og tid er korrekt indstillet. Hvis tiden ikke er rigtig, vil Testwage core ikke fungere ordentligt.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong TESTWAGE Core will not work properly.</source>
+        <translation>Advarsel! Kontroller at computerens dato og tid er korrekt indstillet. Hvis tiden ikke er rigtig, vil TESTWAGE core ikke fungere ordentligt.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4155,8 +4234,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Testwage ALARM!" e-mail@administra
         <translation>Copyright (C) 2014-%i The Dash Core Developers </translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Testwage Core Developers</source>
-        <translation>Copyright (C) 2015-%i The Testwage Core Developers</translation>
+        <source>Copyright (C) 2015-%i The TESTWAGE Core Developers</source>
+        <translation>Copyright (C) 2015-%i The TESTWAGE Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4227,8 +4306,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Testwage ALARM!" e-mail@administra
         <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen er beskadiget</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Testwage Core</source>
-        <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen kræver en nyere version af Testwage core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of TESTWAGE Core</source>
+        <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen kræver en nyere version af TESTWAGE core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4339,8 +4418,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Testwage ALARM!" e-mail@administra
         <translation>Info:</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Testwage Core is shutting down.</source>
-        <translation>Initiering af sanitetskontrollen fejlede. Testwage core lukker ned. </translation>
+        <source>Initialization sanity check failed. TESTWAGE Core is shutting down.</source>
+        <translation>Initiering af sanitetskontrollen fejlede. TESTWAGE core lukker ned. </translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4349,6 +4428,14 @@ For eksempel: alertnotify=Echo %% | mail - s "Testwage ALARM!" e-mail@administra
     <message>
         <source>Insufficient funds.</source>
         <translation>Utilstrækkelige midler</translation>
+    </message>
+    <message>
+        <source>Invalid -onion address: '%s'</source>
+        <translation>Ugyldig -onion adresse: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Ugyldig -proxy adresse: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -4405,6 +4492,10 @@ For eksempel: alertnotify=Echo %% | mail - s "Testwage ALARM!" e-mail@administra
     <message>
         <source>Attempt to force blockchain corruption recovery</source>
         <translation>Forsøg at gennemtvinge reparation af korrumperet blokkæde</translation>
+    </message>
+    <message>
+        <source>Keep N WAGE anonymized (default: %u)</source>
+        <translation>Behold N WAGE anonymiserede (default: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
@@ -4549,6 +4640,10 @@ For eksempel: alertnotify=Echo %% | mail - s "Testwage ALARM!" e-mail@administra
     <message>
         <source>Obfuscation is idle.</source>
         <translation>Tilsløringssystem ledigt</translation>
+    </message>
+    <message>
+        <source>Obfuscation options:</source>
+        <translation>Tilsløringsmuligheder</translation>
     </message>
     <message>
         <source>Obfuscation request complete:</source>
@@ -4855,6 +4950,10 @@ For eksempel: alertnotify=Echo %% | mail - s "Testwage ALARM!" e-mail@administra
         <translation>Opdater tegnebogen til det nyeste format</translation>
     </message>
     <message>
+        <source>Use N separate masternodes to anonymize funds  (2-8, default: %u)</source>
+        <translation>Brug N forskellige masternoder for at anonymisere saldi (2-8, default: %u)</translation>
+    </message>
+    <message>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
         <translation>Brug OpenSSL (https) til JSON-RPC forbindelser</translation>
     </message>
@@ -4895,8 +4994,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Testwage ALARM!" e-mail@administra
         <translation>Tegnebogen er låst</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Testwage Core to complete</source>
-        <translation>Tegnebogen måtte genskrives. Genstart Testwage core for at gøre færdig</translation>
+        <source>Wallet needed to be rewritten: restart TESTWAGE Core to complete</source>
+        <translation>Tegnebogen måtte genskrives. Genstart TESTWAGE core for at gøre færdig</translation>
     </message>
     <message>
         <source>Wallet options:</source>

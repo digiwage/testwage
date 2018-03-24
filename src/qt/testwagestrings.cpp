@@ -30,7 +30,7 @@ QT_TRANSLATE_NOOP("testwage-core", ""
 "notation for IPv6. This option can be specified multiple times (default: "
 "bind to all interfaces)"),
 QT_TRANSLATE_NOOP("testwage-core", ""
-"Cannot obtain a lock on data directory %s. Testwage Core is probably already "
+"Cannot obtain a lock on data directory %s. TESTWAGE Core is probably already "
 "running."),
 QT_TRANSLATE_NOOP("testwage-core", ""
 "Change automatic finalized budget voting behavior. mode=auto: Vote for only "
@@ -45,7 +45,7 @@ QT_TRANSLATE_NOOP("testwage-core", ""
 "Delete all wallet transactions and only recover those parts of the "
 "blockchain through -rescan on startup"),
 QT_TRANSLATE_NOOP("testwage-core", ""
-"Disable all Testwage specific functionality (Masternodes, Obfuscation, SwiftX, "
+"Disable all TESTWAGE specific functionality (Masternodes, Obfuscation, SwiftTX, "
 "Budgeting) (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("testwage-core", ""
 "Distributed under the MIT software license, see the accompanying file "
@@ -53,7 +53,7 @@ QT_TRANSLATE_NOOP("testwage-core", ""
 QT_TRANSLATE_NOOP("testwage-core", ""
 "Enable spork administration functionality with the appropriate private key."),
 QT_TRANSLATE_NOOP("testwage-core", ""
-"Enable SwiftX, show confirmations for locked transactions (bool, default: "
+"Enable swifttx, show confirmations for locked transactions (bool, default: "
 "%s)"),
 QT_TRANSLATE_NOOP("testwage-core", ""
 "Enable use of automated obfuscation for funds stored in this wallet (0-1, "
@@ -143,7 +143,7 @@ QT_TRANSLATE_NOOP("testwage-core", ""
 QT_TRANSLATE_NOOP("testwage-core", ""
 "Support filtering of blocks and transaction with bloom filters (default: %u)"),
 QT_TRANSLATE_NOOP("testwage-core", ""
-"SwiftX requires inputs with at least 6 confirmations, you might need to "
+"SwiftTX requires inputs with at least 6 confirmations, you might need to "
 "wait a few minutes and try again."),
 QT_TRANSLATE_NOOP("testwage-core", ""
 "This is a pre-release test build - use at your own risk - do not use for "
@@ -164,16 +164,16 @@ QT_TRANSLATE_NOOP("testwage-core", ""
 "If the file does not exist, create it with owner-readable-only file "
 "permissions.\n"
 "It is also recommended to set alertnotify so you are notified of problems;\n"
-"for example: alertnotify=echo %%s | mail -s \"Testwage Alert\" admin@foo.com\n"),
+"for example: alertnotify=echo %%s | mail -s \"TESTWAGE Alert\" admin@foo.com\n"),
 QT_TRANSLATE_NOOP("testwage-core", ""
-"Unable to bind to %s on this computer. Testwage Core is probably already running."),
+"Unable to bind to %s on this computer. TESTWAGE Core is probably already running."),
 QT_TRANSLATE_NOOP("testwage-core", ""
 "Unable to locate enough Obfuscation denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("testwage-core", ""
 "Unable to locate enough Obfuscation non-denominated funds for this "
 "transaction that are not equal 12000 WAGE."),
 QT_TRANSLATE_NOOP("testwage-core", ""
-"Unable to locate enough funds for this transaction that are not equal 12000 "
+"Unable to locate enough funds for this transaction that are not equal 10000 "
 "WAGE."),
 QT_TRANSLATE_NOOP("testwage-core", ""
 "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: "
@@ -186,7 +186,7 @@ QT_TRANSLATE_NOOP("testwage-core", ""
 "pay if you send a transaction."),
 QT_TRANSLATE_NOOP("testwage-core", ""
 "Warning: Please check that your computer's date and time are correct! If "
-"your clock is wrong Testwage Core will not work properly."),
+"your clock is wrong TESTWAGE Core will not work properly."),
 QT_TRANSLATE_NOOP("testwage-core", ""
 "Warning: The network does not appear to fully agree! Some miners appear to "
 "be experiencing issues."),
@@ -240,8 +240,7 @@ QT_TRANSLATE_NOOP("testwage-core", "Connect to a node to retrieve peer addresses
 QT_TRANSLATE_NOOP("testwage-core", "Connection options:"),
 QT_TRANSLATE_NOOP("testwage-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
 QT_TRANSLATE_NOOP("testwage-core", "Copyright (C) 2014-%i The Dash Core Developers"),
-QT_TRANSLATE_NOOP("testwage-core", "Copyright (C) 2015-%i The PIVX Core Developers"),
-QT_TRANSLATE_NOOP("testwage-core", "Copyright (C) 2017-%i The Testwage Core Developers"),
+QT_TRANSLATE_NOOP("testwage-core", "Copyright (C) 2015-%i The TESTWAGE Core Developers"),
 QT_TRANSLATE_NOOP("testwage-core", "Corrupted block database detected"),
 QT_TRANSLATE_NOOP("testwage-core", "Could not parse -rpcbind value %s as network address"),
 QT_TRANSLATE_NOOP("testwage-core", "Could not parse masternode.conf"),
@@ -254,10 +253,10 @@ QT_TRANSLATE_NOOP("testwage-core", "Do not load the wallet and disable wallet RP
 QT_TRANSLATE_NOOP("testwage-core", "Do you want to rebuild the block database now?"),
 QT_TRANSLATE_NOOP("testwage-core", "Done loading"),
 QT_TRANSLATE_NOOP("testwage-core", "Enable publish hash block in <address>"),
-QT_TRANSLATE_NOOP("testwage-core", "Enable publish hash transaction (locked via SwiftX) in <address>"),
+QT_TRANSLATE_NOOP("testwage-core", "Enable publish hash transaction (locked via SwiftTX) in <address>"),
 QT_TRANSLATE_NOOP("testwage-core", "Enable publish hash transaction in <address>"),
 QT_TRANSLATE_NOOP("testwage-core", "Enable publish raw block in <address>"),
-QT_TRANSLATE_NOOP("testwage-core", "Enable publish raw transaction (locked via SwiftX) in <address>"),
+QT_TRANSLATE_NOOP("testwage-core", "Enable publish raw transaction (locked via SwiftTX) in <address>"),
 QT_TRANSLATE_NOOP("testwage-core", "Enable publish raw transaction in <address>"),
 QT_TRANSLATE_NOOP("testwage-core", "Enable staking functionality (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("testwage-core", "Enable the client to act as a masternode (0-1, default: %u)"),
@@ -268,7 +267,7 @@ QT_TRANSLATE_NOOP("testwage-core", "Error initializing wallet database environme
 QT_TRANSLATE_NOOP("testwage-core", "Error loading block database"),
 QT_TRANSLATE_NOOP("testwage-core", "Error loading wallet.dat"),
 QT_TRANSLATE_NOOP("testwage-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("testwage-core", "Error loading wallet.dat: Wallet requires newer version of Testwage Core"),
+QT_TRANSLATE_NOOP("testwage-core", "Error loading wallet.dat: Wallet requires newer version of TESTWAGE Core"),
 QT_TRANSLATE_NOOP("testwage-core", "Error opening block database"),
 QT_TRANSLATE_NOOP("testwage-core", "Error reading from database, shutting down."),
 QT_TRANSLATE_NOOP("testwage-core", "Error recovering public key."),
@@ -296,7 +295,7 @@ QT_TRANSLATE_NOOP("testwage-core", "Incompatible mode."),
 QT_TRANSLATE_NOOP("testwage-core", "Incompatible version."),
 QT_TRANSLATE_NOOP("testwage-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
 QT_TRANSLATE_NOOP("testwage-core", "Information"),
-QT_TRANSLATE_NOOP("testwage-core", "Initialization sanity check failed. Testwage Core is shutting down."),
+QT_TRANSLATE_NOOP("testwage-core", "Initialization sanity check failed. TESTWAGE Core is shutting down."),
 QT_TRANSLATE_NOOP("testwage-core", "Input is not valid."),
 QT_TRANSLATE_NOOP("testwage-core", "Insufficient funds."),
 QT_TRANSLATE_NOOP("testwage-core", "Invalid -onion address: '%s'"),
@@ -312,7 +311,7 @@ QT_TRANSLATE_NOOP("testwage-core", "Invalid netmask specified in -whitelist: '%s
 QT_TRANSLATE_NOOP("testwage-core", "Invalid port detected in masternode.conf"),
 QT_TRANSLATE_NOOP("testwage-core", "Invalid private key."),
 QT_TRANSLATE_NOOP("testwage-core", "Invalid script detected."),
-QT_TRANSLATE_NOOP("pivx-core", "Keep N WAGE anonymized (default: %u)"),
+QT_TRANSLATE_NOOP("testwage-core", "Keep N WAGE anonymized (default: %u)"),
 QT_TRANSLATE_NOOP("testwage-core", "Keep at most <n> unconnectable transactions in memory (default: %u)"),
 QT_TRANSLATE_NOOP("testwage-core", "Last Obfuscation was too recent."),
 QT_TRANSLATE_NOOP("testwage-core", "Last successful Obfuscation action was too recent."),
@@ -325,7 +324,6 @@ QT_TRANSLATE_NOOP("testwage-core", "Loading block index..."),
 QT_TRANSLATE_NOOP("testwage-core", "Loading budget cache..."),
 QT_TRANSLATE_NOOP("testwage-core", "Loading masternode cache..."),
 QT_TRANSLATE_NOOP("testwage-core", "Loading masternode payment cache..."),
-QT_TRANSLATE_NOOP("testwage-core", "Loading sporks..."),
 QT_TRANSLATE_NOOP("testwage-core", "Loading wallet... (%3.2f %%)"),
 QT_TRANSLATE_NOOP("testwage-core", "Loading wallet..."),
 QT_TRANSLATE_NOOP("testwage-core", "Lock is already in place."),
@@ -350,9 +348,9 @@ QT_TRANSLATE_NOOP("testwage-core", "Not enough file descriptors available."),
 QT_TRANSLATE_NOOP("testwage-core", "Not in the Masternode list."),
 QT_TRANSLATE_NOOP("testwage-core", "Number of automatic wallet backups (default: 10)"),
 QT_TRANSLATE_NOOP("testwage-core", "Obfuscation is idle."),
+QT_TRANSLATE_NOOP("testwage-core", "Obfuscation options:"),
 QT_TRANSLATE_NOOP("testwage-core", "Obfuscation request complete:"),
 QT_TRANSLATE_NOOP("testwage-core", "Obfuscation request incomplete:"),
-QT_TRANSLATE_NOOP("testwage-core", "Obfuscation options:"),
 QT_TRANSLATE_NOOP("testwage-core", "Only accept block chain matching built-in checkpoints (default: %u)"),
 QT_TRANSLATE_NOOP("testwage-core", "Only connect to nodes in network <net> (ipv4, ipv6 or onion)"),
 QT_TRANSLATE_NOOP("testwage-core", "Options:"),
@@ -403,7 +401,7 @@ QT_TRANSLATE_NOOP("testwage-core", "Stop running after importing blocks from dis
 QT_TRANSLATE_NOOP("testwage-core", "Submitted following entries to masternode: %u / %d"),
 QT_TRANSLATE_NOOP("testwage-core", "Submitted to masternode, waiting for more entries ( %u / %d ) %s"),
 QT_TRANSLATE_NOOP("testwage-core", "Submitted to masternode, waiting in queue %s"),
-QT_TRANSLATE_NOOP("testwage-core", "SwiftX options:"),
+QT_TRANSLATE_NOOP("testwage-core", "SwiftTX options:"),
 QT_TRANSLATE_NOOP("testwage-core", "Synchronization failed"),
 QT_TRANSLATE_NOOP("testwage-core", "Synchronization finished"),
 QT_TRANSLATE_NOOP("testwage-core", "Synchronization pending..."),
@@ -440,7 +438,7 @@ QT_TRANSLATE_NOOP("testwage-core", "Verifying blocks..."),
 QT_TRANSLATE_NOOP("testwage-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("testwage-core", "Wallet %s resides outside data directory %s"),
 QT_TRANSLATE_NOOP("testwage-core", "Wallet is locked."),
-QT_TRANSLATE_NOOP("testwage-core", "Wallet needed to be rewritten: restart Testwage Core to complete"),
+QT_TRANSLATE_NOOP("testwage-core", "Wallet needed to be rewritten: restart TESTWAGE Core to complete"),
 QT_TRANSLATE_NOOP("testwage-core", "Wallet options:"),
 QT_TRANSLATE_NOOP("testwage-core", "Wallet window title"),
 QT_TRANSLATE_NOOP("testwage-core", "Warning"),

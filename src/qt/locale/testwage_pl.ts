@@ -227,8 +227,8 @@
         <translation>Zakodowany klucz:</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Testwage address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Testwage jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this TESTWAGE address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres TESTWAGE jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -518,12 +518,12 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>Testwage Core</source>
-        <translation>&amp;Rdzeń Testwage</translation>
+        <source>TESTWAGE Core</source>
+        <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     <message>
-        <source>Send coins to a Testwage address</source>
-        <translation>Wyślij monety do adresu Testwage</translation>
+        <source>Send coins to a TESTWAGE address</source>
+        <translation>Wyślij monety do adresu TESTWAGE</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and testwage: URIs)</source>
@@ -538,24 +538,24 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Testwage Core</source>
+        <source>&amp;About TESTWAGE Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about Testwage Core</source>
+        <source>Show information about TESTWAGE Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for Testwage</source>
-        <translation>Modyfikuj opcje konfiguracji Testwage</translation>
+        <source>Modify configuration options for TESTWAGE</source>
+        <translation>Modyfikuj opcje konfiguracji TESTWAGE</translation>
     </message>
     <message>
-        <source>Sign messages with your Testwage addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami Testwage, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your TESTWAGE addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami TESTWAGE, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Testwage addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu Testwage</translation>
+        <source>Verify messages to ensure they were signed with specified TESTWAGE addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu TESTWAGE</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -582,8 +582,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a Testwage: URI or payment request</source>
-        <translation>OtwórzWAGEX: URI i żądanie zapłaty</translation>
+        <source>Open a TESTWAGE: URI or payment request</source>
+        <translation>Otwórz TESTWAGE: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -594,12 +594,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the Testwage Core help message to get a list with possible Testwage command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia Testwage, aby dostać listę możliwych opcji Testwage command-line</translation>
+        <source>Show the TESTWAGE Core help message to get a list with possible TESTWAGE command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia TESTWAGE, aby dostać listę możliwych opcji TESTWAGE command-line</translation>
     </message>
     <message>
-        <source>Testwage Core client</source>
-        <translation>Rdzeń Testwage klient</translation>
+        <source>TESTWAGE Core client</source>
+        <translation>Rdzeń TESTWAGE klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -847,6 +847,10 @@ MultiWysyłlka: %1</translation>
         <translation>Średnio-wysoki</translation>
     </message>
     <message>
+        <source>n/a</source>
+        <translation>n/a</translation>
+    </message>
+    <message>
         <source>medium</source>
         <translation>średni</translation>
     </message>
@@ -912,8 +916,8 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Testwage Core</source>
-        <translation>&amp;Rdzeń Testwage</translation>
+        <source>TESTWAGE Core</source>
+        <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     </context>
 <context>
@@ -927,8 +931,8 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>Testwage Core</source>
-        <translation>&amp;Rdzeń Testwage</translation>
+        <source>TESTWAGE Core</source>
+        <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -991,7 +995,7 @@ MultiWysyłlka: %1</translation>
     </message>
     <message>
         <source>Status will be updated automatically in (sec):</source>
-        <translation>Status będzie uaktualniany automatycznie (w sekundach)</translation>
+        <translation>Status będzie uaktualniany automatycznie w sekundach</translation>
     </message>
     <message>
         <source>0</source>
@@ -1188,12 +1192,16 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start Testwage after logging in to the system.</source>
-        <translation>Automatycznie uruchom Testwage po zalogowaniu do systemu</translation>
+        <source>Automatically start TESTWAGE after logging in to the system.</source>
+        <translation>Automatycznie uruchom TESTWAGE po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start Testwage on system login</source>
-        <translation>&amp;Uruchom Testwage podczas logowania do systemu</translation>
+        <source>&amp;Start TESTWAGE on system login</source>
+        <translation>&amp;Uruchom TESTWAGE podczas logowania do systemu</translation>
+    </message>
+    <message>
+        <source>Amount of TESTWAGE to keep anonymized</source>
+        <translation>Liczba TESTWAGE do anonimizacji</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1212,18 +1220,18 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Testwage.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie Testwage</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting TESTWAGE.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie TESTWAGE</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/testwage-project/testwage-project-translations</source>
+https://www.transifex.com/testwage/testwage-project-translations</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/testwage-project/testwage-project-translations </translation>
+https://www.transifex.com/testwage/testwage-project-translations </translation>
     </message>
     <message>
-        <source>Connect to the Testwage network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią Testwage poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the TESTWAGE network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią TESTWAGE poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1337,6 +1345,10 @@ https://www.transifex.com/testwage-project/testwage-project-translations </trans
         <translation>Niedojrzały</translation>
     </message>
     <message>
+        <source>Balances</source>
+        <translation>Balans</translation>
+    </message>
+    <message>
         <source>Total:</source>
         <translation>Całość:</translation>
     </message>
@@ -1357,12 +1369,60 @@ https://www.transifex.com/testwage-project/testwage-project-translations </trans
         <translation>Możliwy do wysłania:</translation>
     </message>
     <message>
+        <source>Status:</source>
+        <translation>Status:</translation>
+    </message>
+    <message>
+        <source>0 WAGE / 0 Rounds</source>
+        <translation>0 OIVX / 0 Rund</translation>
+    </message>
+    <message>
+        <source>Enabled/Disabled</source>
+        <translation>Włączony/Wyłączony</translation>
+    </message>
+    <message>
+        <source>Completion:</source>
+        <translation>Ukończono:</translation>
+    </message>
+    <message>
+        <source>Amount and Rounds:</source>
+        <translation>Liczba i rundy:</translation>
+    </message>
+    <message>
+        <source>n/a</source>
+        <translation>n/a</translation>
+    </message>
+    <message>
         <source>Recent transactions</source>
         <translation>Ostatnie transakcje</translation>
     </message>
     <message>
+        <source>Try Mix</source>
+        <translation>Wypróbuj MIX</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Resetuj</translation>
+    </message>
+    <message>
         <source>out of sync</source>
         <translation>Brak synchronizacji</translation>
+    </message>
+    <message>
+        <source>Disabled</source>
+        <translation>Wyłączony</translation>
+    </message>
+    <message>
+        <source>Anonymized</source>
+        <translation>Zanonimizowany</translation>
+    </message>
+    <message>
+        <source>Enabled</source>
+        <translation>Włączony</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>N/A</translation>
     </message>
 </context>
 <context>
@@ -1388,72 +1448,9 @@ https://www.transifex.com/testwage-project/testwage-project-translations </trans
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>Czas PinguCzas pingu</translation>
+        <translation>Czas Pingu</translation>
     </message>
 </context>
-<context>
-    <name>PrivacyDialog</name>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>Resetuj</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Liczba:</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Wybierz poprzednio używany adres</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>Wklej adres ze schowka</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Priorytet:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Opłata:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>nie</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation>średni</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Zmiana:</translation>
-    </message>
-    <message>
-        <source>out of sync</source>
-        <translation>Brak synchronizacji</translation>
-    </message>
-    <message>
-        <source>Copy quantity</source>
-        <translation>Kopiuj ilość</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Kopiuj liczbę</translation>
-    </message>
-    </context>
 <context>
     <name>QObject</name>
     <message>
@@ -1461,8 +1458,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations </trans
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a Testwage address (e.g. %1)</source>
-        <translation>Wprowadź adres Testwage (np. %1)</translation>
+        <source>Enter a TESTWAGE address (e.g. %1)</source>
+        <translation>Wprowadź adres TESTWAGE (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1676,7 +1673,7 @@ https://www.transifex.com/testwage-project/testwage-project-translations </trans
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>Czas PinguCzas pingu</translation>
+        <translation>Czas Pingu</translation>
     </message>
     <message>
         <source>&amp;Wallet Repair</source>
@@ -1900,8 +1897,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations </trans
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Testwage address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Testwage jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this TESTWAGE address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres TESTWAGE jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1935,8 +1932,8 @@ https://www.transifex.com/testwage-project/testwage-project-translations </trans
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Testwage Core</source>
-        <translation>&amp;Rdzeń Testwage</translation>
+        <source>TESTWAGE Core</source>
+        <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     </context>
 <context>
@@ -2024,13 +2021,6 @@ https://www.transifex.com/testwage-project/testwage-project-translations </trans
     <message>
         <source>&amp;Export</source>
         <translation>Eksportuj</translation>
-    </message>
-    </context>
-<context>
-    <name>ZWageControlDialog</name>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
     </message>
     </context>
 <context>

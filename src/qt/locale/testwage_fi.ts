@@ -62,12 +62,12 @@
         <translation>Vastaanottavat osoitteet</translation>
     </message>
     <message>
-        <source>These are your Testwage addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat sinun Testwage osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
+        <source>These are your TESTWAGE addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat sinun TESTWAGE osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your Testwage addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat sinun Testwage osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
+        <source>These are your TESTWAGE addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Nämä ovat sinun TESTWAGE osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>Testwage will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your WAGEs from being stolen by malware infecting your computer.</source>
-        <translation>Testwage sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella WAGEien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>TESTWAGE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your WAGEs from being stolen by malware infecting your computer.</source>
+        <translation>TESTWAGE sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella WAGEien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -244,8 +244,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Osoite:</translation>
     </message>
     <message>
-        <source>The Testwage address to sign the message with</source>
-        <translation>Testwage osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The TESTWAGE address to sign the message with</source>
+        <translation>TESTWAGE osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -276,8 +276,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Testwage address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Testwage osoitteen</translation>
+        <source>Sign the message to prove you own this TESTWAGE address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän TESTWAGE osoitteen</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -300,12 +300,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Syötä BIP 38 salattu yksityisavain. Syötä salausavain laatikkoon. Paina Avaa Salaus tuottaaksesi yksityisavaimen. Kun avain on dekryptattu, painamalla "Import osoite" lisää tämän yksityisavaimen lompakkoon.</translation>
     </message>
     <message>
-        <source>The Testwage address the message was signed with</source>
-        <translation>Testwage osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The TESTWAGE address the message was signed with</source>
+        <translation>TESTWAGE osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Testwage address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla Testwage osoitteella.</translation>
+        <source>Verify the message to ensure it was signed with the specified TESTWAGE address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla TESTWAGE osoitteella.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -591,12 +591,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Ydin</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Ydin</translation>
     </message>
     <message>
-        <source>Send coins to a Testwage address</source>
-        <translation>Lähetä kolikkoja Testwage osoitteeseen</translation>
+        <source>Send coins to a TESTWAGE address</source>
+        <translation>Lähetä kolikkoja TESTWAGE osoitteeseen</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and testwage: URIs)</source>
@@ -611,24 +611,24 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About Testwage Core</source>
-        <translation>Testwage Core &amp;ytimestä</translation>
+        <source>&amp;About TESTWAGE Core</source>
+        <translation>TESTWAGE Core &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about Testwage Core</source>
-        <translation>Näytä tietoja Testwage Ytimestä</translation>
+        <source>Show information about TESTWAGE Core</source>
+        <translation>Näytä tietoja TESTWAGE Ytimestä</translation>
     </message>
     <message>
-        <source>Modify configuration options for Testwage</source>
-        <translation>Muokkaa konfiguraatio vaihtoehtoja Testwage:lle</translation>
+        <source>Modify configuration options for TESTWAGE</source>
+        <translation>Muokkaa konfiguraatio vaihtoehtoja TESTWAGE:lle</translation>
     </message>
     <message>
-        <source>Sign messages with your Testwage addresses to prove you own them</source>
+        <source>Sign messages with your TESTWAGE addresses to prove you own them</source>
         <translation>Allekirjoita viestejä todistaaksesi, että omistat ne.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Testwage addresses</source>
-        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä Testwage osoiteella.</translation>
+        <source>Verify messages to ensure they were signed with specified TESTWAGE addresses</source>
+        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä TESTWAGE osoiteella.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -659,8 +659,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a Testwage: URI or payment request</source>
-        <translation>Avaa Testwage: URI tai pyydä maksua</translation>
+        <source>Open a TESTWAGE: URI or payment request</source>
+        <translation>Avaa TESTWAGE: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -671,12 +671,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the Testwage Core help message to get a list with possible Testwage command-line options</source>
-        <translation>Näytä Testwage Ydin apuviesti saadaksesi lista mahdollisista Testwage komentolinja komennoista.</translation>
+        <source>Show the TESTWAGE Core help message to get a list with possible TESTWAGE command-line options</source>
+        <translation>Näytä TESTWAGE Ydin apuviesti saadaksesi lista mahdollisista TESTWAGE komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>Testwage Core client</source>
-        <translation>Testwage Ydin asiakasohjelma</translation>
+        <source>TESTWAGE Core client</source>
+        <translation>TESTWAGE Ydin asiakasohjelma</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -934,8 +934,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Ydin</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Ydin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -953,12 +953,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to Testwage Core.</source>
-        <translation>Tervetuloa Testwage Ytimeen.</translation>
+        <source>Welcome to TESTWAGE Core.</source>
+        <translation>Tervetuloa TESTWAGE Ytimeen.</translation>
     </message>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Ydin</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Ydin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1136,11 +1136,11 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>Use 2 separate masternodes to mix funds up to 12000 WAGE</source>
-        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 Testwage</translation>
+        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 TESTWAGE</translation>
     </message>
     <message>
         <source>Use 8 separate masternodes to mix funds up to 12000 WAGE</source>
-        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 Testwage</translation>
+        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 TESTWAGE</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
@@ -1148,11 +1148,11 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 WAGE to anonymize 12000 WAGE</source>
-        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 WAGE anonymoidaksesi 10000 Testwage</translation>
+        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 WAGE anonymoidaksesi 10000 TESTWAGE</translation>
     </message>
     <message>
         <source>This option is moderately fast and will cost about 0.05 WAGE to anonymize 12000 WAGE</source>
-        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 Testwage anonymoidaksesi 10000 Testwage</translation>
+        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 TESTWAGE anonymoidaksesi 10000 TESTWAGE</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -1160,7 +1160,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>0.1 WAGE per 12000 WAGE you anonymize.</source>
-        <translation>0.1 per 10000 Testwage, jotka anonymisoit.</translation>
+        <translation>0.1 per 10000 TESTWAGE, jotka anonymisoit.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1209,12 +1209,16 @@ Please check the address and try again.</source>
         <translation>Ekspertti</translation>
     </message>
     <message>
-        <source>Automatically start Testwage after logging in to the system.</source>
-        <translation>Automaattisesti käynnistä Testwage kun kirjaudut sisään.</translation>
+        <source>Automatically start TESTWAGE after logging in to the system.</source>
+        <translation>Automaattisesti käynnistä TESTWAGE kun kirjaudut sisään.</translation>
     </message>
     <message>
-        <source>&amp;Start Testwage on system login</source>
-        <translation>&amp;Aloita Testwage järjestelmän kirjautumisessa</translation>
+        <source>&amp;Start TESTWAGE on system login</source>
+        <translation>&amp;Aloita TESTWAGE järjestelmän kirjautumisessa</translation>
+    </message>
+    <message>
+        <source>Amount of TESTWAGE to keep anonymized</source>
+        <translation>TESTWAGE määrä joka pidetään anonymisoituna</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1233,12 +1237,12 @@ Please check the address and try again.</source>
         <translation>&amp;Verkko</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Testwage.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting TESTWAGE.</source>
         <translation>Käyttöliittymän kielen voi säätää täällä. Tämä asetus tulee voimaan uudelleenkäynnistettyäsi lompakon.</translation>
     </message>
     <message>
-        <source>Connect to the Testwage network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä Testwage verkkoon SOCKS5 proxyn kautta</translation>
+        <source>Connect to the TESTWAGE network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä TESTWAGE verkkoon SOCKS5 proxyn kautta</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1372,6 +1376,10 @@ Please check the address and try again.</source>
         <translation>Panostus tai masternodem palkiinnot jotka eivät ole vielä kypsyneet.</translation>
     </message>
     <message>
+        <source>Balances</source>
+        <translation>Saldot</translation>
+    </message>
+    <message>
         <source>Total:</source>
         <translation>Määrä:</translation>
     </message>
@@ -1382,6 +1390,14 @@ Please check the address and try again.</source>
     <message>
         <source>Spendable:</source>
         <translation>Käytettävää:</translation>
+    </message>
+    <message>
+        <source>Status:</source>
+        <translation>Tila:</translation>
+    </message>
+    <message>
+        <source>Enabled/Disabled</source>
+        <translation>Päällä/Pois päältä</translation>
     </message>
     </context>
 <context>
@@ -1398,89 +1414,6 @@ Please check the address and try again.</source>
         <translation>Ping aika</translation>
     </message>
 </context>
-<context>
-    <name>PrivacyDialog</name>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Määrä:</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Määrä:</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Valitse aikaisemmin käytetty osoite</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>Liitä osoite leikepöydältä</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>&amp;Label:</source>
-        <translation>&amp;Nimike:</translation>
-    </message>
-    <message>
-        <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Syötä nimike tälle osoittelle lisätäksesi se käytettävien osoitteiden listaan</translation>
-    </message>
-    <message>
-        <source>A&amp;mount:</source>
-        <translation>M&amp;äärä:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Tärkeys:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Taksa:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>ei</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Tavut:</translation>
-    </message>
-    <message>
-        <source>Insufficient funds!</source>
-        <translation>Puutteelliset varat!</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation>kohtalainen</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Muutos:</translation>
-    </message>
-    <message>
-        <source>Copy quantity</source>
-        <translation>Kopioi määrä</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Kopioi määrä</translation>
-    </message>
-    <message>
-        <source>Confirm send coins</source>
-        <translation>Vahvista kolikoiden lähetys</translation>
-    </message>
-    </context>
 <context>
     <name>QObject</name>
     <message>
@@ -1542,8 +1475,8 @@ Please check the address and try again.</source>
         <translation>Lohko ketju</translation>
     </message>
     <message>
-        <source>Open the Testwage debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa Testwage debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
+        <source>Open the TESTWAGE debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa TESTWAGE debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -1654,8 +1587,8 @@ Please check the address and try again.</source>
         <translation>Ulos:</translation>
     </message>
     <message>
-        <source>Welcome to the Testwage RPC console.</source>
-        <translation>Tervetuloa Testwage RPC konsoliin.</translation>
+        <source>Welcome to the TESTWAGE RPC console.</source>
+        <translation>Tervetuloa TESTWAGE RPC konsoliin.</translation>
     </message>
     <message>
         <source>never</source>
@@ -1697,12 +1630,12 @@ Please check the address and try again.</source>
         <translation>Vaihtoehtoinen nimike uudelle vastaanottavalle osoitteelle</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Testwage network.</source>
-        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana Testwage verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the TESTWAGE network.</source>
+        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana TESTWAGE verkolle.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Testwage network.</source>
-        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana Testwage  verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the TESTWAGE network.</source>
+        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana TESTWAGE  verkolle.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -1858,6 +1791,10 @@ Please check the address and try again.</source>
         <translation>Lähetä Kolikot</translation>
     </message>
     <message>
+        <source>automatically selected</source>
+        <translation>automaattisesti valittu</translation>
+    </message>
+    <message>
         <source>Insufficient funds!</source>
         <translation>Puutteelliset varat!</translation>
     </message>
@@ -1982,8 +1919,8 @@ Please check the address and try again.</source>
         <translation>käyttää</translation>
     </message>
     <message>
-        <source>Warning: Invalid Testwage address</source>
-        <translation>Varoitus: Virheellinen Testwage osoite</translation>
+        <source>Warning: Invalid TESTWAGE address</source>
+        <translation>Varoitus: Virheellinen TESTWAGE osoite</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
@@ -2029,8 +1966,8 @@ Please check the address and try again.</source>
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
-        <source>The Testwage address to send the payment to</source>
-        <translation>Testwage osoite johon maksu lähetetään</translation>
+        <source>The TESTWAGE address to send the payment to</source>
+        <translation>TESTWAGE osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2072,8 +2009,8 @@ Please check the address and try again.</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Testwage Core is shutting down...</source>
-        <translation>Testwage core sammuu...</translation>
+        <source>TESTWAGE Core is shutting down...</source>
+        <translation>TESTWAGE core sammuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2091,8 +2028,8 @@ Please check the address and try again.</source>
         <translation>Voit allekirjoittaa viestejä osoitteillasi todistaaksesi, että omistat ne. Ole varovainen ettet allekirjoita mitään kummallista, sillä kalasteluyritykset saattavat yrittää huijata sinut luovuttamaan tietoja. Allekirjoita vain täysin yksityiskohtaisia sanomia, jotka hyväksyt.</translation>
     </message>
     <message>
-        <source>The Testwage address to sign the message with</source>
-        <translation>Testwage osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The TESTWAGE address to sign the message with</source>
+        <translation>TESTWAGE osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2123,16 +2060,16 @@ Please check the address and try again.</source>
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Testwage address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Testwage osoitteen</translation>
+        <source>Sign the message to prove you own this TESTWAGE address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän TESTWAGE osoitteen</translation>
     </message>
     <message>
-        <source>The Testwage address the message was signed with</source>
-        <translation>Testwage osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The TESTWAGE address the message was signed with</source>
+        <translation>TESTWAGE osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Testwage address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla Testwage osoitteella.</translation>
+        <source>Verify the message to ensure it was signed with the specified TESTWAGE address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla TESTWAGE osoitteella.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2214,8 +2151,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Ydin</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Ydin</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2230,8 +2167,8 @@ Please check the address and try again.</source>
         <translation>Dash Core kehittäjät</translation>
     </message>
     <message>
-        <source>The Testwage Core developers</source>
-        <translation>Testwage core kehittäjät</translation>
+        <source>The TESTWAGE Core developers</source>
+        <translation>TESTWAGE core kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2534,13 +2471,6 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>ZWageControlDialog</name>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    </context>
-<context>
     <name>testwage-core</name>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2591,8 +2521,8 @@ Please check the address and try again.</source>
         <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko korruptoitunut</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Testwage Core</source>
-        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version Testwage Coresta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of TESTWAGE Core</source>
+        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version TESTWAGE Coresta</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>

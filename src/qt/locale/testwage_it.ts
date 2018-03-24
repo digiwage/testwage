@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your Testwage addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono gli indirizzi Testwage per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
+        <source>These are your TESTWAGE addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono gli indirizzi TESTWAGE per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
     </message>
     <message>
-        <source>These are your Testwage addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono gli indirizzi Testwage per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
+        <source>These are your TESTWAGE addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono gli indirizzi TESTWAGE per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>Testwage will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your WAGEs from being stolen by malware infecting your computer.</source>
-        <translation>Testwage verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi WAGE dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>TESTWAGE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your WAGEs from being stolen by malware infecting your computer.</source>
+        <translation>TESTWAGE verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi WAGE dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -247,8 +247,8 @@
         <translation>Indirizzo:</translation>
     </message>
     <message>
-        <source>The Testwage address to sign the message with</source>
-        <translation>L'indirizzo Testwage per firmare il messaggio con</translation>
+        <source>The TESTWAGE address to sign the message with</source>
+        <translation>L'indirizzo TESTWAGE per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Testwage address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo Testwage</translation>
+        <source>Sign the message to prove you own this TESTWAGE address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo TESTWAGE</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Immettere la chiave privata codificata BIP 38. Inserire la passphrase nella casella centrale. Fare clic su Decripta Chiave per calcolare la chiave privata. Dopo che la chiave viene decrittata, cliccando su "Importa indirizzo" verrà aggiunta questa chiave privata al portafoglio.</translation>
     </message>
     <message>
-        <source>The Testwage address the message was signed with</source>
-        <translation>L'indirizzo Testwage con cui è stato firmato il messaggio</translation>
+        <source>The TESTWAGE address the message was signed with</source>
+        <translation>L'indirizzo TESTWAGE con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Testwage address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo Testwage specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified TESTWAGE address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo TESTWAGE specificato </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -590,12 +590,12 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Core</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Core</translation>
     </message>
     <message>
-        <source>Send coins to a Testwage address</source>
-        <translation>Invia monete all' indirizzo Testwage</translation>
+        <source>Send coins to a TESTWAGE address</source>
+        <translation>Invia monete all' indirizzo TESTWAGE</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and testwage: URIs)</source>
@@ -610,24 +610,24 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Testwage Core</source>
-        <translation>&amp;Informazioni Testwage Core</translation>
+        <source>&amp;About TESTWAGE Core</source>
+        <translation>&amp;Informazioni TESTWAGE Core</translation>
     </message>
     <message>
-        <source>Show information about Testwage Core</source>
-        <translation>Visualizza informazioni su Testwage Core</translation>
+        <source>Show information about TESTWAGE Core</source>
+        <translation>Visualizza informazioni su TESTWAGE Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Testwage</source>
-        <translation>Modifica le opzioni di configurazione per Testwage</translation>
+        <source>Modify configuration options for TESTWAGE</source>
+        <translation>Modifica le opzioni di configurazione per TESTWAGE</translation>
     </message>
     <message>
-        <source>Sign messages with your Testwage addresses to prove you own them</source>
-        <translation>Firma i messaggi con i tuoi indirizzi Testwage per dimostrare di essere il proprietario </translation>
+        <source>Sign messages with your TESTWAGE addresses to prove you own them</source>
+        <translation>Firma i messaggi con i tuoi indirizzi TESTWAGE per dimostrare di essere il proprietario </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Testwage addresses</source>
-        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi Testwage specifici</translation>
+        <source>Verify messages to ensure they were signed with specified TESTWAGE addresses</source>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi TESTWAGE specifici</translation>
     </message>
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
@@ -638,16 +638,16 @@
         <translation>Impostazioni MultiSend</translation>
     </message>
     <message>
-        <source>Open a Testwage: URI or payment request</source>
-        <translation>Apri un Testwage: URI o richiesta di pagamento</translation>
+        <source>Open a TESTWAGE: URI or payment request</source>
+        <translation>Apri un TESTWAGE: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>Block explorer window</source>
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the Testwage Core help message to get a list with possible Testwage command-line options</source>
-        <translation>Mostra il messaggio di aiuto Testwage Core per ottenere un elenco con le possibili opzioni di riga di comando Testwage</translation>
+        <source>Show the TESTWAGE Core help message to get a list with possible TESTWAGE command-line options</source>
+        <translation>Mostra il messaggio di aiuto TESTWAGE Core per ottenere un elenco con le possibili opzioni di riga di comando TESTWAGE</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -839,8 +839,13 @@ MultiSend: %1</translation>
         <translation>Prego selezionare "Modalità lista" per utilizzare questa funzione</translation>
     </message>
     <message>
+        <source>n/a</source>
+        <translation>n/a</translation>
+    </message>
+    <message>
         <source>yes</source>
-        <translation>si</translation>
+        <translation>si
+</translation>
     </message>
     <message>
         <source>no</source>
@@ -888,8 +893,8 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Core</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -915,8 +920,8 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Core</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -960,59 +965,16 @@ MultiSend: %1</translation>
     </context>
 <context>
     <name>OverviewPage</name>
+    <message>
+        <source>n/a</source>
+        <translation>n/a</translation>
+    </message>
     </context>
 <context>
     <name>PaymentServer</name>
     </context>
 <context>
     <name>PeerTableModel</name>
-    </context>
-<context>
-    <name>PrivacyDialog</name>
-    <message>
-        <source>Quantity:</source>
-        <translation>Quantità:</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Totale:</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Scegli l'indirizzo utilizzato in precedenza</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>Incolla l'indirizzo dagli appunti</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Priorità:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Tassa:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>no</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Differenza:</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Copia ammontare</translation>
-    </message>
     </context>
 <context>
     <name>QObject</name>
@@ -1144,8 +1106,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Testwage address to sign the message with</source>
-        <translation>L'indirizzo Testwage per firmare il messaggio con</translation>
+        <source>The TESTWAGE address to sign the message with</source>
+        <translation>L'indirizzo TESTWAGE per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1168,16 +1130,16 @@ MultiSend: %1</translation>
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Testwage address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo Testwage</translation>
+        <source>Sign the message to prove you own this TESTWAGE address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo TESTWAGE</translation>
     </message>
     <message>
-        <source>The Testwage address the message was signed with</source>
-        <translation>L'indirizzo Testwage con cui è stato firmato il messaggio</translation>
+        <source>The TESTWAGE address the message was signed with</source>
+        <translation>L'indirizzo TESTWAGE con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Testwage address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo Testwage specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified TESTWAGE address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo TESTWAGE specificato </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1215,8 +1177,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Core</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Core</translation>
     </message>
     </context>
 <context>
@@ -1309,9 +1271,6 @@ MultiSend: %1</translation>
         <source>Export the data in the current tab to a file</source>
         <translation>Esporta i dati della scheda corrente in un file</translation>
     </message>
-    </context>
-<context>
-    <name>ZWageControlDialog</name>
     </context>
 <context>
     <name>testwage-core</name>

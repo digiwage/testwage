@@ -16,8 +16,8 @@ BITCOIND_USER=${BITCOIND_USER:-testwage}
 BITCOIND_GROUP=${BITCOIND_GROUP:-testwage}
 BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/testwaged}
 
-name="Testwage Core Daemon"
-description="Testwage crypto-currency p2p network daemon"
+name="TESTWAGE Core Daemon"
+description="TESTWAGE crypto-currency p2p network daemon"
 
 command="/usr/bin/testwaged"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \

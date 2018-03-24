@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Höger klicka för att redigera adress eller etikett</translation>
+        <translation>Höger klicka för att ändra adress eller beteckning</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -58,12 +58,12 @@
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>These are your Testwage addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Det här är dina Testwage adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
+        <source>These are your TESTWAGE addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Det här är dina TESTWAGE adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
     </message>
     <message>
-        <source>These are your Testwage addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Det här är dina Testwage adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your TESTWAGE addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Det här är dina TESTWAGE adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -71,7 +71,7 @@
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Kopiera &amp; Ettikera</translation>
+        <translation>Kopiera &amp; Märk</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
@@ -160,8 +160,8 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>Testwage will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your WAGEs from being stolen by malware infecting your computer.</source>
-        <translation>Testwage kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina WAGEs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>TESTWAGE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your WAGEs from being stolen by malware infecting your computer.</source>
+        <translation>TESTWAGE kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina WAGEs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -224,16 +224,16 @@
     </message>
     <message>
         <source>Enter a Testwage Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Ange en Testwage adress som du vill kryptera med BIP 38.
-Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den krypterade privata nyckeln.</translation>
+        <translation>Skriv in en Testwage adress som du vill kryptera med BIP 38.
+Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den krypterade privata nyckeln.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adress:</translation>
     </message>
     <message>
-        <source>The Testwage address to sign the message with</source>
-        <translation>Testwage adressen för signera meddelandet med</translation>
+        <source>The TESTWAGE address to sign the message with</source>
+        <translation>TESTWAGE adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -264,8 +264,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Testwage address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Testwage adress</translation>
+        <source>Sign the message to prove you own this TESTWAGE address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna TESTWAGE adress</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -285,15 +285,15 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     </message>
     <message>
         <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
-        <translation>Ange BIP 38 krypterade privata nyckeln. Ange lösenfrasen i med mittersta boxen. Tryck på krypetra nyckel för att beräkna den privata nyckeln. Efter att nyckeln är avkrypterad, Tryck på 'Importera Adress' kommer att lägga till denna privata nyckel till plånboken.</translation>
+        <translation>Ange</translation>
     </message>
     <message>
-        <source>The Testwage address the message was signed with</source>
-        <translation>Testwage adressen meddelandet blev signerat med</translation>
+        <source>The TESTWAGE address the message was signed with</source>
+        <translation>TESTWAGE adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Testwage address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Testwage adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified TESTWAGE address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika TESTWAGE adressen.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -337,7 +337,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Upplåsningen av plånboken var avbruten.</translation>
+        <translation>Plånboks upplåsningen var avbruten</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
@@ -408,7 +408,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Bläddra i transaktions historiken</translation>
+        <translation>Bläddra i transaktions historien</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -583,12 +583,12 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Kärna</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Kärna</translation>
     </message>
     <message>
-        <source>Send coins to a Testwage address</source>
-        <translation>Skicka mynt till en Testwage adress</translation>
+        <source>Send coins to a TESTWAGE address</source>
+        <translation>Skicka mynt till en TESTWAGE adress</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and testwage: URIs)</source>
@@ -603,24 +603,24 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About Testwage Core</source>
-        <translation>Om Testwage Kärnan</translation>
+        <source>&amp;About TESTWAGE Core</source>
+        <translation>Om TESTWAGE Kärnan</translation>
     </message>
     <message>
-        <source>Show information about Testwage Core</source>
-        <translation>Visa information om Testwage Kärnan</translation>
+        <source>Show information about TESTWAGE Core</source>
+        <translation>Visa information om TESTWAGE Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for Testwage</source>
-        <translation>Ändra konfigurationsval för Testwage</translation>
+        <source>Modify configuration options for TESTWAGE</source>
+        <translation>Ändra konfigurationsval för TESTWAGE</translation>
     </message>
     <message>
-        <source>Sign messages with your Testwage addresses to prove you own them</source>
-        <translation>Signera meddelanden med din Testwage adress för att visa att du äger dem</translation>
+        <source>Sign messages with your TESTWAGE addresses to prove you own them</source>
+        <translation>Signera meddelanden med din TESTWAGE adress för att visa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Testwage addresses</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Testwage adressen.</translation>
+        <source>Verify messages to ensure they were signed with specified TESTWAGE addresses</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika TESTWAGE adressen.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -631,8 +631,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kryptera och avkryptera privata nycklar genom användning av lösenfras</translation>
     </message>
     <message>
-        <source>Testwage Core client</source>
-        <translation>Testwage kärn klient</translation>
+        <source>TESTWAGE Core client</source>
+        <translation>TESTWAGE kärn klient</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -792,6 +792,10 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>medel-hög</translation>
     </message>
     <message>
+        <source>n/a</source>
+        <translation>ingen uppgift</translation>
+    </message>
+    <message>
         <source>medium</source>
         <translation>medel</translation>
     </message>
@@ -837,15 +841,15 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Kärna</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Kärna</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Kärna</translation>
     </message>
     <message>
         <source>Error</source>
@@ -893,71 +897,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     </context>
 <context>
     <name>OverviewPage</name>
+    <message>
+        <source>n/a</source>
+        <translation>ingen uppgift</translation>
+    </message>
     </context>
 <context>
     <name>PaymentServer</name>
     </context>
 <context>
     <name>PeerTableModel</name>
-    </context>
-<context>
-    <name>PrivacyDialog</name>
-    <message>
-        <source>Quantity:</source>
-        <translation>Kvantitet:</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Antal:</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Använd den föregående använda adressen</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>Limma in adress från urklipp</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>&amp;Label:</source>
-        <translation>Etikett:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Prioritet:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Avgift:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>nej</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Bytes:</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation>medel</translation>
-    </message>
-    <message>
-        <source>Copy quantity</source>
-        <translation>Kopiera kvantitet</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Kopiera antal</translation>
-    </message>
     </context>
 <context>
     <name>QObject</name>
@@ -1157,8 +1106,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Testwage address to sign the message with</source>
-        <translation>Testwage adressen för signera meddelandet med</translation>
+        <source>The TESTWAGE address to sign the message with</source>
+        <translation>TESTWAGE adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1181,16 +1130,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Testwage address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Testwage adress</translation>
+        <source>Sign the message to prove you own this TESTWAGE address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna TESTWAGE adress</translation>
     </message>
     <message>
-        <source>The Testwage address the message was signed with</source>
-        <translation>Testwage adressen meddelandet blev signerat med</translation>
+        <source>The TESTWAGE address the message was signed with</source>
+        <translation>TESTWAGE adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Testwage address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Testwage adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified TESTWAGE address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika TESTWAGE adressen.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1218,7 +1167,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Upplåsningen av plånboken var avbruten.</translation>
+        <translation>Plånboks upplåsningen var avbruten</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
@@ -1232,8 +1181,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Testwage Core</source>
-        <translation>Testwage Kärna</translation>
+        <source>TESTWAGE Core</source>
+        <translation>TESTWAGE Kärna</translation>
     </message>
     </context>
 <context>
@@ -1414,9 +1363,6 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <source>Export the data in the current tab to a file</source>
         <translation>Exportera data in den nuvarande fliken till en fil</translation>
     </message>
-    </context>
-<context>
-    <name>ZWageControlDialog</name>
     </context>
 <context>
     <name>testwage-core</name>

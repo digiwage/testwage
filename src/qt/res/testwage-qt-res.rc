@@ -19,14 +19,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Testwage"
-            VALUE "FileDescription",    "Testwage Core (OSS GUI client for Testwage)"
+            VALUE "CompanyName",        "TESTWAGE"
+            VALUE "FileDescription",    "TESTWAGE Core (OSS GUI client for TESTWAGE)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "testwage-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "testwage-qt.exe"
-            VALUE "ProductName",        "Testwage Core"
+            VALUE "ProductName",        "TESTWAGE Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END
