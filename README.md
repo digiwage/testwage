@@ -1,6 +1,7 @@
-Testwage Core
+Digiwage integration/staging repository
+=====================================
 
-https://www.testwage.org
+https://www.digiwage.org
 
 Copyright (c) 2009-2015 Bitcoin Core Developers
 
@@ -8,34 +9,37 @@ Copyright (c) 2014-2016 Dash Core Developers
 
 Copyright (c) 2016-2017 PIVX Developers
 
-Copyright (c) 2018 Testwage Developers
+Copyright (c) 2018 Digiwage Developers
 
-What is Testwage?
+### Coin Specs
+<table>
+<tr><td>Algo</td><td>Quark</td></tr>
+<tr><td>Block Time</td><td>60 Seconds</td></tr>
+<tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
+<tr><td>Max Coin Supply (PoW Phase)</td><td>27,299,800 WAGE</td></tr>
+<tr><td>Max Coin Supply (PoS Phase)</td><td>Infinite</td></tr>
+<tr><td>Premine</td><td>27,179,800 WAGE*</td></tr>
+</table>
 
-Testwage is an experimental new digital currency that enables anonymous, instant payments to anyone, anywhere in the world. Testwage uses peer-to-peer technology to operate with no central authority: managing transactions and issuing money are carried out collectively by the network. Testwage Core is the name of open source software which enables the use of this currency.
+*Total No. of coins out till block 123316(last block before gnenesis creation), to be swapped 1:1 for PHILS
 
-For more information, as well as an immediately useable, binary version of the Testwage Core software, see https://www.testwage.org
-License
+### Reward Distribution
 
-Testwage Core is released under the terms of the MIT license. See COPYING for more information or see http://opensource.org/licenses/MIT.
-Development process
+<table>
+<tr><th>Block Height</th><th>Reward Amount</th><th>Notes</th><th>Duration (Days)</th></tr>
+<tr><td>1</td><td>27,179,800 WAGE</td><td>Initial Premine</td><td>0 Days</td></tr>
+<tr><td>2-86400</td><td>120 WAGE</td><td rowspan=2>Mining to initiate swap</td><td rowspan=2> 1 day </td></tr>
+</table>
 
-Developers work in their own trees, then submit pull requests when they think their feature or bug fix is ready.
+### Rewards Breakdown
 
-If it is a simple/trivial/non-controversial change, then one of the Testwage development team members simply pulls it.
+<table>
+<th>Block Height</th><th>Masternodes</th><th>Miner</th>
+<tr><td>2-86400</td><td>20% (50 PIV)</td><td>80% (200 PIV)</td></tr>
+<tr><td>86401-259200</td><td>20% (50 PIV)</td><td>70% (200 PIV)</td></tr>
+<tr><td>259201-432000</td><td>45% (22.5 PIV)</td><td>45% (22.5 PIV)</td></tr>
+<tr><td>432001-604800</td><td>20% (50 PIV)</td><td>70% (200 PIV)</td></tr>
+<tr><td>604801-Infinite</td><td>45% (22.5 PIV)</td><td>45% (22.5 PIV)</td></tr>
+</table>
 
-The patch will be accepted if there is broad consensus that it is a good thing. Developers should expect to rework and resubmit patches if the code doesn't match the project's coding conventions (see doc/coding.md) or are controversial.
 
-The master branch is regularly built and tested, but is not guaranteed to be completely stable. Tags are created regularly to indicate new official, stable release versions of Testwage.
-
-compiling for debugging
-
-Run configure with the --enable-debug option, then make. Or run configure with CXXFLAGS="-g -ggdb -O0" or whatever debug flags you need.
-
-debug.log
-
-If the code is behaving strangely, take a look in the debug.log file in the data directory; error and debugging messages are written there.
-
-The -debug=... command-line option controls debugging; running with just -debug will turn on all categories (and give you a very large debug.log file).
-
-The Qt code routes qDebug() output to debug.log under category "qt": run with -debug=qt to see it.
