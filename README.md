@@ -29,17 +29,17 @@ Copyright (c) 2018 Digiwage Developers
 <table>
 <tr><th>Block Height</th><th>Reward Amount</th><th>Notes</th><th>Duration (Days)</th></tr>
 <tr><td>1</td><td>27,179,800 WAGE</td><td>Initial Premine</td><td>0 Days</td></tr>
-<tr><td>2-1000</td><td>120 WAGE</td><td rowspan=2>Mining</td><td rowspan=2> 1 day </td></tr>
+<tr><td>2-1000</td><td>120 WAGE</td><td>Mining</td><td> 1 day </td></tr>
 </table>
 
 ### Rewards Breakdown
 
 <table>
-<th>Block Height</th><th>Masternodes</th><th>Miner</th>
+<th>Block Height</th><th>Masternodes</th><th>Staker</th>
 <tr><td>2-86400</td><td>80 WAGE</td><td>40 WAGE</td></tr>
 <tr><td>86401-259200</td><td>40 WAGE</td><td>20 WAGE</td></tr>
 <tr><td>259201-432000</td><td>20 WAGE</td><td>10 WAGE</td></tr>
-<tr><td>432001-604800</td><td>10 WAGE)</td><td>5 WAGE</td></tr>
+<tr><td>432001-604800</td><td>10 WAGE</td><td>5 WAGE</td></tr>
 <tr><td>604801-Infinite</td><td>5 WAGE</td><td>2.5 WAGE</td></tr>
 </table>
 
