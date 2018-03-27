@@ -20,9 +20,11 @@ Copyright (c) 2018 Digiwage Developers
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
 <tr><td>Max Coin Supply (PoW Phase)</td><td>27,299,800 WAGE*</td></tr>
 <tr><td>Max Coin Supply (PoS Phase)</td><td>Infinite</td></tr>
+<tr><td>RPC Port</td><td>46002</td></tr>
+<tr><td>Default Port</td><td>46003</td></tr>
 </table>
 
-27,299,800 WAGE to be swapped 1:1 for PHILS
+*27,299,800 WAGE to be swapped 1:1 for PHILS
 
 ### POW Reward Distribution
 
